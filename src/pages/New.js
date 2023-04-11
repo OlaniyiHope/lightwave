@@ -1,19 +1,13 @@
 
-import { Fragment, React, useEffect, useState } from 'react';
 
 import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
 import * as AiIcons from "react-icons/ai";
 
 import { IconContext } from "react-icons";
-
-
-// DATA FILE
-
-
-// STYLES
-
+import { Fragment, React, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
-import imagess from "./hero-bg.jpg"
+import imagess from "./sustain.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/logo.png"
@@ -32,9 +26,7 @@ import { SidebarData } from './SidebarData';
 
 
 const New = () => {
-    const [sidebar, setSidebar] = useState(false);
-
-    const showSidebar = () => setSidebar(!sidebar);
+   
     useEffect(() => {
         AOS.init();
       }, [])
@@ -132,7 +124,8 @@ Pioneering Green Technology in the Digital Marketing Space
 
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon">
-            <i class="icon-paint-brush"></i>
+   
+        <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
         </div>
         <div class="service-text">
             <h3 class="h2">Creatives that convert</h3>
