@@ -1,5 +1,17 @@
 
 import { Fragment, React, useEffect, useState } from 'react';
+
+import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
+import * as AiIcons from "react-icons/ai";
+
+import { IconContext } from "react-icons";
+
+
+// DATA FILE
+
+
+// STYLES
+
 import { Link } from 'react-router-dom';
 import imagess from "./hero-bg.jpg"
 import AOS from 'aos';
@@ -8,68 +20,28 @@ import logo from "./images/logo.png"
 import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
+import cl1 from "./images/clients/apple.png"
+import cl2 from "./images/clients/atom.png"
+import cl3 from "./images/clients/blackberry.png"
+import cl4 from "./images/clients/dropbox.png"
+import cl5 from "./images/clients/envato.png"
+import cl6 from "./images/clients/firefox.png"
+import cl7 from "./images/clients/joomla.png"
+import cl8 from "./images/clients/magento.png"
+import { SidebarData } from './SidebarData';
+
+
 const New = () => {
- 
+    const [sidebar, setSidebar] = useState(false);
+
+    const showSidebar = () => setSidebar(!sidebar);
     useEffect(() => {
         AOS.init();
       }, [])
   return (
    
 <>
-<header class="s-header">
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src={logo} alt="Homepage" />
-            </a>
-        </div>
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
-    
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div>
-
-        </nav> 
-
-        <a class="header-menu-toggle opaque" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header>
 
 
 <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
@@ -85,6 +57,7 @@ Pioneering Green Technology in the Digital Marketing Space
 </h1>
 
 <h3 data-aos="fade-up">Lets create LightWave</h3>
+
 <div class="home-content__buttons">
    
    
@@ -174,7 +147,7 @@ Pioneering Green Technology in the Digital Marketing Space
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
-        <h1 class="display-2">Weve got everything you need to launch and grow your business</h1>
+        <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
     </div>
 </div> 
 
@@ -185,10 +158,8 @@ Pioneering Green Technology in the Digital Marketing Space
             <i class="icon-paint-brush"></i>
         </div>
         <div class="service-text">
-            <h3 class="h2">Brand Identity</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">Creatives that convert</h3>
+            <p>Tap into the Power of Highly Authentic User-Generated Content to Build Trust, Increase Engagement, and Drive Customer Loyalty
             </p>
         </div>
     </div>
@@ -198,10 +169,8 @@ Pioneering Green Technology in the Digital Marketing Space
             <i class="icon-group"></i>
         </div>
         <div class="service-text">
-            <h3 class="h2">Illustration</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">Audience that acts</h3>
+            <p>Understand Your Target Audience Fully. Our Paid Social Specialists Drive Action with Data-Driven Strategies
             </p>
         </div>
     </div>
@@ -211,10 +180,8 @@ Pioneering Green Technology in the Digital Marketing Space
             <i class="icon-megaphone"></i>
         </div>  
         <div class="service-text">
-            <h3 class="h2">Marketing</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">Full funnel approach</h3>
+            <p>SEM and website optimisation that attract, engage, and convert potential customers at every stage of the sales funnel
             </p>
         </div>
     </div>
@@ -280,9 +247,9 @@ Pioneering Green Technology in the Digital Marketing Space
                 <div class="item-folio">
                         
                     <div class="item-folio__thumb">
-                        <a href={shu} class="thumb-link" title="Shutterbug" data-size="1050x700">
+                        <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
                             <img src={shu1}
-                                 srcset={['shu1 1x'] ['shu2 2x']}  alt="" />
+                                 srcset={shu2}  alt="" />
                         </a>
                     </div>
 
@@ -306,155 +273,7 @@ Pioneering Green Technology in the Digital Marketing Space
                 </div>
             </div> 
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                            <img src="images/portfolio/woodcraft.jpg" 
-                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Woodcraft
-                        </h3>
-                        <p class="item-folio__cat">
-                            Web Design
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div> 
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                            <img src="images/portfolio/the-beetle.jpg"
-                                 srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            The Beetle
-                        </h3>
-                        <p class="item-folio__cat">
-                            Web Development
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div> 
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                            <img src="images/portfolio/grow-green.jpg" 
-                                 srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Grow Green
-                        </h3>
-                        <p class="item-folio__cat">
-                            Branding
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                            <img src="images/portfolio/guitarist.jpg" 
-                                 srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Guitarist
-                        </h3>
-                        <p class="item-folio__cat">
-                            Web Design
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div> 
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                            <img src="images/portfolio/palmeira.jpg"
-                                 srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Palmeira
-                        </h3>
-                        <p class="item-folio__cat">
-                            Web Design
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div> 
+          
 
         </div> 
     </div> 
@@ -475,14 +294,14 @@ Pioneering Green Technology in the Digital Marketing Space
     <div class="col-full">
         <div class="clients">
             
-            <a href="" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-            <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+            <a href="" title="" class="clients__slide"><img src={cl1}/></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl2} /></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl3}/></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl4} /></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl5} /></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl6} /></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl7} /></a>
+            <a href="#0" title="" class="clients__slide"><img src={cl8}/></a>
              
         </div> 
     </div> 
