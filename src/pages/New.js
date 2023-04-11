@@ -111,11 +111,7 @@ Pioneering Green Technology in the Digital Marketing Space
                 At Lightwave, we are not just another digital marketing agency. We are a digital marketing powerhouse for the brands of tomorrow, driven by a deep understanding of the power of strategic decision-making and authentic human connections. 
                 </p>
             </div>
-            <div class="home-content__buttons">
-   <a href="#about" class="smoothscroll btn btn--stroke">
-   Book a call
-   </a>
-</div>
+       
         </div> 
        
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
