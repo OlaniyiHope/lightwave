@@ -114,26 +114,7 @@ Pioneering Green Technology in the Digital Marketing Space
        
         </div> 
        
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
-            <div class="col-block stats__col ">
-                <div class="stats__count">127</div>
-                <h5>Awards Received</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">1505</div>
-                <h5>Cups of Coffee</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">109</div>
-                <h5>Projects Completed</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">102</div>
-                <h5>Happy Clients</h5> 
-            </div>
-
-        </div> 
+       
 
         <div class="about__line"></div>
 
