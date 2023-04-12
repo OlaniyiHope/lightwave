@@ -27,6 +27,8 @@ import cl6 from "./images/clients/firefox.png"
 import cl7 from "./images/clients/joomla.png"
 import cl8 from "./images/clients/magento.png"
 import { SidebarData } from './SidebarData';
+import Work from "./Work";
+import Back from "./Back";
 
 
 const New = () => {
@@ -40,8 +42,8 @@ const New = () => {
 
 
 
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
+<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div class="overlay"><Back /></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
