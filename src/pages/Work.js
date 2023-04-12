@@ -32,10 +32,10 @@ const Work = () => {
 
 
 <h1 data-aos="zoom-in">
-Pioneering Green Technology in the Digital Marketing Space
+See how top brands use LightWave
 </h1>
 
-<h3 data-aos="fade-up">Lets create LightWave</h3>
+<h3 data-aos="fade-up">Our digital teams have helped some of the worlds top brands to have a full range of conceptual and production expertise to execute sensational scale and profit.</h3>
 
 <div class="home-content__buttons">
    
