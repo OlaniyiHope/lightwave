@@ -19,7 +19,7 @@ const Back = () => {
   useEffect(() => {
     sliderInterval = setInterval(() => {
       switchImages();
-    }, 5000);
+    }, 2000);
     return () => {
       clearInterval(sliderInterval);
     };
