@@ -2,7 +2,7 @@
 import { React, useEffect } from 'react';
 
 
-import imagess from "./sustain.jpeg"
+import imagess from "./images/work.avif.avif"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -11,6 +11,7 @@ import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 
 
