@@ -11,6 +11,10 @@ import imagess from "./sustain.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/logo.png"
+import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
+import wood1 from "./images/portfolio/woodcraft.jpg"
+import bee from "./images/portfolio/gallery/g-beetle.jpg"
+import bee1 from "./images/portfolio/the-beetle.jpg"
 import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
@@ -33,6 +37,7 @@ const New = () => {
   return (
    
 <>
+
 
 
 
@@ -161,10 +166,8 @@ Pioneering Green Technology in the Digital Marketing Space
             <i class="icon-earth"></i>
         </div>
         <div class="service-text">
-            <h3 class="h2">Web Design</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">Creativity</h3>
+            <p>At Lightwave Creative Agency we focus on combining creativity and concise customer research to make sure we bring in customers who desire and love your brand through the most innovative and engaging digital marketing strategies. 
             </p>
         </div>
     </div>
@@ -174,10 +177,10 @@ Pioneering Green Technology in the Digital Marketing Space
             <i class="icon-cube"></i>
         </div>
         <div class="service-text">
-            <h3 class="h2">Packaging Design</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">Sustainability</h3>
+            <p>Sustainability + digital innovation are both key drivers of growth for the brands of the future. 
+
+We noticed how hard it is to grow your sustainable brand with so many companies claiming to have eco-friendly credentials. This is why Lightwave Creative Agency was born
             </p>
         </div>
     </div>
@@ -185,10 +188,8 @@ Pioneering Green Technology in the Digital Marketing Space
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon"><i class="icon-lego-block"></i></div>
         <div class="service-text">
-            <h3 class="h2">Web Development</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <h3 class="h2">UGC</h3>
+            <p>User-generated content UGC is one of the fastest growing and most trusted forms of marketing. Why? Because consumers trust the opinions of ordinary people. With UGC you can generate genuine and authentic content that aligns with your brand. Heres some of the many reasons you should use UGC to skyrocket your brand
             </p>
         </div>
     </div>
@@ -202,8 +203,8 @@ Pioneering Green Technology in the Digital Marketing Space
         
     <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">Recent Works</h3>
-            <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+            
+            <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
     </div> 
 
@@ -243,8 +244,65 @@ Pioneering Green Technology in the Digital Marketing Space
                 </div>
             </div> 
 
-          
+            <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href={wood} class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                    <img src={wood1}
+                                         srcset="images/portfolio/woodcraft@2x.jpg " alt="" />
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Woodcraft
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> 
 
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href={bee} class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src={bee1}
+                                         srcset=" images/portfolio/the-beetle@2x.jpg " alt="" />
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    The Beetle
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Development
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> 
         </div> 
     </div> 
 </div> 
@@ -252,35 +310,13 @@ Pioneering Green Technology in the Digital Marketing Space
 </section> 
 <section id="clients" class="s-clients">
 
-<div class="row section-header" data-aos="fade-up">
-    <div class="col-full">
-        <h3 class="subhead">Our Clients</h3>
-        <h1 class="display-2">Glint has been honored to
-        partner up with these clients</h1>
-    </div>
-</div> 
 
-<div class="row clients-outer" data-aos="fade-up">
-    <div class="col-full">
-        <div class="clients">
-            
-            <a href="" title="" class="clients__slide"><img src={cl1}/></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl2} /></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl3}/></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl4} /></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl5} /></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl6} /></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl7} /></a>
-            <a href="#0" title="" class="clients__slide"><img src={cl8}/></a>
-             
-        </div> 
-    </div> 
-</div> 
 
 <div class="row clients-testimonials" data-aos="fade-up">
+      <h3 class="subhead">Our Testimomials</h3>
     <div class="col-full">
         <div class="testimonials">
-
+      
             <div class="testimonials__slide">
 
                 <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
