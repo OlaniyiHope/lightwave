@@ -509,8 +509,8 @@ We noticed how hard it is to grow your sustainable brand with so many companies 
 
     <div class="col-twelve">
         <div class="copyright">
-            <span>© Copyright Glint 2017</span> 
-            <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+            <span>© Copyright LightWave</span> 
+            
         </div>
 
         <div class="go-top">

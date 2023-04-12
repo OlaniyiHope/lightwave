@@ -210,8 +210,8 @@ Book A Free Strategy Call With Our Team
 
     <div class="col-twelve">
         <div class="copyright">
-            <span>© Copyright Glint 2017</span> 
-            <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+            <span>© Copyright Lightwave</span> 
+          
         </div>
 
         <div class="go-top">
