@@ -1,8 +1,9 @@
 import { useState, useRef, useEffect } from "react";
+import img4 from "./images/wave.jpg"
 import img1 from "./images/book.avif.png";
 import img2 from "./images/work.avif.png"
 import img3 from "./images/sus.avif.png"
-import img4 from "./sustain.jpeg"
+
 import "./Background.css";
 const Back = () => {
   const images = [img1, img2, img3, img4];
@@ -19,7 +20,7 @@ const Back = () => {
   useEffect(() => {
     sliderInterval = setInterval(() => {
       switchImages();
-    }, 2000);
+    }, 2500);
     return () => {
       clearInterval(sliderInterval);
     };
