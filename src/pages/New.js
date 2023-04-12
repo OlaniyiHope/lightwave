@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 import { Fragment, React, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
-import imagess from "./sustain.jpeg"
+import imagess from "./images/sus5.avif.avif"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/logo.png"
@@ -37,7 +37,6 @@ const New = () => {
   return (
    
 <>
-
 
 
 
