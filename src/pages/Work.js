@@ -41,7 +41,7 @@ See how top brands use LightWave
    
    
   
-    <a href="#about" class="smoothscroll btn btn--stroke">
+    <a href="/book" class="smoothscroll btn btn--stroke">
     Book a call
     </a>
 </div>

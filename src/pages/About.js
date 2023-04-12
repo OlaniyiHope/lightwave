@@ -38,7 +38,7 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
    
    
   
-    <a href="#about" class="smoothscroll btn btn--stroke">
+    <a href="/book" class="smoothscroll btn btn--stroke">
     Book a call
     </a>
 </div>
