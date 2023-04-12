@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import imagess from "./sustain.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-const Home = () => {
+const About = () => {
   useEffect(() => {
     AOS.init();
   }, [])
@@ -150,4 +150,4 @@ We noticed how hard it is to grow your sustainable brand with so many companies 
   );
 };
 
-export default Home;
+export default About;
