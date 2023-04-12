@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
-import img1 from "./images/book.avif.avif";
-import img2 from "./images/sus.avif.avif"
-import img3 from "./images/sus4.avif.avif"
+import img1 from "./images/book.png";
+import img2 from "./images/sus.png"
+import img3 from "./images/sus5.png"
 import img4 from "./sustain.jpeg"
 import "./Background.css";
 const Back = () => {
