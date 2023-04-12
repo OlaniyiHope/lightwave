@@ -77,7 +77,7 @@ Book A Free Strategy Call With Our Team
 <div class="row section-header" data-aos="fade-up">
     <div class="col-full">
         <h3 class="subhead">Contact Us</h3>
-        <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+        <h1 class="display-2 display-2--light">Reach out for a new project or book a call</h1>
     </div>
 </div>
 
