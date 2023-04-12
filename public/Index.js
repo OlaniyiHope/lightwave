@@ -13,7 +13,7 @@ function Index() {
 
      
 <div class="header-logo">
-  <a class="site-logo" href="index.html">
+  <a class="site-logo" href="/" >
       <img src="images/logo.png" alt="Homepage" />
   </a>
 </div>
