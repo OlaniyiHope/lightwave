@@ -3,6 +3,13 @@ import { React, useEffect } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import imagess from "./sustain.jpeg"
+import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
+import wood1 from "./images/portfolio/woodcraft.jpg"
+import bee from "./images/portfolio/gallery/g-beetle.jpg"
+import bee1 from "./images/portfolio/the-beetle.jpg"
+import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
+import shu1 from "./images/portfolio/lady-shutterbug.jpg"
+import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const About = () => {
@@ -90,12 +97,54 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
             <p>
             <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
             </p>
+            <p>
+            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            </p>
+            <p>
+            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            </p>
+            <p>
+            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            </p>
+            <p>
+            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            </p>
         </div>
     </div>
 
   
 
-   
+    <div class="col-block service-item" data-aos="fade-up">
+ 
+    <div class="item-folio">
+            
+        <div class="item-folio__thumb">
+            <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
+                <img src={shu1}
+                     srcset={shu2}  alt="" />
+            </a>
+        </div>
+
+        <div class="item-folio__text">
+            <h3 class="item-folio__title">
+                Shutterbug
+            </h3>
+            <p class="item-folio__cat">
+                Branding
+            </p>
+        </div>
+
+        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+            <i class="icon-link"></i>
+        </a>
+
+        <div class="item-folio__caption">
+            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+        </div>
+
+    </div>
+
+    </div>
 
  
 
