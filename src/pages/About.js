@@ -22,7 +22,7 @@ const About = () => {
 
 
 <h1 data-aos="zoom-in">
-Pioneering Green Technology in the Digital Marketing Space
+LightWave Amplifies your brand's voice and create a sustainable brand for you
 </h1>
 
 <h3 data-aos="fade-up">Lets create LightWave</h3>
