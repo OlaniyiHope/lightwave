@@ -118,6 +118,8 @@ Pioneering Green Technology in the Digital Marketing Space
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
         <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
+        <p>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
+            </p>
     </div>
 </div> 
 
@@ -157,16 +159,7 @@ Pioneering Green Technology in the Digital Marketing Space
         </div>
     </div>
 
-    <div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
-            <i class="icon-earth"></i>
-        </div>
-        <div class="service-text">
-            <h3 class="h2">CAF System</h3>
-            <p>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
-            </p>
-        </div>
-    </div>
+  
 
 
 
