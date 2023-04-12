@@ -288,43 +288,28 @@ Pioneering Green Technology in the Digital Marketing Space
       
             <div class="testimonials__slide">
 
-                <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
-                Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-                Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+                <p>"The content you never knew you wanted but knew you always needed.</p>
 
-                <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar" />
+ 
                 <div class="testimonials__info">
-                    <span class="testimonials__name">Tim Cook</span> 
-                    <span class="testimonials__pos">CEO, Apple</span>
+                    <span class="testimonials__name">Energy Bytes</span> 
+                    
                 </div>
 
             </div>
 
             <div class="testimonials__slide">
                 
-                <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                <p>"What they produced was way above what we asked for."</p>
 
-                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar" />
+               
                 <div class="testimonials__info">
-                    <span class="testimonials__name">Sundar Pichai</span> 
-                    <span class="testimonials__pos">CEO, Google</span>
+                    <span class="testimonials__name">Its Milk co</span> 
+                    
                 </div>
 
             </div>
 
-            <div class="testimonials__slide">
-                
-                <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar" />
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Satya Nadella</span> 
-                    <span class="testimonials__pos">CEO, Microsoft</span>
-                </div>
-
-            </div>
 
         </div>
         
