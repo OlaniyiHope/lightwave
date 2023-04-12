@@ -85,7 +85,7 @@ Book A Free Strategy Call With Our Team
     
     <div class="contact-primary">
 
-        <h3 class="h6">Send Us A Message</h3>
+        <h3 class="h6">Book an appointment</h3>
 
         <form >
             <fieldset>
