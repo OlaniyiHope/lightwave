@@ -32,6 +32,7 @@ import { SidebarData } from './SidebarData';
 import Work from "./Work";
 import Back from "./Back";
 import Team from "./Team";
+import Test from "./Test";
 
 
 const New = () => {
@@ -285,6 +286,7 @@ Pioneering Green Technology in the Digital Marketing Space
 <section id="clients" class="s-clients">
 <h3 class="subhead" style={{textAlign: "center"}}>Our Team</h3>
 <Team />
+<Test />
 
 <div class="row clients-testimonials" data-aos="fade-up">
       <h3 class="subhead">Our Testimomials</h3>
