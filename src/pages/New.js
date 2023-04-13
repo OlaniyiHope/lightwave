@@ -284,7 +284,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </section> 
 <section id="clients" class="s-clients">
-<h3 class="subhead" style={{textAlign: "center"}}>Our Team</h3>
+
 {/*<Team />*/}
 {/*<Test />*/}
 
