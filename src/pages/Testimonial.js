@@ -13,6 +13,7 @@ import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
 
 import 'aos/dist/aos.css';
+import Team from './Team';
 
 
 const Testimonial = () => {
@@ -155,6 +156,7 @@ See Why our customers love LightWave
     
 </div>
 </div> 
+
 <footer>
 
 <div class="row footer-main">

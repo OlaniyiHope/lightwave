@@ -31,6 +31,7 @@ import cl8 from "./images/clients/magento.png"
 import { SidebarData } from './SidebarData';
 import Work from "./Work";
 import Back from "./Back";
+import Team from "./Team";
 
 
 const New = () => {
@@ -282,8 +283,8 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </section> 
 <section id="clients" class="s-clients">
-
-
+<h3 class="subhead" style={{textAlign: "center"}}>Our Team</h3>
+<Team />
 
 <div class="row clients-testimonials" data-aos="fade-up">
       <h3 class="subhead">Our Testimomials</h3>
