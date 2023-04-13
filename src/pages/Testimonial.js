@@ -71,9 +71,43 @@ See Why our customers love LightWave
       
 </section>
 
+<div class="row clients-testimonials" data-aos="fade-up" style={{backgroundColor: "white", width: "100%"}}>
+      <h3 class="subhead">Our Testimomials</h3>
+    <div class="col-full" style={{backgroundColor: "white"}}>
+        <div class="testimonials">
+      
+            <div class="testimonials__slide">
+
+                <p>"The content you never knew you wanted but knew you always needed.</p>
+
+ 
+                <div class="testimonials__info">
+                    <span class="testimonials__name">Energy Bytes</span> 
+                    
+                </div>
+
+            </div>
+
+            <div class="testimonials__slide">
+                
+                <p>"What they produced was way above what we asked for."</p>
+
+               
+                <div class="testimonials__info">
+                    <span class="testimonials__name">Its Milk co</span> 
+                    
+                </div>
+
+            </div>
 
 
-<div class="row clients-testimonials" data-aos="fade-up">
+        </div>
+        
+    </div> 
+</div> 
+
+
+<div class="row clients-testimonials" data-aos="fade-up" >
 <div class="col-full">
     <div class="testimonials">
 

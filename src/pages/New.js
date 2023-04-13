@@ -2,7 +2,9 @@
 
 import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
 import * as AiIcons from "react-icons/ai";
-
+import icons from "./Icons/1.png"
+import icons2 from "./Icons/2.png"
+import icons3 from "./Icons/3.png"
 import { IconContext } from "react-icons";
 import { Fragment, React, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -130,7 +132,7 @@ Pioneering Green Technology in the Digital Marketing Space
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon">
    
-        <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
+       <img src={icons} style={{width: '100px', height: "100px"}}/>
         </div>
         <div class="service-text">
             <h3 class="h2">Creatives that convert</h3>
@@ -141,7 +143,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon">
-            <i class="icon-group"></i>
+        <img src={icons2} style={{width: '100px', height: "100px"}}/>
         </div>
         <div class="service-text">
             <h3 class="h2">Audience that acts</h3>
@@ -152,7 +154,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon">
-            <i class="icon-megaphone"></i>
+        <img src={icons3} style={{width: '100px', height: "100px"}}/>
         </div>  
         <div class="service-text">
             <h3 class="h2">Full funnel approach</h3>
