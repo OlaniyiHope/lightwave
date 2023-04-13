@@ -7,7 +7,7 @@
 .carousel .slide {
   background: #fff !important;
   color: black;
-  height: 100%;
+  height: 60%;
 }
 
 .carousel .slide img {
@@ -17,16 +17,16 @@
 
 .myCarousel {
   background: #fafafa;
-  margin-top: -6%;
+ 
   width: 54%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 6%;
-  padding-bottom: 8%;
+  padding-top: 1%;
+  padding-bottom: 2%;
   padding-left: 5%;
   padding-right: 5%;
   border: 1px solid #ddd;
-  height: 286px;
+  height: 186px;
 }
 
 .carousel .control-dots {
@@ -54,14 +54,6 @@
   font-size: 14px;
 }
 
-.myCarousel p {
-  font-weight: 100 !important;
-  line-height: 29px !important;
-  color: #222;
-  font-size: 15px;
-  font-family: sans-serif;
-  max-height: 67px;
-}
 
 .myCarousel p:before {
   content: "“";
