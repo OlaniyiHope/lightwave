@@ -73,56 +73,53 @@ See Why our customers love LightWave
 
 
 
-
-
 <div class="row clients-testimonials" data-aos="fade-up">
-      <h3 class="subhead">Our Testimomials</h3>
-    <div class="col-full">
-        <div class="testimonials">
-      
-            <div class="testimonials__slide">
+<div class="col-full">
+    <div class="testimonials">
 
-                <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
-                Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-                Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+        <div class="testimonials__slide">
 
-                <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar" />
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Tim Cook</span> 
-                    <span class="testimonials__pos">CEO, Apple</span>
-                </div>
+            <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
+            Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
+            Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
 
-            </div>
-
-            <div class="testimonials__slide">
-                
-                <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-
-                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar" />
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Sundar Pichai</span> 
-                    <span class="testimonials__pos">CEO, Google</span>
-                </div>
-
-            </div>
-
-            <div class="testimonials__slide">
-                
-                <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar" />
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Satya Nadella</span> 
-                    <span class="testimonials__pos">CEO, Microsoft</span>
-                </div>
-
+            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar" />
+            <div class="testimonials__info">
+                <span class="testimonials__name">Tim Cook</span> 
+                <span class="testimonials__pos">CEO, Apple</span>
             </div>
 
         </div>
-        
-    </div> 
+
+        <div class="testimonials__slide">
+            
+            <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+            Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+
+            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar" />
+            <div class="testimonials__info">
+                <span class="testimonials__name">Sundar Pichai</span> 
+                <span class="testimonials__pos">CEO, Google</span>
+            </div>
+
+        </div>
+
+        <div class="testimonials__slide">
+            
+            <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+
+            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar" />
+            <div class="testimonials__info">
+                <span class="testimonials__name">Satya Nadella</span> 
+                <span class="testimonials__pos">CEO, Microsoft</span>
+            </div>
+
+        </div>
+
+    </div>
+    
+</div>
 </div> 
 <footer>
 
