@@ -72,35 +72,7 @@ const Card = ({ img }) => {
     </p>
  
   </div>
-  <div
-  style={{
-    display: "flex",
-    alignItems: "center",
-    flexDirection: "column",
-    textAlign: "center",
-    color: "gray",
-  }}
->
-  <Avatar
-    imgProps={{ style: { borderRadius: "50%" } }}
-
-    style={{
-      width: 120,
-      height: 120,
-      border: "1px solid lightgray",
-      padding: 7,
-      marginBottom: 20,
-    }}
-  />
-  <p>
-  The content you never knew you wanted but knew you always needed
-  </p>
-  <p style={{ fontStyle: "italic", marginTop: 25 }}>
-    <span style={{ fontWeight: 500, color: "green" }}>Energy Bytes</span> 
-
-  </p>
-
-</div>
+  
     </>
    
   );

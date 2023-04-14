@@ -6,7 +6,7 @@ import icons from "./Icons/1.png"
 import icons2 from "./Icons/2.png"
 import icons3 from "./Icons/3.png"
 import { IconContext } from "react-icons";
-import { Fragment, React, useEffect } from 'react';
+import { Fragment, React, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
 import imagess from "./images/sus5.avif.avif"
@@ -28,15 +28,17 @@ import cl5 from "./images/clients/envato.png"
 import cl6 from "./images/clients/firefox.png"
 import cl7 from "./images/clients/joomla.png"
 import cl8 from "./images/clients/magento.png"
+import VIDEO_PATH from "../pages/yo.mov";
+import VIDEO_PATH2 from "../pages/6.mp4";
 import { SidebarData } from './SidebarData';
 import Work from "./Work";
 import Back from "./Back";
 import Team from "./Team";
 import Test from "./Test";
-
+import ReactPlayer from 'react-player'
 
 const New = () => {
-   
+    const playerRef = useRef(null);
     useEffect(() => {
         AOS.init();
       }, [])
@@ -193,28 +195,12 @@ Pioneering Green Technology in the Digital Marketing Space
                 <div class="item-folio">
                         
                     <div class="item-folio__thumb">
-                        <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
-                            <img src={shu1}
-                                 srcset={shu2}  alt="" />
-                        </a>
+                    <div class="thumb-link">
+         <ReactPlayer ref={playerRef} url={VIDEO_PATH} controls={true} />
+      </div>
                     </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Shutterbug
-                        </h3>
-                        <p class="item-folio__cat">
-                            Branding
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
+   
 
                 </div>
             </div> 
@@ -223,61 +209,17 @@ Pioneering Green Technology in the Digital Marketing Space
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href={wood} class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src={wood1}
-                                         srcset="images/portfolio/woodcraft@2x.jpg " alt="" />
-                                </a>
+                            <div class="thumb-link">
+                            <ReactPlayer ref={playerRef} url={VIDEO_PATH2} controls={true} />
+                         </div>
                             </div>
     
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Woodcraft
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
     
                         </div>
                     </div> 
 
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href={bee} class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src={bee1}
-                                         srcset=" images/portfolio/the-beetle@2x.jpg " alt="" />
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
+               
         </div> 
     </div> 
 </div> 
