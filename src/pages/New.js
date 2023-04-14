@@ -30,6 +30,8 @@ import cl7 from "./images/clients/joomla.png"
 import cl8 from "./images/clients/magento.png"
 import VIDEO_PATH from "../pages/yo.mov";
 import VIDEO_PATH2 from "../pages/6.mp4";
+import VIDEO_PATH3 from "../pages/key.mov";
+import VIDEO_PATH4 from "../pages/4.mov";
 import { SidebarData } from './SidebarData';
 import Work from "./Work";
 import Back from "./Back";
@@ -211,6 +213,32 @@ Pioneering Green Technology in the Digital Marketing Space
                             <div class="item-folio__thumb">
                             <div class="thumb-link">
                             <ReactPlayer ref={playerRef} url={VIDEO_PATH2} controls={true} />
+                         </div>
+                            </div>
+    
+    
+    
+                        </div>
+                    </div> 
+            <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                            <div class="thumb-link">
+                            <ReactPlayer ref={playerRef} url={VIDEO_PATH3} controls={true} />
+                         </div>
+                            </div>
+    
+    
+    
+                        </div>
+                    </div> 
+            <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                            <div class="thumb-link">
+                            <ReactPlayer ref={playerRef} url={VIDEO_PATH4} controls={true} />
                          </div>
                             </div>
     

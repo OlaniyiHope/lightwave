@@ -2583,30 +2583,7 @@ html.no-csstransitions .home-content__main {
     z-index: 1;
 }
 
-.item-folio__text {
-    position: absolute;
-    left: 0;
-    bottom: 3.6rem;
-    padding: 0 3.3rem;
-    z-index: 2;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
 
-.item-folio__title {
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.286;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    margin: 0 0 .3rem 0;
-}
 
 .item-folio__cat {
     color: rgba(255, 255, 255, 0.5);
