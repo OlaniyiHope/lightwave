@@ -13,6 +13,7 @@ import imagess from "./images/sus5.avif.avif"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/logo.png"
+
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -31,13 +32,15 @@ import cl8 from "./images/clients/magento.png"
 import VIDEO_PATH from "../pages/yo.mov";
 import VIDEO_PATH2 from "../pages/6.mp4";
 import VIDEO_PATH3 from "../pages/key.mov";
-import VIDEO_PATH4 from "../pages/4.mov";
+import VIDEO_PATH4 from "../pages/4.mp4";
+
 import { SidebarData } from './SidebarData';
 import Work from "./Work";
 import Back from "./Back";
 import Team from "./Team";
 import Test from "./Test";
 import ReactPlayer from 'react-player'
+import Slidde from "./VideoCarousel";
 
 const New = () => {
     const playerRef = useRef(null);
@@ -198,7 +201,7 @@ Pioneering Green Technology in the Digital Marketing Space
                         
                     <div class="item-folio__thumb">
                     <div class="thumb-link">
-         <ReactPlayer ref={playerRef} url={VIDEO_PATH} controls={true} />
+                    <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
       </div>
                     </div>
 
@@ -212,7 +215,7 @@ Pioneering Green Technology in the Digital Marketing Space
                                 
                             <div class="item-folio__thumb">
                             <div class="thumb-link">
-                            <ReactPlayer ref={playerRef} url={VIDEO_PATH2} controls={true} />
+                            <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
                          </div>
                             </div>
     
@@ -225,7 +228,7 @@ Pioneering Green Technology in the Digital Marketing Space
                                 
                             <div class="item-folio__thumb">
                             <div class="thumb-link">
-                            <ReactPlayer ref={playerRef} url={VIDEO_PATH3} controls={true} />
+                            <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
                          </div>
                             </div>
     
@@ -233,31 +236,20 @@ Pioneering Green Technology in the Digital Marketing Space
     
                         </div>
                     </div> 
-            <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                            <div class="thumb-link">
-                            <ReactPlayer ref={playerRef} url={VIDEO_PATH4} controls={true} />
-                         </div>
-                            </div>
-    
-    
-    
-                        </div>
-                    </div> 
+          
 
                
         </div> 
     </div> 
 </div> 
 
+
 </section> 
 <section id="clients" class="s-clients">
 
 {/*<Team />*/}
 {/*<Test />*/}
-
+<Slidde />
 
 </section> 
 <section id="contact" class="s-contact">
