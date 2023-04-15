@@ -199,7 +199,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </section> 
 <section id="clients" class="s-clients">
-
+<h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
 
