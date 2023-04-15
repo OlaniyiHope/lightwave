@@ -33,7 +33,13 @@ const Slidde = () => {
         modifier: 2.5,
       }}
       
-    
+      navigation={{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        clickable: true,
+      }}
+      modules={[EffectCoverflow, Pagination, Navigation]}
+      className="swiper_container"
     >
       <SwiperSlide>
         
