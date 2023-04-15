@@ -320,7 +320,7 @@ Pioneering Green Technology in the Digital Marketing Space
 </div> 
 
 </section> 
-<footer>
+<footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
