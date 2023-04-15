@@ -5,15 +5,13 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 
-import wood1 from "./images/portfolio/woodcraft.jpg"
-import bee from "./images/portfolio/gallery/g-beetle.jpg"
 
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
 import VIDEO_PATH4 from "../pages/4.mp4";
+import VIDEO_PATH3 from "../pages/mat.mp4";
 
 const Slidde = () => {
 
@@ -51,7 +49,7 @@ const Slidde = () => {
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
  
