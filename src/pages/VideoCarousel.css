@@ -74,6 +74,7 @@ body {
 .swiper_container {
   height: 52rem;
   padding: 2rem 0;
+  margin: auto;
   position: relative;
 }
 
@@ -173,6 +174,7 @@ body {
   position: relative;
   width: 15rem !important;
   bottom: 1rem;
+  margin: auto;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
