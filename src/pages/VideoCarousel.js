@@ -21,7 +21,7 @@ const Slidde = () => {
   return (
 
     <div className="container">
-    <h1 className="heading">Flower Gallery</h1>
+
     <Swiper
       effect={'coverflow'}
       grabCursor={true}

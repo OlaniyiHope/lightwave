@@ -193,54 +193,7 @@ Pioneering Green Technology in the Digital Marketing Space
 </div> 
 
 <div class="row works-content">
-    <div class="col-full masonry-wrap">
-        <div class="masonry">
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                    <div class="thumb-link">
-                    <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
-      </div>
-                    </div>
-
-   
-
-                </div>
-            </div> 
-
-            <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                            <div class="thumb-link">
-                            <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
-                         </div>
-                            </div>
-    
-    
-    
-                        </div>
-                    </div> 
-            <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                            <div class="thumb-link">
-                            <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
-                         </div>
-                            </div>
-    
-    
-    
-                        </div>
-                    </div> 
-          
-
-               
-        </div> 
-    </div> 
+<Slidde />
 </div> 
 
 
@@ -249,7 +202,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 {/*<Team />*/}
 {/*<Test />*/}
-<Slidde />
+
 
 </section> 
 <section id="contact" class="s-contact">
