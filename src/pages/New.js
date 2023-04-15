@@ -200,7 +200,7 @@ Pioneering Green Technology in the Digital Marketing Space
 </section> 
 <section id="clients" class="s-clients">
 
-{/*<Team />*/}
+<Team />
 {/*<Test />*/}
 
 

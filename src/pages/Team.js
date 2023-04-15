@@ -17,30 +17,26 @@ const Team = () => {
         interval={6100}
       >
         <div>
-          <img src={img1} />
+     
           <div className="myCarousel">
-            <h3>David Oriazowan </h3>
-            <h4>Project Manager</h4>
+            <h3>The content you never knew you wanted but knew you always needed." </h3>
+            <h4>Energy Byte</h4>
          
           </div>
         </div>
 
         <div>
-          <img src={img2} />
+         
           <div className="myCarousel">
-            <h3>Will Forbes</h3>
-            <h4>Managing Director</h4>
+            <h3>What they produced was way above what we asked for."</h3>
+            <h4>Its Milk co</h4>
        
           </div>
         </div>
 
         <div>
-          <img src={img3} />
-          <div className="myCarousel">
-            <h3>Nathan Marriot</h3>
-            <h4>Creative Director</h4>
-           
-          </div>
+         
+        
         </div>
       </Carousel>
     );
