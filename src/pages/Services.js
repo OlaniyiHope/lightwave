@@ -2,7 +2,7 @@
 import { React, useEffect } from 'react';
 
 
-import imagess from "./images/work.avif.avif"
+import imagess from "./bu.jpg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -13,7 +13,8 @@ import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
 import VideoCarousel from "./VideoCarousel"
 import 'aos/dist/aos.css';
-
+import "./Services.css"
+import yo from "./bulb.jpg"
 
 const Services = () => {
     useEffect(() => {
@@ -70,6 +71,32 @@ See how top brands use LightWave
 
       
 </section>
+<div className="a">
+<div className="a-left">
+  <div className="a-card bg"></div>
+  <div className="a-card">
+    <img
+      src={yo}
+      alt=""
+      className="a-img"
+    />
+  </div>
+</div>
+<div className="a-right">
+  <h1 className="a-title">About Me</h1>
+  <p className="a-sub">
+    It is a long established fact that a reader will be distracted by the
+    readable content.
+  </p>
+  <p className="a-desc">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+  </p>
+
+</div>
+</div>
 <section id='works' class="s-works">
 
 <div class="intro-wrap">
