@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-const Work = () => {
+const Services = () => {
     useEffect(() => {
         AOS.init();
       }, [])
@@ -181,7 +181,7 @@ See how top brands use LightWave
 </div> 
 
 </section> 
-<footer>
+<footer  style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
@@ -229,4 +229,4 @@ See how top brands use LightWave
   );
 };
 
-export default Work;
+export default Services;

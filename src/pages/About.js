@@ -208,7 +208,7 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
 
 </div> 
 </section> 
-<footer>
+<footer  style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 

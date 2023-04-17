@@ -173,7 +173,7 @@ Book A Free Strategy Call With Our Team
 
 
 
-<footer>
+<footer  style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 

@@ -35,7 +35,7 @@ import VIDEO_PATH3 from "../pages/key.mov";
 import VIDEO_PATH4 from "../pages/4.mp4";
 
 import { SidebarData } from './SidebarData';
-import Work from "./Work";
+import Work from "./Services";
 import Back from "./Back";
 import Team from "./Team";
 import Test from "./Test";

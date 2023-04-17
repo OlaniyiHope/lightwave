@@ -157,7 +157,7 @@ See Why our customers love LightWave
 </div>
 </div> 
 
-<footer>
+<footer  style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
