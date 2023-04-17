@@ -11,7 +11,7 @@ import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
-
+import VideoCarousel from "./VideoCarousel"
 import 'aos/dist/aos.css';
 
 
@@ -82,103 +82,7 @@ See how top brands use LightWave
     </div> 
 
 </div> 
-
-<div class="row works-content">
-    <div class="col-full masonry-wrap">
-        <div class="masonry">
-
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                        
-                    <div class="item-folio__thumb">
-                        <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
-                            <img src={shu1}
-                                 srcset={shu2}  alt="" />
-                        </a>
-                    </div>
-
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Shutterbug
-                        </h3>
-                        <p class="item-folio__cat">
-                            Branding
-                        </p>
-                    </div>
-
-                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                        <i class="icon-link"></i>
-                    </a>
-
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-
-                </div>
-            </div> 
-
-            <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href={wood} class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src={wood1}
-                                         srcset="images/portfolio/woodcraft@2x.jpg " alt="" />
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Woodcraft
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href={bee} class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src={bee1}
-                                         srcset=" images/portfolio/the-beetle@2x.jpg " alt="" />
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-        </div> 
-    </div> 
-</div> 
+<VideoCarousel />
 
 </section> 
 <footer  style={{backgroundColor: "#000"}}>
