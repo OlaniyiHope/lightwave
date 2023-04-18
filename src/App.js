@@ -9,6 +9,7 @@ import About from './pages/About';
 import Testimonial from './pages/Testimonial';
 import Book from './pages/Book';
 import Services from './pages/Services';
+import { Banner } from './pages/Banner';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      
      
       <Route exact path="/" element={<New />}/>
+      <Route exact path="/banner" element={<Banner />}/>
       <Route exact path="/about" element={<About />}/>
       <Route exact path="/services" element={<Services />}/>
       <Route exact path="/testimonials" element={<Testimonial />}/>

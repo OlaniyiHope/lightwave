@@ -15,6 +15,16 @@ import VideoCarousel from "./VideoCarousel"
 import 'aos/dist/aos.css';
 import "./Services.css"
 import yo from "./bulb.jpg"
+import { PostBlog } from './PostBlog';
+import BlogPic1 from "./seo.png";
+import BlogPic2 from "./earth.jpg";
+import BlogPic3 from "./social.png";
+// import BlogPic4 from "../../../assets/bloco_image_4.svg";
+import Benefits from "./Benefits"
+import { Banner2 } from './Banner2';
+import { Skills } from './Skills';
+import { Banner } from './Banner';
+import Features from './Features/Features';
 
 const Services = () => {
     useEffect(() => {
@@ -22,32 +32,33 @@ const Services = () => {
       }, [])
 
   return (
+   <>
+
+   <div>
+   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+   <div class="overlay"></div>
+   <div class="shadow-overlay"></div>
+   <div class="home-content">
    
-<div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
-<div class="shadow-overlay"></div>
-<div class="home-content">
-
-<div class="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-See how top brands use LightWave
-</h1>
-
-<h3 data-aos="fade-up">Our digital teams have helped some of the worlds top brands to have a full range of conceptual and production expertise to execute sensational scale and profit.</h3>
-
-<div class="home-content__buttons">
+   <div class="row home-content__main">
    
    
-  
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
-</div>
-
-</div>
+   <h1 data-aos="zoom-in">
+   See how top brands use LightWave
+   </h1>
+   
+   <h3 data-aos="fade-up">Our digital teams have helped some of the worlds top brands to have a full range of conceptual and production expertise to execute sensational scale and profit.</h3>
+   
+   <div class="home-content__buttons">
+      
+      
+     
+       <a href="/book" class="smoothscroll btn btn--stroke">
+       Book a call
+       </a>
+   </div>
+   
+   </div>
 <div class="home-content__scroll">
                 <a href="#about" class="scroll-link smoothscroll">
                     <span>Scroll Down</span>
@@ -73,7 +84,7 @@ See how top brands use LightWave
 </section>
 <div className="a">
 <div className="a-left">
-  <div className="a-card bg"></div>
+ 
   <div className="a-card">
     <img
       src={yo}
@@ -83,21 +94,25 @@ See how top brands use LightWave
   </div>
 </div>
 <div className="a-right">
-  <h1 className="a-title">About Me</h1>
-  <p className="a-sub">
-    It is a long established fact that a reader will be distracted by the
-    readable content.
-  </p>
+  <h1 className="a-title">carbon neutral web design</h1>
+ 
   <p className="a-desc">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+  It is a long established fact that a reader will be distracted by the
+  readable content.
+  Our eco-friendly website design goes beyond aesthetics; it focuses on creating a digital experience that's not only visually stunning but also energy-efficient and low-impact on the environment. By optimizing code, reducing server requests, and implementing energy-saving design elements, we ensure that your website runs smoothly while minimising its carbon footprint.
+
+As part of our commitment to sustainability, we also prioritize the use of renewable energy sources for web hosting, and we continuously explore innovative solutions to further reduce the environmental impact of your website
   </p>
 
 </div>
 </div>
-<section id='works' class="s-works">
+<Features />
+
+
+<Benefits />
+{/*<Banner2 />*/}
+
+<section id='works' class="s-works" style={{marginTop: '30px'}}>
 
 <div class="intro-wrap">
         
@@ -106,10 +121,12 @@ See how top brands use LightWave
             
             <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
+      
     </div> 
-
+    <VideoCarousel />
 </div> 
-<VideoCarousel />
+
+
 
 </section> 
 <footer  style={{backgroundColor: "#000"}}>
@@ -157,6 +174,7 @@ See how top brands use LightWave
 
 </footer>
 </div>
+</>
   );
 };
 

@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 import imagess from "./images/sus5.avif.avif"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from "./images/logo.png"
+import logo from "./images/light.png"
 
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
