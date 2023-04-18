@@ -10,20 +10,22 @@ const iconStyle = (Icon) => <Icon size="5rem" color="#fff" />;
 export const featuresData = [
 	{
 		name: 'Performance UGH',
-		description: `Providing User Generated Content (UGC) that converts  at scale. In-house team of 30 + content creators and worldwide network`,
+		description: `Providing User Generated Content (UGC) that converts  at scale. In-house team of 30 + content creators and worldwide network.
+		High-quality + engaging content. Match you with the perfect content creators for your brand ,
+		Guaranteed satisfaction of the UGC content we create. `,
 		icon: iconStyle(AiFillSetting),
 		imgClass: 'one',
 	},
 	{
 		name: 'Paid Social',
-		description: 'Our system is easy to use and integrate ',
+		description: 'Setup Manage And Scale Your TikTok/ Meta Ad Campaigns.Strategic audience targeting. Data-driven analysis .Constantly testing new angles. Results- driven approach  ',
 		
 		icon: iconStyle(BsPhoneVibrate),
 		imgClass: 'two',
 	},
 	{
 		name: 'SEM + Landing Page',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
+		description: 'A holistic approach focusing on every step of the funnel. Optimize your landing pages. Optimize your CTAs. Capture leads. Increased sales conversion rate ',
 		icon: iconStyle(RiRocketLine),
 		imgClass: 'three',
 	},
