@@ -18,7 +18,7 @@
     padding: 10px;
   }
   .a-right {
-    flex-basis: 40%;
+    flex-basis: 55%;
   }
   
   .a-card.bg {
@@ -81,7 +81,7 @@
       margin-bottom: 10px;
   }
   .a-left{
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
   @media screen and (max-width:480px) {
       .a{
