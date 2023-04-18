@@ -18,7 +18,7 @@
     padding: 10px;
   }
   .a-right {
-    flex: 1;
+    flex-basis: 40%;
   }
   
   .a-card.bg {
@@ -61,6 +61,7 @@
   .a-desc{
       font-weight: 300;
 
+
   }
   
   .a-award{
@@ -79,7 +80,9 @@
       color: #555;
       margin-bottom: 10px;
   }
-  
+  .a-left{
+    flex-basis: 50%;
+  }
   @media screen and (max-width:480px) {
       .a{
         flex-direction: column;
