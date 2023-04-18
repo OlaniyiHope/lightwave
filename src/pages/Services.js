@@ -44,7 +44,7 @@ const Services = () => {
    
    
    <h1 data-aos="zoom-in">
-   See how top brands use LightWave
+   See why top brands use LightWave
    </h1>
    
    <h3 data-aos="fade-up">Our digital teams have helped some of the worlds top brands to have a full range of conceptual and production expertise to execute sensational scale and profit.</h3>
