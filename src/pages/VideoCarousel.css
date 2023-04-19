@@ -84,7 +84,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
   .swiper_container {
     height: 47rem;
   }
