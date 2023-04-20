@@ -22,7 +22,7 @@ function Benefits({ headingToggle }) {
           sx={{
            fontSize: "25px",
             fontWeight: 700,
-            marginBottom: '48px',
+            marginBottom: '58px',
           }}
         >
          Why UGC Creatives are the Key to Unlocking Engagement
