@@ -174,19 +174,19 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
     </div>
     <div class="service-text">
        
-        <p style={{fontSize: '23px', }}>
+        <p style={{fontSize: '23px', textAlign: "justify" }}>
         <GoPrimitiveDot />We are results-driven.
         </p>
-        <p style={{fontSize: '23px'}}>
+        <p style={{fontSize: '23px',  textAlign: "justify"}}>
         <GoPrimitiveDot />We understand your goals and We maintain a positive customer reputation.
         </p>
-        <p style={{fontSize: '23px'}}>
+        <p style={{fontSize: '23px',  textAlign: "justify"}}>
         <GoPrimitiveDot />We are focused on value, not cash
         </p>
-        <p style={{fontSize: '23px'}}>
+        <p style={{fontSize: '23px',  textAlign: "justify"}}>
         <GoPrimitiveDot />We value our relationships with our clients. 
         </p>
-        <p style={{fontSize: '23px'}}>
+        <p style={{fontSize: '23px',  textAlign: "justify"}}>
         <GoPrimitiveDot />We take a holistic look at your business.
         </p>
     
