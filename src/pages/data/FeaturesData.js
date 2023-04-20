@@ -5,6 +5,8 @@ import { IoIosOptions } from 'react-icons/io';
 import { AiFillSetting } from 'react-icons/ai';
 import { BsPhoneVibrate,  } from 'react-icons/bs';
 import { RiRocketLine } from 'react-icons/ri';
+import { GiCobweb } from 'react-icons/gi';
+import { FaMobileAlt } from 'react-icons/fa';
 const iconStyle = (Icon) => <Icon size="5rem" color="#fff" />;
 
 export const featuresData = [
@@ -31,15 +33,15 @@ export const featuresData = [
 	},
 	{
 		name: 'Sustainable Website Design ',
-		description: 'A holistic approach focusing on every step of the funnel. Optimize your landing pages. Optimize your CTAs. Capture leads. Increased sales conversion rate ',
-		icon: iconStyle(RiRocketLine),
-		imgClass: 'three',
+		description: 'At Lightwave, we provide a sustainable website design for you and your brand. Our designs are attractive and responsive',
+		icon: iconStyle(GiCobweb),
+		imgClass: 'four',
 	},
 	{
 		name: 'Sustainable Mobile Design ',
-		description: 'A holistic approach focusing on every step of the funnel. Optimize your landing pages. Optimize your CTAs. Capture leads. Increased sales conversion rate ',
-		icon: iconStyle(RiRocketLine),
-		imgClass: 'three',
+		description: 'At Lightwave, we create a mobile application design to enhance and move your brand forward ',
+		icon: iconStyle(FaMobileAlt),
+		imgClass: 'five',
 	},
 
 ];
