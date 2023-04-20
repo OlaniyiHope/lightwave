@@ -14,6 +14,8 @@ import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import { GoPrimitiveDot } from 'react-icons/go';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Feature from './Features/Feature';
+import Features from './Features/Features';
 const About = () => {
   useEffect(() => {
     AOS.init();
