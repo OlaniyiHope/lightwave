@@ -7,9 +7,11 @@ import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
 import bee1 from "./images/portfolio/the-beetle.jpg"
-import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
+import shu from "./images/ggg.jpg"
+import shu5 from "./images/true.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
+import { GoPrimitiveDot } from 'react-icons/go';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const About = () => {
@@ -67,8 +69,17 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
 
       
 </section>
-<section id='services' class="s-services">
 
+<section id='services' class="s-services">
+<div class="row section-header has-bottom-sep" data-aos="fade-up">
+    <div class="col-full">
+       
+        <h1 class="display-2" style={{fontSize: "40px"}}>What makes us different</h1>
+        <p style={{fontSize: "23px"}}>Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
+            </p>
+            
+    </div>
+</div> 
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
@@ -85,26 +96,21 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
         </div>
         <div class="service-text">
            
-            <p>To Become a carbon-neutral company by 2024. 
+            <p style={{fontSize: '23px', textAlign: "justify" }}>
+            <GoPrimitiveDot />To Become a carbon-neutral company by 2024. 
             </p>
-            <p>Scale thousands of sustainable SMEs to multiple 6-7 figures in revenue. 
+            <p style={{fontSize: '23px', textAlign: "justify"}}>
+            <GoPrimitiveDot />Scale thousands of sustainable SMEs to multiple 6-7 figures in revenue. 
             </p>
-            <p>
-            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            <p style={{fontSize: '23px',  textAlign: "justify"}}>
+            <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
-            <p>
-            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
+            <p style={{fontSize: '23px',  textAlign: "justify"}}>
+            <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
-            <p>
-            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
-            </p>
-            <p>
-            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
-            </p>
-            <p>
-            <i class="icon-megaphone"></i>Support and aid the growth and actions of climate-related charities.
-            </p>
+        
         </div>
+        
     </div>
 
   
@@ -115,27 +121,12 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
             
         <div class="item-folio__thumb">
             <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
-                <img src={shu1}
-                     srcset={shu2}  alt="" />
+                <img src={shu}
+                     srcset={shu}  alt="" />
             </a>
         </div>
 
-        <div class="item-folio__text">
-            <h3 class="item-folio__title">
-                Shutterbug
-            </h3>
-            <p class="item-folio__cat">
-                Branding
-            </p>
-        </div>
 
-        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-            <i class="icon-link"></i>
-        </a>
-
-        <div class="item-folio__caption">
-            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-        </div>
 
     </div>
 
@@ -145,10 +136,34 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
 
   
 </div> 
+
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
         <h1 class="display-2">Why brands trust us</h1>
+    </div>
+</div> 
+
+<div class="row services-list block-1-2 block-tab-full">
+
+ 
+  
+
+    <div class="col-block service-item" data-aos="fade-up">
+ 
+    <div class="item-folio">
+            
+        <div class="item-folio__thumb">
+            <a href={shu5} class="thumb-link" title="Shutterbug" data-size="950x600">
+                <img src={shu5}
+                     srcset={shu5}  alt="" />
+            </a>
+        </div>
+
+       
+
+    </div>
+
     </div>
     <div class="col-block service-item" data-aos="fade-up">
     <div class="service-icon">
@@ -157,56 +172,31 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
     </div>
     <div class="service-text">
        
-        <p>We are results-driven.
+        <p style={{fontSize: '23px', }}>
+        <GoPrimitiveDot />We are results-driven.
         </p>
+        <p style={{fontSize: '23px'}}>
+        <GoPrimitiveDot />We understand your goals and We maintain a positive customer reputation.
+        </p>
+        <p style={{fontSize: '23px'}}>
+        <GoPrimitiveDot />We are focused on value, not cash
+        </p>
+        <p style={{fontSize: '23px'}}>
+        <GoPrimitiveDot />We value our relationships with our clients. 
+        </p>
+        <p style={{fontSize: '23px'}}>
+        <GoPrimitiveDot />We take a holistic look at your business.
+        </p>
+    
     </div>
+    
 </div>
 
-<div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
-            <i class="icon-group"></i>
-        </div>
-        <div class="service-text">
-          
-            <p>We understand your goals and We maintain a positive customer reputation.
-            </p>
-        </div>
-    </div>
+ 
 
-    <div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
-            <i class="icon-megaphone"></i>
-        </div>  
-        <div class="service-text">
-          
-            <p>We are focused on value, not cash
-            </p>
-        </div>
-    </div>
-    <div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
-            <i class="icon-megaphone"></i>
-        </div>  
-        <div class="service-text">
-          
-            <p>We value our relationships with our clients. 
-            </p>
-        </div>
-    </div>
-    <div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
-            <i class="icon-megaphone"></i>
-        </div>  
-        <div class="service-text">
-          
-            <p>We take a holistic look at your business.
-            </p>
-        </div>
-    </div>
-
-
-
+  
 </div> 
+
 </section> 
 <footer  style={{backgroundColor: "#000"}}>
 
