@@ -41,6 +41,7 @@ import Team from "./Team";
 import Test from "./Test";
 import ReactPlayer from 'react-player'
 import Slidde from "./VideoCarousel";
+import Ban from "./Ban";
 
 const New = () => {
     const playerRef = useRef(null);
@@ -196,7 +197,12 @@ Pioneering Green Technology in the Digital Marketing Space
 <Slidde />
 </div> 
 
+<div class="col-full">
+            
+<h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "0"}}>Frequently asked question</h5>
 
+</div>
+<Ban />
 </section> 
 <section id="clients" class="s-clients">
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
