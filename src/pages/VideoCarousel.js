@@ -14,6 +14,7 @@ import VIDEO_PATH4 from "../pages/4.mp4";
 import VIDEO_PATH3 from "../pages/mat.mp4";
 import VIDEO_PATH2 from "../pages/let.mp4";
 import VIDEO_PATH1 from "../pages/six.mp4";
+import VIDEO_PATH5 from "../pages/news.mp4";
 
 const Slidde = () => {
 
@@ -54,7 +55,7 @@ const Slidde = () => {
       <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH5}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
       <video controls><source src={VIDEO_PATH2}  type="video/mp4"/></video>
