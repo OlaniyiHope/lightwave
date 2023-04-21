@@ -280,44 +280,40 @@ Pioneering Green Technology in the Digital Marketing Space
                 <h5>Where to Find Us</h5>
                 <p>
                     1600 Amphitheatre Parkway<br />
-                    Mountain View, CA<br />
-                    94043 US
+                London<br />
+                    UK 
                 </p>
             </div>
 
             <div class="cinfo">
                 <h5>Email Us At</h5>
                 <p>
-                    contact@glintsite.com<br />
-                    info@glintsite.com
+                    contact@lightwavecreative@gmail.com<br />
+                    info@lightwavecreative.com
                 </p>
             </div>
 
             <div class="cinfo">
                 <h5>Call Us At</h5>
                 <p>
-                    Phone: (+63) 555 1212<br />
-                    Mobile: (+63) 555 0100<br />
-                    Fax: (+63) 555 0101
+                    Phone: (+44 7)867 266523<br />
+                    Mobile: (+44 7) 311 334436<br />
+                  
                 </p>
             </div>
 
+         
             <ul class="contact-social">
-                <li>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                </li>
+            <li>
+            <a href="https://www.linkedin.com/company/lightwave-creative-agency"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com/lightwavecreative.io"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+      </li>
+              
             </ul> 
 
         </div> 
