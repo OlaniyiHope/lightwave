@@ -85,36 +85,20 @@ Book A Free Strategy Call With Our Team
         <form >
             <fieldset>
 
-            <div class="form-field">
-                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width" />
-            </div>
-            <div class="form-field">
-                <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-            </div>
           
-
+       <div style={{ height: "800px" }}>
+       <iframe
+         src="https://calendly.com/lightwavecreativeagencycall/30min"
+         width="100%"
+         height="100%"
+         frameborder="0"
+       ></iframe>
+     </div>
             </fieldset>
         </form>
-        <div class="form-field">
-        <Link to="https://calendar.google.com/calendar/u/0/r"><button class="full-width btn--primary" >Submit</button></Link>
-     
-    </div>
-       
-        <div class="message-warning">
-            Something went wrong. Please try again.
-        </div> 
-    
       
-        <div class="message-success">
-            Your message was sent, thank you!<br />
-        </div>
-
+       
+      
     </div> 
 
     <div class="contact-secondary">
@@ -138,11 +122,23 @@ Book A Free Strategy Call With Our Team
 
             <div class="cinfo">
                 <h5>Where to Find Us</h5>
+                <div class="cinfo">
+                <h5>Email Us At</h5>
                 <p>
-                    1600 Amphitheatre Parkway<br />
-                    Mountain View, CA<br />
-                    94043 US
+                    contact@lightwavecreative@gmail.com<br />
+                    info@lightwavecreative.com
                 </p>
+            </div>
+
+            <div class="cinfo">
+                <h5>Call Us At</h5>
+                <p>
+                    Phone: (+44 7)867 266523<br />
+                    Mobile: (+44 7) 311 334436<br />
+                  
+                </p>
+            </div>
+
             </div>
         
 

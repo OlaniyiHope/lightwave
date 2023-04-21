@@ -219,7 +219,7 @@ Pioneering Green Technology in the Digital Marketing Space
 <div class="row section-header" data-aos="fade-up">
     <div class="col-full">
         <h3 class="subhead">Contact Us</h3>
-        <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+        <h1 class="display-2 display-2--light">Reach out for a new project or book a call</h1>
     </div>
 </div>
 
@@ -227,65 +227,49 @@ Pioneering Green Technology in the Digital Marketing Space
     
     <div class="contact-primary">
 
-        <h3 class="h6">Send Us A Message</h3>
+        <h3 class="h6">Book an appointment</h3>
 
-        <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+        <form >
             <fieldset>
 
-            <div class="form-field">
-                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width" />
-            </div>
-            <div class="form-field">
-                <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-            </div>
-            <div class="form-field">
-                <button class="full-width btn--primary">Submit</button>
-                <div class="submit-loader">
-                    <div class="text-loader">Sending...</div>
-                    <div class="s-loader">
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-                </div>
-            </div>
-
+          
+       <div style={{ height: "800px" }}>
+       <iframe
+         src="https://calendly.com/lightwavecreativeagencycall/30min"
+         width="100%"
+         height="100%"
+         frameborder="0"
+       ></iframe>
+     </div>
             </fieldset>
         </form>
-
-       
-        <div class="message-warning">
-            Something went wrong. Please try again.
-        </div> 
-    
       
-        <div class="message-success">
-            Your message was sent, thank you!<br />
-        </div>
-
+       
+      
     </div> 
 
     <div class="contact-secondary">
         <div class="contact-info">
 
+         
+            <div class="cinfo">
+                <h5>THIS ONBOARDING CALL IS PERFECT FOR:</h5>
+                <p>
+                
+
+                Sustainable businesses looking for an agency they can trust and is 100% results-driven.
+                
+                Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.
+                
+                Sustainable businesses looking to create lightwaves and rise above competition. 
+                </p>
+            </div>
+
             <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
 
             <div class="cinfo">
                 <h5>Where to Find Us</h5>
-                <p>
-                    1600 Amphitheatre Parkway<br />
-                London<br />
-                    UK 
-                </p>
-            </div>
-
-            <div class="cinfo">
+                <div class="cinfo">
                 <h5>Email Us At</h5>
                 <p>
                     contact@lightwavecreative@gmail.com<br />
@@ -302,7 +286,9 @@ Pioneering Green Technology in the Digital Marketing Space
                 </p>
             </div>
 
-         
+            </div>
+        
+
             <ul class="contact-social">
             <li>
             <a href="https://www.linkedin.com/company/lightwave-creative-agency"><i class="fa fa-linkedin"></i></a>
@@ -321,7 +307,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </div> 
 
-</section> 
+</section>
 <footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
