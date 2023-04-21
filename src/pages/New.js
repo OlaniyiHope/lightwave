@@ -313,17 +313,16 @@ Pioneering Green Technology in the Digital Marketing Space
 <div class="row footer-main">
 
     <div class="col-six tab-full left footer-desc">
+    <div class="footer-logo"></div>
+    Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
 
-        <div class="footer-logo"></div>
-        Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+</div>
 
-    </div>
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
-        <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-
+        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
