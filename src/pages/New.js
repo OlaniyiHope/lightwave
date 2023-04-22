@@ -13,7 +13,7 @@ import imagess from "./images/sus5.avif.avif"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/light.png"
-
+import done from "../pages/done.mp4"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -55,7 +55,7 @@ const New = () => {
 
 
 <section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"><Back /></div>
+<div class="overlay"><video source src={done}  autoPlay/></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
