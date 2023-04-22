@@ -61,7 +61,6 @@ const New = () => {
 
 <div class="row home-content__main">
 
-
 <h1 data-aos="zoom-in">
 Pioneering Green Technology in the Digital Marketing Space
 </h1>
