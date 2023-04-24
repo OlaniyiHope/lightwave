@@ -15,17 +15,17 @@ function BenefitBox({ pContent, text }) {
       elevation={elevation}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
-      sx={{ padding: '12px', width: "90%", height: "280px", margin: "auto", paddingTop: "30px", }}
+      sx={{ padding: '12px', color: '#fff', width: "90%", height: "280px", margin: "auto", paddingTop: "30px", border: "10px solid #159adb;",   backgroundColor: '#1C3A48' }}
     >
       <Grid container  >
-      <Typography variant="body2" paragraph sx={{ margin: 0, fontSize: "24px", fontWeight: "700",  marginBottom: '12px'}}>
+      <Typography variant="body2" paragraph sx={{ margin: 0, fontSize: "24px", fontWeight: "700",  color: '#fff', marginBottom: '12px'}}>
       {text}
     </Typography>
     </Grid>
         <Grid
       container
         >
-          <Typography variant="body2" paragraph sx={{  fontSize: "18px", fontWeight: "400", lineHeight: "2" }}>
+          <Typography variant="body2" paragraph sx={{  fontSize: "18px", fontWeight: "400",  color: '#fff', lineHeight: "2" }}>
             {pContent}
           </Typography>
         </Grid>

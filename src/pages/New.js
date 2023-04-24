@@ -36,7 +36,6 @@ import VIDEO_PATH4 from "../pages/4.mp4";
 
 import { SidebarData } from './SidebarData';
 import Work from "./Services";
-import Back from "./Back";
 import Team from "./Team";
 import Test from "./Test";
 import ReactPlayer from 'react-player'
@@ -54,8 +53,8 @@ const New = () => {
 
 
 
-<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"><video source src={done}  autoPlay/></div>
+<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-image-src={imagess} data-natural-height='2000' data-position-y='center'>
+<div class="overlay"></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
@@ -112,7 +111,7 @@ Pioneering Green Technology in the Digital Marketing Space
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p >
-                At Lightwave, we are not just another digital marketing agency. We are a digital marketing powerhouse for the brands of tomorrow, driven by a deep understanding of the power of strategic decision-making and authentic human connections. 
+                Our unique blend of User-Generated Content, Paid Social, SEM, and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
        
@@ -198,7 +197,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 <div class="col-full">
             
-<h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "0"}}>Frequently asked question</h5>
+<h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "30px"}}>Frequently asked question</h5>
 
 </div>
 <Ban />
@@ -213,11 +212,11 @@ Pioneering Green Technology in the Digital Marketing Space
 <section id="contact" class="s-contact">
 
 <div class="overlay"></div>
-<div class="contact__line"></div>
+
 
 <div class="row section-header" data-aos="fade-up">
     <div class="col-full">
-        <h3 class="subhead">Contact Us</h3>
+        <h3 class="subhead" style={{color: "#fff"}}>Contact Us</h3>
         <h1 class="display-2 display-2--light">Reach out for a new project or book a call</h1>
     </div>
 </div>

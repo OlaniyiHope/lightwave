@@ -13,7 +13,7 @@ function Benefits({ headingToggle }) {
     <section 
     
     >
-      <Container>
+      <Container >
         <Typography
           variant="h4"
           component="h2"
@@ -23,12 +23,14 @@ function Benefits({ headingToggle }) {
            fontSize: "25px",
             fontWeight: 700,
             marginBottom: '58px',
+            paddingTop: "40px",
+         
           }}
         >
          Why UGC Creatives are the Key to Unlocking Engagement
         </Typography>
         <Grid
-      
+   
           container
           columns={{ xs: 4, sm: 8, md: 6 }}
           spacing={{ xs: 2, sm: 2, md: 2 }}

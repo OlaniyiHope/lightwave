@@ -10,6 +10,15 @@ import {
 	FeatureTextWrapper,
 } from './FeaturesStyles';
 import { featuresData } from '../data/FeaturesData';
+import { GoPrimitiveDot } from 'react-icons/go';
+import { BsFillShieldLockFill } from 'react-icons/bs';
+import { IoIosOptions } from 'react-icons/io';
+import { AiFillSetting } from 'react-icons/ai';
+import { BsPhoneVibrate,  } from 'react-icons/bs';
+import { RiRocketLine } from 'react-icons/ri';
+import { GiCobweb } from 'react-icons/gi';
+import { FaMobileAlt } from 'react-icons/fa';
+import { BsGlobe } from 'react-icons/bs';
 
 const Features = () => {
 	const initial = {
@@ -28,22 +37,88 @@ const Features = () => {
 					<FeatureTitle>What We Offer</FeatureTitle>
 				</FeatureTextWrapper>
 				<FeatureWrapper>
-					{featuresData.map((el, index) => (
-						<FeatureColumn
-							initial={initial}
-							animate={animate}
-							transition={{ duration: 0.5 + index * 0.1 }}
-							key={index}
-						>
-							<FeatureImageWrapper className={el.imgClass}>
-								{el.icon}
-							</FeatureImageWrapper>
-							<FeatureName>{el.name}</FeatureName>
-							<FeatureText>{el.description}
-							
-							</FeatureText>
-						</FeatureColumn>
-					))}
+			
+					
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+					<FeatureImageWrapper>
+						<AiFillSetting size="5rem" color="#fff"  />
+					</FeatureImageWrapper>
+					<FeatureName>Performance UGC</FeatureName>
+					<FeatureText><GoPrimitiveDot  />Providing User Generated Content (UGC) that converts  at scale.<br></br>
+					<GoPrimitiveDot  />In-house team of 30 + content creators and worldwide network.<br></br>
+					<GoPrimitiveDot  />High-quality + engaging content. Match you with the perfect content creators for your brand<br></br>
+					<GoPrimitiveDot  />Guaranteed satisfaction of the UGC content we create.<br></br>
+					
+					
+					</FeatureText>
+					
+					<FeatureImageWrapper>
+					<FaMobileAlt size="5rem" color="#fff" />
+					</FeatureImageWrapper>
+					<FeatureName>Sustainable Mobile Design</FeatureName>
+					<FeatureText><GoPrimitiveDot  />Hight prefromance hoidoid<br></br>
+					
+					
+					</FeatureText>
+
+			
+				</FeatureColumn>
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+					<FeatureImageWrapper>
+					<BsPhoneVibrate size="5rem" color="#fff" />
+					</FeatureImageWrapper>
+					<FeatureName>Paid Social</FeatureName>
+					<FeatureText><GoPrimitiveDot  />Setup Manage And Scale Your TikTok/ Meta Ad Campaigns<br></br>
+					<GoPrimitiveDot  />Strategic audience targeting<br></br>
+					<GoPrimitiveDot  />Data-driven analysis<br></br>
+					<GoPrimitiveDot  />Constantly testing new angles<br></br>
+					<GoPrimitiveDot  />Results- driven approach  <br></br>
+					
+					</FeatureText>
+					
+					<FeatureImageWrapper>
+					<BsGlobe size="5rem" color="#fff" />
+					</FeatureImageWrapper>
+					<FeatureName>Sustainable Website Design</FeatureName>
+					<FeatureText>
+					
+					
+					</FeatureText>
+			
+				</FeatureColumn>
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+					<FeatureImageWrapper>
+					<RiRocketLine size="5rem" color="#fff"  />
+					</FeatureImageWrapper>
+					<FeatureName>SEM + Landing Page</FeatureName>
+					<FeatureText><GoPrimitiveDot  />A holistic approach focusing on every step of the funnel.<br></br>
+					<GoPrimitiveDot  />Optimize your landing pages<br></br>
+					<GoPrimitiveDot  /> Optimize your CTAs.<br></br>
+					<GoPrimitiveDot  />Capture leads.<br></br>
+					<GoPrimitiveDot  />Increased sales conversion rate<br></br>
+					<GoPrimitiveDot  />Hight prefromance hoidoid<br></br>
+					<GoPrimitiveDot  />Hight prefromance hoidoid
+					
+					</FeatureText>
+					
+				</FeatureColumn>
+				
+				
 				</FeatureWrapper>
 			</Container>
 		</Section>

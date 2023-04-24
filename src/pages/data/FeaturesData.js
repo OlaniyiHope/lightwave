@@ -7,6 +7,7 @@ import { BsPhoneVibrate,  } from 'react-icons/bs';
 import { RiRocketLine } from 'react-icons/ri';
 import { GiCobweb } from 'react-icons/gi';
 import { FaMobileAlt } from 'react-icons/fa';
+import { GoPrimitiveDot } from 'react-icons/go';
 const iconStyle = (Icon) => <Icon size="5rem" color="#fff" />;
 
 export const featuresData = [

@@ -24,7 +24,7 @@ const Book = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
 <div class="overlay"></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
@@ -67,7 +67,7 @@ Book A Free Strategy Call With Our Team
 <section id="contact" class="s-contact">
 
 <div class="overlay"></div>
-<div class="contact__line"></div>
+
 
 <div class="row section-header" data-aos="fade-up">
     <div class="col-full">

@@ -61,8 +61,9 @@ body {
 
 .container {
   max-width: 124rem;
-  padding: 4rem 1rem;
-  margin: 0 auto;
+
+
+  margin: auto;
 }
 
 .heading {
@@ -73,9 +74,9 @@ body {
 
 .swiper_container {
   height: 52rem;
-  padding: 2rem 0;
+width: 70%;
   margin: auto;
-  position: relative;
+  justify-content: center;
 }
 
 .swiper-slide {

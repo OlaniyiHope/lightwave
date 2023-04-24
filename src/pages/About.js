@@ -2,7 +2,7 @@
 import { React, useEffect } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import imagess from "./images/sus.avif.avif"
+import imagess from "../pages/amp.jpeg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -76,6 +76,15 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
+        <h1 class="display-2" style={{fontSize: "40px"}}>Marketing goals</h1>
+        <p style={{fontSize: "23px"}}>whatever your marketing goals is, please write... We are proud to partner with businesses that share our vision for a better, brighter future
+            </p>
+            
+    </div>
+</div> 
+<div class="row section-header has-bottom-sep" data-aos="fade-up">
+    <div class="col-full">
+       
         <h1 class="display-2" style={{fontSize: "40px"}}>What makes us different</h1>
         <p style={{fontSize: "23px"}}>Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
             </p>
@@ -98,16 +107,16 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
         </div>
         <div class="service-text">
            
-            <p style={{fontSize: '23px', textAlign: "justify" }}>
+            <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px" }}>
             <GoPrimitiveDot />To Become a carbon-neutral company by 2024. 
             </p>
-            <p style={{fontSize: '23px', textAlign: "justify"}}>
+            <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Scale thousands of sustainable SMEs to multiple 6-7 figures in revenue. 
             </p>
-            <p style={{fontSize: '23px',  textAlign: "justify"}}>
+            <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
-            <p style={{fontSize: '23px',  textAlign: "justify"}}>
+            <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
         
@@ -174,19 +183,19 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
     </div>
     <div class="service-text">
        
-        <p style={{fontSize: '23px', textAlign: "justify" }}>
+        <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px" }}>
         <GoPrimitiveDot />We are results-driven.
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify"}}>
+        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We understand your goals and We maintain a positive customer reputation.
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify"}}>
+        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We are focused on value, not cash
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify"}}>
+        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We value our relationships with our clients. 
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify"}}>
+        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We take a holistic look at your business.
         </p>
     

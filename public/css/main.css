@@ -2922,23 +2922,24 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/wave2.avif.avif");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    
     position: relative;
 }
 
 .s-contact .overlay {
+    background-image: url("../images/wave2.avif.avif");
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
+  
 }
 
 .s-contact .form-field {
@@ -2963,7 +2964,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #159adb;
+    background: #fff;
 }
 
 .s-contact .form-field label::after {
@@ -2974,14 +2975,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #159adb;
+    border-right: 5px solid #fff;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #159adb;
+    background-color: #fff;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3008,7 +3009,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #159adb;
+    color: #fff;
 }
 
 .contact-content input[type="email"],
@@ -3035,7 +3036,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #159adb;
+    border-bottom: 1px solid #fff;
 }
 
 .contact-content button,
@@ -3045,31 +3046,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #fff;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #fff;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #fff;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #fff;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #fff !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3126,7 +3127,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #159adb;
+    color: #fff;
 }
 
 .contact-social li:last-child {
@@ -3149,7 +3150,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #159adb;
+    color: #fff;
 }
 
 .message-warning i, .message-success i {
@@ -3320,7 +3321,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 5rem 0 3rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3370,10 +3371,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 120px;
-    height: 85px;
-    background: url("../images/okay2.png") no-repeat center;
-    background-size: 120px 85px;
+    width: 150px;
+    height: 150px;
+    background: url("../images/light.png") no-repeat center;
+    background-size: 150px 150px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;

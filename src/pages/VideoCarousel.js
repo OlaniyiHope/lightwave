@@ -24,7 +24,7 @@ const Slidde = () => {
 
     <div className="container">
 
-    <Swiper
+    <Swiper 
       effect={'coverflow'}
       grabCursor={true}
       centeredSlides={true}
@@ -56,7 +56,7 @@ const Slidde = () => {
       <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH5}  type="video/mp4"/></video>
+      <video controls ><source src={VIDEO_PATH5}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
       <video controls><source src={VIDEO_PATH2}  type="video/mp4"/></video>
