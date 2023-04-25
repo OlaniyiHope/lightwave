@@ -1,11 +1,11 @@
 .carousel-root {
   width: 64% !important;
   margin: auto !important;
-  margin-top: 3% !important;
+
 }
 
 .carousel .slide {
-  background: #fff !important;
+  background: #159adb;
   color: black;
   height: 60%;
 }
@@ -21,7 +21,7 @@
   width: 54%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1%;
+
   padding-bottom: 2%;
   padding-left: 5%;
   padding-right: 5%;
@@ -36,16 +36,16 @@
   letter-spacing: 0.2px;
   margin-bottom: 4px;
   font-weight: 600;
-  text-transform: uppercase;
+
   font-size: 17px;
 }
 
 .myCarousel h4 {
-  text-transform: uppercase;
+
   margin-top: 0;
   padding-top: 0;
   font-weight: 500;
-  color: #787878;
+  color: #fff;
   font-size: 14px;
 }
 
