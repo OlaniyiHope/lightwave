@@ -19,6 +19,7 @@ import { RiRocketLine } from 'react-icons/ri';
 import { GiCobweb } from 'react-icons/gi';
 import { FaMobileAlt } from 'react-icons/fa';
 import { BsGlobe } from 'react-icons/bs';
+import { SiGooglemarketingplatform } from 'react-icons/si';
 
 const Features = () => {
 	const initial = {
@@ -57,14 +58,7 @@ const Features = () => {
 					
 					</FeatureText>
 					
-					<FeatureImageWrapper>
-					<FaMobileAlt size="5rem" color="#fff" />
-					</FeatureImageWrapper>
-					<FeatureName>Sustainable Mobile Design</FeatureName>
-					<FeatureText><GoPrimitiveDot  />Hight prefromance hoidoid<br></br>
 					
-					
-					</FeatureText>
 
 			
 				</FeatureColumn>
@@ -86,14 +80,7 @@ const Features = () => {
 					
 					</FeatureText>
 					
-					<FeatureImageWrapper>
-					<BsGlobe size="5rem" color="#fff" />
-					</FeatureImageWrapper>
-					<FeatureName>Sustainable Website Design</FeatureName>
-					<FeatureText>
-					
-					
-					</FeatureText>
+				
 			
 				</FeatureColumn>
 					<FeatureColumn
@@ -115,6 +102,58 @@ const Features = () => {
 					<GoPrimitiveDot  />Hight prefromance hoidoid
 					
 					</FeatureText>
+					
+				</FeatureColumn>
+				
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+					<FeatureImageWrapper>
+					<SiGooglemarketingplatform size="5rem" color="#fff"  />
+					</FeatureImageWrapper>
+					<FeatureName>Content Strategy </FeatureName>
+					<FeatureText><GoPrimitiveDot  />We develop a tailored UGC strategy that aligns with your company unique goals and values.<br></br>
+					<GoPrimitiveDot  />Develop a content taxonomy<br></br>
+					<GoPrimitiveDot  /> Establish a process and workflow for content production .<br></br>
+					<GoPrimitiveDot  />Plan and identify your brand voice.<br></br>
+					
+					
+					</FeatureText>
+					
+				</FeatureColumn>
+				
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+				<FeatureImageWrapper>
+				<FaMobileAlt size="5rem" color="#fff" />
+				</FeatureImageWrapper>
+				<FeatureName>Sustainable Mobile Design</FeatureName>
+				
+					
+				</FeatureColumn>
+				
+					<FeatureColumn
+					initial={initial}
+					animate={animate}
+				
+				
+				>
+				<FeatureImageWrapper>
+				<BsGlobe size="5rem" color="#fff" />
+				</FeatureImageWrapper>
+				<FeatureName>Sustainable Website Design</FeatureName>
+				<FeatureText>
+				
+				
+				</FeatureText>
+				
 					
 				</FeatureColumn>
 				
