@@ -9,7 +9,7 @@ import { IconContext } from "react-icons";
 import { Fragment, React, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
-import imagess from "./images/sus5.avif.avif"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "./images/light.png"
@@ -53,26 +53,27 @@ const New = () => {
 
 
 
-<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-image-src={imagess} data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
+<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div class="overlay">
+<iframe width="100%" height="715" src="https://www.youtube.com/embed/OyAwfclV50Y?autoplay=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
 <div class="row home-content__main">
 
 <h1 data-aos="zoom-in">
-Pioneering Green Technology in the Digital Marketing Space
+
 </h1>
 
-<h3 data-aos="fade-up">Lets create LightWave</h3>
+<h3 data-aos="fade-up"></h3>
 
 <div class="home-content__buttons">
    
    
   
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
+   
 </div>
 
 </div>
