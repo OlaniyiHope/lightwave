@@ -57,7 +57,7 @@ const New = () => {
 
 
 
-<iframe width="100%" height="615" class="overlay"
+<iframe width="100%" height="615" class="overlay" 
 src="https://www.youtube.com/embed/F2ScsX48H1o?autoplay=1&mute=1">
 </iframe>
 
