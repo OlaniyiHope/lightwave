@@ -41,7 +41,7 @@ import Test from "./Test";
 import ReactPlayer from 'react-player'
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
-
+import image from "./web.gif"
 const New = () => {
     const playerRef = useRef(null);
     useEffect(() => {
@@ -53,21 +53,16 @@ const New = () => {
 
 
 
-<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay">
-<iframe width="100%" height="1015" src="https://www.youtube.com/embed/OyAwfclV50Y?autoplay=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<section id="home" class="s-home target-section" data-parallax="scroll"   data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
 
+<div class="overlay">
+<iframe width="100%" height="615"  src="https://www.youtube.com/embed/F2ScsX48H1o?autoplay=1"  allow="autoplay;" allowfullscreen></iframe>
 </div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
 <div class="row home-content__main">
 
-<h1 data-aos="zoom-in">
-
-</h1>
-
-<h3 data-aos="fade-up"></h3>
 
 <div class="home-content__buttons">
    
