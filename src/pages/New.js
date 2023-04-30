@@ -42,6 +42,7 @@ import ReactPlayer from 'react-player'
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
 import image from "./web.gif"
+import Center from "./Center";
 const New = () => {
     const playerRef = useRef(null);
     useEffect(() => {
@@ -54,12 +55,10 @@ const New = () => {
 
 
 <section id="home" class="s-home target-section" data-parallax="scroll"   data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div className="overlay">
+<iframe width="100%" height="615"  src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4?autoplay=1"  allow="autoplay;" allowfullscreen></iframe>
 
-
-
-<iframe width="100%" height="315" class="overlay" 
-src="https://www.youtube.com/embed/F2ScsX48H1o?autoplay=1&mute=1">
-</iframe>
+</div>
 
 <div class="shadow-overlay"></div>
 <div class="home-content">
@@ -121,6 +120,7 @@ src="https://www.youtube.com/embed/F2ScsX48H1o?autoplay=1&mute=1">
         <div class="about__line"></div>
 
     </section> 
+  
     <section id='services' class="s-services">
 
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
@@ -208,6 +208,7 @@ src="https://www.youtube.com/embed/F2ScsX48H1o?autoplay=1&mute=1">
 
 
 </section> 
+
 <section id="contact" class="s-contact">
 
 <div class="overlay"></div>

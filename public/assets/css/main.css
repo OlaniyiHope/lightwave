@@ -1749,7 +1749,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: table;
 }
 
-.s-home .shadow-overlay {
+/* .s-home .shadow-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1760,8 +1760,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
-
+} */
+/* 
 .s-home .overlay {
     position: absolute;
     top: 0;
@@ -1770,7 +1770,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
     opacity: .6;
     background-color: #000000;
-}
+} */
 
 .no-js .s-home {
     background: #000000;

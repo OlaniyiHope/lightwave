@@ -2,29 +2,29 @@ import React from 'react';
 
 
 export const Faq = [
-    {
-     "id": 1,
-     "question": "What are the services do you offer",
-     "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?"
-    },
-    {
-     "id": 2,
-     "question": "what are our preferred method of payment",
-     "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam"
-    },
-    {
-     "id": 3,
-     "question": "Are your services beginners friendly",
-     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,"
-    },
-    {
-     "id": 4,
-     "question": "what how does it take to upgrade a package",
-     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
-    },
-    {
-     "id": 5,
-     "question": "Where are your offices located around the world",
-     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
-    }
+  
+   {
+        "title": "Frequently <br />asked questions",
+        "image": "assets/img/others/6.png",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "items": [
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur",
+            "class": "show",
+            "content": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+          },
+          {
+            "title": "Consectetur adipiscing elit. Sed lobortis",
+            "content": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet, consectetur",
+            "content": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+          },
+          {
+            "title": "Consectetur adipiscing elit. Sed lobortis",
+            "content": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+          }
+        ]
+      },
    ]
