@@ -56,8 +56,7 @@ const New = () => {
 
 <section id="home" class="s-home target-section" data-parallax="scroll"   data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
 <div className="overlay">
-<iframe width="100%" height="615"  src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4?autoplay=1"  allow="autoplay;" allowfullscreen></iframe>
-
+<video src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4" autoplay="" loop="" playsinline="" muted=""></video>
 </div>
 
 <div class="shadow-overlay"></div>
