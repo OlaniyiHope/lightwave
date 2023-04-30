@@ -43,6 +43,7 @@ import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
 import image from "./web.gif"
 import Center from "./Center";
+import { New2 } from "./New2";
 const New = () => {
     const playerRef = useRef(null);
     useEffect(() => {
@@ -52,50 +53,9 @@ const New = () => {
    
 <>
 
-
-
-<section id="home" class="s-home target-section" data-parallax="scroll"   data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div className="overlay">
-<video class="jet-video-player jet-video-html5-player" src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4" autoplay="" loop="" playsinline="" muted=""></video>
-</div>
-
-<div class="shadow-overlay"></div>
-<div class="home-content">
-
-<div class="row home-content__main">
-
-
-<div class="home-content__buttons">
-   
-   
-  
-   
-</div>
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-          
-        </ul>  
-
+<New2 />
       
-</section>
+            
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
