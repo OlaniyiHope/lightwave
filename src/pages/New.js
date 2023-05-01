@@ -1,58 +1,26 @@
 
-
-import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
-import * as AiIcons from "react-icons/ai";
 import icons from "./Icons/1.png"
 import icons2 from "./Icons/2.png"
 import icons3 from "./Icons/3.png"
-import { IconContext } from "react-icons";
-import { Fragment, React, useEffect, useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom';
+import { React, useEffect, useRef } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from "./images/light.png"
-import done from "../pages/let.mp4"
-import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
-import wood1 from "./images/portfolio/woodcraft.jpg"
-import bee from "./images/portfolio/gallery/g-beetle.jpg"
-import bee1 from "./images/portfolio/the-beetle.jpg"
-import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
-import shu1 from "./images/portfolio/lady-shutterbug.jpg"
-import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
-import cl1 from "./images/clients/apple.png"
-import cl2 from "./images/clients/atom.png"
-import cl3 from "./images/clients/blackberry.png"
-import cl4 from "./images/clients/dropbox.png"
-import cl5 from "./images/clients/envato.png"
-import cl6 from "./images/clients/firefox.png"
-import cl7 from "./images/clients/joomla.png"
-import cl8 from "./images/clients/magento.png"
-import VIDEO_PATH from "../pages/yo.mov";
-import VIDEO_PATH2 from "../pages/6.mp4";
-import VIDEO_PATH3 from "../pages/key.mov";
-import VIDEO_PATH4 from "../pages/4.mp4";
 
-import { SidebarData } from './SidebarData';
-import Work from "./Services";
 import Team from "./Team";
-import Test from "./Test";
-import ReactPlayer from 'react-player'
+import New2 from "./New2"
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
-import image from "./web.gif"
-import Center from "./Center";
-import { New2 } from "./New2";
+
 const New = () => {
     const playerRef = useRef(null);
     useEffect(() => {
         AOS.init();
       }, [])
   return (
-   
+  
 <>
-
+<New2 />
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
