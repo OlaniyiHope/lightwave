@@ -20,7 +20,8 @@ const New = () => {
   return (
   
 <>
-<New2 />
+<video autoPlay loop muted src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"></video>
+   
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
