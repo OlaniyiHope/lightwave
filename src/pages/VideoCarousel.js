@@ -53,7 +53,7 @@ const Slidde = () => {
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
+      <video controls ><source src={VIDEO_PATH3} autoPlay type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
       <video controls ><source src={VIDEO_PATH5}  type="video/mp4"/></video>
