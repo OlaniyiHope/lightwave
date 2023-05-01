@@ -13,6 +13,22 @@ import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
 
 const New = () => {
+
+    const videoEl = useRef(null);
+
+    const attemptPlay = () => {
+      videoEl &&
+        videoEl.current &&
+        videoEl.current.play().catch(error => {
+          console.error("Error attempting to play", error);
+        });
+    };
+  
+    useEffect(() => {
+      attemptPlay();
+    }, []);
+
+    
     const playerRef = useRef(null);
     useEffect(() => {
         AOS.init();
@@ -20,7 +36,18 @@ const New = () => {
   return (
   
 <>
-<New2 />
+<div>
+<video
+  style={{ maxWidth: "100%", width: "100%", margin: "0 auto" }}
+  playsInline
+  loop
+  muted
+
+  alt="All the devices"
+  src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+  ref={videoEl}
+/>
+</div>
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">

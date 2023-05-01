@@ -3,8 +3,10 @@ import React from "react"
   return (
     <div>
 
-    <video autoPlay loop muted src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"></video>
-   
+  
+    <video loop autoPlay>
+    <source src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4" type="video/mp4" />
+</video>
     </div>
   )
 }
