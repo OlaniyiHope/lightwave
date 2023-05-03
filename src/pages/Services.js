@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 
 
-import imagess from "../pages/show.mp4"
+import imagess from "../pages/wave.jpg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -35,50 +35,52 @@ const Services = () => {
 
    <div>
    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div class="overlay"></div>
+<div class="shadow-overlay"></div>
+<div class="home-content">
+
+<div class="row home-content__main">
+
+
+<h1 data-aos="zoom-in">
+See why top brands use Lightwave 
+</h1>
+
+
+
+<div class="home-content__buttons">
+   
+   
   
+    <a href="/book" class="smoothscroll btn btn--stroke">
+    Book a call
+    </a>
+</div>
 
-   <div class="home-content">
-   
-   <div class="row home-content__main">
-   
-   
+</div>
+<div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+            <div class="home-content__line"></div>
+            </div>
 
-   
-   
-   
-   <div class="home-content__buttons">
+            <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+
+        </ul>  
+
       
-      
-     
-       <a href="/book" class="smoothscroll btn btn--stroke">
-       Book a call
-       </a>
-   </div>
-   
-   </div>
-   <div class="home-content__scroll">
-                   <a href="#about" class="scroll-link smoothscroll">
-                       <span>Scroll Down</span>
-                   </a>
-               </div>
-               <div class="home-content__line"></div>
-               </div>
-   
-               <ul class="home-social">
-               <li>
-                   <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-               </li>
-               <li>
-                   <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-               </li>
-               <li>
-                   <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-               </li>
-   
-           </ul>  
-   
-         
-   </section>
+</section>
    
 <div className="a">
 <div className="a-left">

@@ -6,17 +6,20 @@ import { React, useEffect, useRef } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import "./wraps.css"
 import Team from "./Team";
 import New2 from "./New2"
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
+import { Main2 } from "./Main2";
 
 const New = () => {
 
     const videoEl = useRef(null);
 
     const attemptPlay = () => {
+
+        
       videoEl &&
         videoEl.current &&
         videoEl.current.play().catch(error => {
@@ -36,18 +39,10 @@ const New = () => {
   return (
   
 <>
-<div>
-<video
-  style={{ maxWidth: "100%", width: "100%", margin: "0 auto" }}
-  playsInline
-  loop
-  muted
 
-  alt="All the devices"
-  src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
-  ref={videoEl}
-/>
-</div>
+
+<New2 />
+
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
@@ -150,7 +145,7 @@ const New = () => {
 <h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "30px"}}>Frequently asked question</h5>
 
 </div>
-<Ban />
+
 </section> 
 <section id="clients" class="s-clients">
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>

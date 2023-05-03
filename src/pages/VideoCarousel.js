@@ -76,11 +76,11 @@ const Slidde = () => {
    
 
       <div className="slider-controler">
-        <div className="swiper-button-prev slider-arrow">
-          <ion-icon name="arrow-back-outline"></ion-icon>
+        <div className="swiper-button-prev slider-arrow" style={{color: "#000"}}>
+          <ion-icon name="arrow-back-outline" style={{color: "#000"}}></ion-icon>
         </div>
         <div className="swiper-button-next slider-arrow">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
+          <ion-icon name="arrow-forward-outline" style={{color: "#000"}}></ion-icon>
         </div>
         <div className="swiper-pagination"></div>
       </div>
