@@ -60,7 +60,7 @@ body {
 }
 
 .container {
-  max-width: 124rem;
+  max-width: 104rem;
 
 
   margin: auto;
@@ -74,7 +74,7 @@ body {
 
 .swiper_container {
   height: 52rem;
-width: 80%;
+width: 90%;
   margin: auto;
   justify-content: center;
 }

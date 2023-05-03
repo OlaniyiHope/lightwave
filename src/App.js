@@ -2,7 +2,6 @@
 import New from './pages/New';
 import { BrowserRouter as Router, Routes, Route, Outlet, createBrowserRouter,
 } from 'react-router-dom'
-import ReactPlayer from "react-player"
 import React from "react";
 import Home from './pages/About';
 import About from './pages/About';
