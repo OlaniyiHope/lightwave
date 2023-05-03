@@ -28,7 +28,7 @@ const Dropdown = styled.div`
   border-bottom: 1px solid #fff;
   
   p {
-    font-size: 2rem;
+   
   }
 `;
 
