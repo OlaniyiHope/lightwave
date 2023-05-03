@@ -20,7 +20,7 @@ import "./main2.css"
       style={{  margin: "0 auto" }}
       playsInline
       loop
-      muted
+     
   
       src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
       ref={videoEl}
