@@ -1,10 +1,10 @@
 export const Data = [
   {
-    question: 'What is Lightwave Creative Agency?',
+    question: ' What is Lightwave creative agency?',
     answer: 'Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content'
   },
     {
-      question: 'Is LIGHTWAVE Sustainable?',
+      question: ' Is Lightwave sustainable?',
       answer: 'LIGHTWAVE is more than just a company - it is a movement. We are passionate about creating a circular economy and making sustainability the norm.'
     },
     {
@@ -12,7 +12,7 @@ export const Data = [
       answer: 'At LIGHTWAVE, we believe in providing our clients with the best possible experience. That is why, once you onboard with us, you will be assigned a full, dedicated team to work with you every step of the way.'
     },
     {
-      question: 'What is the minimum contract term?',
+      question: ' What is the minimum contract term?',
       answer: 'Our minimum contract term in Lightwave is 6 months.'
     },
     {
