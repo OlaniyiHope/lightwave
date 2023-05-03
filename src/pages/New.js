@@ -151,7 +151,7 @@ const New = () => {
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
-
+<Ban />
 
 </section> 
 
