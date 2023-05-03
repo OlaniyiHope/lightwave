@@ -140,17 +140,14 @@ const New = () => {
 <Slidde />
 </div> 
 
-<div class="col-full">
-            
-<h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "30px"}}>Frequently asked question</h5>
 
-</div>
 
 </section> 
 <section id="clients" class="s-clients">
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
+
 <Ban />
 
 </section> 
