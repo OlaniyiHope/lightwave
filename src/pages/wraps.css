@@ -16,6 +16,12 @@ height: 100%   !important;
      
     }
 }
+@media only screen and (max-width: 750px) {
+    .dae{
+        padding: 45% 0 45% 0;
+     
+    }
+}
 @media only screen and (max-width: 450px) {
     .dae{
         padding: 45% 0 45% 0;
