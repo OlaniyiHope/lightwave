@@ -83,6 +83,7 @@ body {
     color: #757575;
     margin: 0;
     padding: 0;
+    height: 5000px;
 }
 
 
@@ -387,23 +388,7 @@ dd {
 /* ------------------------------------------------------------------- 
  * ## responsive video container
  * ------------------------------------------------------------------- */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
 
-.video-container iframe,
-.video-container object,
-.video-container embed,
-.video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -521,28 +506,8 @@ form,
  * # preloader
  *
  * ------------------------------------------------------------------- */
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #050505;
-    z-index: 800;
-    height: 100%;
-    width: 100%;
-    display: table;
-}
 
-.no-js #preloader, .oldie #preloader {
-    display: none;
-}
 
-#loader {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 
 .line-scale-pulse-out > div {
     background-color: #159adb;

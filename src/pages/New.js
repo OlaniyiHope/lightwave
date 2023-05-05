@@ -40,9 +40,7 @@ const New = () => {
   
 <>
 
-
-<div style={{padding:'25% 0 0 0', position:'relative;'}}><iframe src="https://player.vimeo.com/video/823505514?h=e6cdd9d992&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" className="obj" allowfullscreen style={{position:'relative;', top:0, left:0, width:'100%', height:'100%', }} ></iframe></div>
-    
+<div className="dae"><iframe src="https://player.vimeo.com/video/823505514?h=e6cdd9d992&amp;autopause=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{position:'absolute', top:'0', left:'0', width:'100%', height:'100%'}} ></iframe></div>
 
 <section id='about' class="s-about">
 
@@ -122,6 +120,10 @@ const New = () => {
 
 
 </div> 
+
+
+</section> 
+
 <section id='works' class="s-works">
 
 <div class="intro-wrap">
@@ -139,12 +141,17 @@ const New = () => {
 </div> 
 
 
+
+
+</section>
 <section id="clients" class="s-clients">
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
 
 <Ban />
+
+</section>
 <section id="contact" class="s-contact">
 
 <div class="row section-header" data-aos="fade-up">
@@ -238,6 +245,8 @@ const New = () => {
 
 </div> 
 
+</section>
+
 <footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
@@ -281,14 +290,6 @@ const New = () => {
 </div>
 
 </footer>
-</section>
-</section>
-
-</section>
-</section> 
- 
- 
-
 
 
 
