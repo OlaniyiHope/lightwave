@@ -15,33 +15,14 @@ import { Main2 } from "./Main2";
 
 const New = () => {
 
-    const videoEl = useRef(null);
-
-    const attemptPlay = () => {
-
-        
-      videoEl &&
-        videoEl.current &&
-        videoEl.current.play().catch(error => {
-          console.error("Error attempting to play", error);
-        });
-    };
-  
-    useEffect(() => {
-      attemptPlay();
-    }, []);
-
     
-    const playerRef = useRef(null);
     useEffect(() => {
         AOS.init();
       }, [])
   return (
   
 <>
-
-<div className="dae"><iframe src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4?h=e6cdd9d992&amp;autopause=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{position:'absolute', top:'0', left:'0', width:'100%', height:'100%'}} ></iframe></div>
-
+<New2 />
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
