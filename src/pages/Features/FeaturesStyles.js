@@ -64,7 +64,7 @@ export const FeatureName = styled.h3`
 
 	@media screen and (max-width: 768px) {
 		font-weight: 400;
-		font-size: 1rem;
+		
 		letter-spacing: 0.1px;
 		color: #fff;
 	}
