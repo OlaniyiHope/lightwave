@@ -134,14 +134,14 @@ const New = () => {
             <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
     </div> 
-    <div class="row works-content">
-    <Slidde />
-    </div> 
+   
     
 </div> 
 
 
-
+<div class="row works-content">
+<Slidde />
+</div> 
 
 </section>
 <section id="clients" class="s-clients">
