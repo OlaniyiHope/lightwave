@@ -1295,6 +1295,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-bottom: 3.6rem;
     max-width: 960px;
 }
+.section-header p{
+    font-size: 18px;
+}
 
 .section-header.has-bottom-sep {
     padding-bottom: 2.1rem;

@@ -53,7 +53,7 @@ const New = () => {
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
         <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
+        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
         Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
@@ -69,7 +69,7 @@ const New = () => {
         </div>
         <div class="service-text">
             <h3 class="h2">Creatives that convert</h3>
-            <p>Tap into the Power of Highly Authentic User-Generated Content to Build Trust, Increase Engagement, and Drive Customer Loyalty
+            <p style={{fontSize: "18px"}}>Tap into the Power of Highly Authentic User-Generated Content to Build Trust, Increase Engagement, and Drive Customer Loyalty
             </p>
         </div>
     </div>
@@ -80,7 +80,7 @@ const New = () => {
         </div>
         <div class="service-text">
             <h3 class="h2">Audience that acts</h3>
-            <p>Understand Your Target Audience Fully. Our Paid Social Specialists Drive Action with Data-Driven Strategies
+            <p style={{fontSize: "18px"}}>Understand Your Target Audience Fully. Our Paid Social Specialists Drive Action with Data-Driven Strategies
             </p>
         </div>
     </div>
@@ -91,7 +91,7 @@ const New = () => {
         </div>  
         <div class="service-text">
             <h3 class="h2">Full funnel approach</h3>
-            <p>SEM and website optimisation that attract, engage, and convert potential customers at every stage of the sales funnel
+            <p style={{fontSize: "18px"}}>SEM and website optimisation that attract, engage, and convert potential customers at every stage of the sales funnel
             </p>
         </div>
     </div>
