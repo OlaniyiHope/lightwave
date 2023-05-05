@@ -5,11 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-
-
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
-
 import VIDEO_PATH4 from "../pages/4.mp4";
 import VIDEO_PATH3 from "../pages/mat.mp4";
 import VIDEO_PATH2 from "../pages/let.mp4";
@@ -53,7 +49,7 @@ const Slidde = () => {
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls ><source src={VIDEO_PATH3} autoPlay type="video/mp4"/></video>
+      <video controls ><source src={VIDEO_PATH3}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
       <video controls ><source src={VIDEO_PATH5}  type="video/mp4"/></video>
