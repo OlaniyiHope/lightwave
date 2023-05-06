@@ -2,7 +2,7 @@
 import { React, useEffect } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import imagess from "../pages/amp.jpeg"
+import imagess from "./show.mp4"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -24,8 +24,10 @@ const About = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
+<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div class="overlay">
+<video autoPlay><source  src='https://res.cloudinary.com/dftygokow/video/upload/v1683345050/show_jzlao1.mp4' autoPlay></source></video>
+</div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
 
@@ -33,7 +35,7 @@ const About = () => {
 
 
 <h1 data-aos="zoom-in">
-LightWave Amplifies your brand's voice and create a sustainable brand for you
+
 </h1>
 
 
@@ -41,10 +43,7 @@ LightWave Amplifies your brand's voice and create a sustainable brand for you
 <div class="home-content__buttons">
    
    
-  
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
+
 </div>
 
 </div>

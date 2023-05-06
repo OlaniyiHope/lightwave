@@ -2,7 +2,7 @@
 import { React, useEffect } from 'react';
 
 
-import imagess from "./images/work.avif.avif"
+import imagess from "./images/sus2.jpeg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -33,7 +33,7 @@ const Testimonial = () => {
 
 
 <h1 data-aos="zoom-in">
-See Why our customers love LightWave
+BLOG - Coming soon
 </h1>
 
 
@@ -72,90 +72,9 @@ See Why our customers love LightWave
       
 </section>
 
-<div class="row clients-testimonials" data-aos="fade-up" style={{backgroundColor: "white", width: "100%"}}>
-      <h3 class="subhead">Our Testimomials</h3>
-    <div class="col-full" style={{backgroundColor: "white"}}>
-        <div class="testimonials">
-      
-            <div class="testimonials__slide">
-
-                <p>"The content you never knew you wanted but knew you always needed.</p>
-
- 
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Energy Bytes</span> 
-                    
-                </div>
-
-            </div>
-
-            <div class="testimonials__slide">
-                
-                <p>"What they produced was way above what we asked for."</p>
-
-               
-                <div class="testimonials__info">
-                    <span class="testimonials__name">Its Milk co</span> 
-                    
-                </div>
-
-            </div>
 
 
-        </div>
-        
-    </div> 
-</div> 
 
-
-<div class="row clients-testimonials" data-aos="fade-up" >
-<div class="col-full">
-    <div class="testimonials">
-
-        <div class="testimonials__slide">
-
-            <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
-            Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-            Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
-
-            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar" />
-            <div class="testimonials__info">
-                <span class="testimonials__name">Tim Cook</span> 
-                <span class="testimonials__pos">CEO, Apple</span>
-            </div>
-
-        </div>
-
-        <div class="testimonials__slide">
-            
-            <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-            Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-
-            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar" />
-            <div class="testimonials__info">
-                <span class="testimonials__name">Sundar Pichai</span> 
-                <span class="testimonials__pos">CEO, Google</span>
-            </div>
-
-        </div>
-
-        <div class="testimonials__slide">
-            
-            <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar" />
-            <div class="testimonials__info">
-                <span class="testimonials__name">Satya Nadella</span> 
-                <span class="testimonials__pos">CEO, Microsoft</span>
-            </div>
-
-        </div>
-
-    </div>
-    
-</div>
-</div> 
 
 <footer  style={{backgroundColor: "#000"}}>
 
