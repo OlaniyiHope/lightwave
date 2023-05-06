@@ -1,6 +1,5 @@
 
 import { React, useEffect } from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import imagess from "./show.mp4"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
@@ -16,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
+import Vids from './Vids';
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -24,53 +24,7 @@ const About = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay">
-<video autoPlay><source  src='https://res.cloudinary.com/dftygokow/video/upload/v1683345050/show_jzlao1.mp4' autoPlay></source></video>
-</div>
-<div class="shadow-overlay"></div>
-<div class="home-content">
-
-<div class="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-
-</h1>
-
-
-
-<div class="home-content__buttons">
-   
-   
-
-</div>
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-
-        </ul>  
-
-      
-</section>
-
+<Vids />
 <section id='services' class="s-services">
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
@@ -252,6 +206,7 @@ const About = () => {
 </div>
 
 </footer>
+
 </div>
   );
 };
