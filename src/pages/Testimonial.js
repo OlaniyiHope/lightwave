@@ -42,9 +42,7 @@ BLOG - Coming soon
    
    
   
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
+ 
 </div>
 
 </div>
