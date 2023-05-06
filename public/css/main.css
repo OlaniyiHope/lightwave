@@ -1334,7 +1334,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
     .s-clients {
-        padding-bottom: 17.4rem;
+    
     }
     .section-header.has-bottom-sep::before {
         width: 400px;
