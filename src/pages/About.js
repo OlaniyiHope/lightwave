@@ -28,8 +28,6 @@ const About = () => {
 <video className='wid' src= "https://res.cloudinary.com/dftygokow/video/upload/v1683345050/show_jzlao1.mp4" 
 />
 
-
-
 <section id='services' class="s-services">
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
