@@ -23,6 +23,7 @@ const New = () => {
   
 <>
 <New2 />
+
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">

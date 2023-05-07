@@ -1,7 +1,7 @@
 
 import { React, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import imagess from "./show.mp4"
+import low from "./frame.jpg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
-import Vids from './Vids';
+
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -24,7 +24,12 @@ const About = () => {
   return (
    
 <div>
-<Vids />
+
+<video className='wid' src= "https://res.cloudinary.com/dftygokow/video/upload/v1683345050/show_jzlao1.mp4" 
+/>
+
+
+
 <section id='services' class="s-services">
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
