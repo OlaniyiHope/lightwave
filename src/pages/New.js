@@ -1,105 +1,28 @@
 
-
-import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
-import * as AiIcons from "react-icons/ai";
 import icons from "./Icons/1.png"
 import icons2 from "./Icons/2.png"
 import icons3 from "./Icons/3.png"
-import { IconContext } from "react-icons";
-import { Fragment, React, useEffect, useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom';
-import imagess from "./images/sus5.avif.avif"
+import { React, useEffect, useRef } from 'react';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from "./images/light.png"
-
-import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
-import wood1 from "./images/portfolio/woodcraft.jpg"
-import bee from "./images/portfolio/gallery/g-beetle.jpg"
-import bee1 from "./images/portfolio/the-beetle.jpg"
-import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
-import shu1 from "./images/portfolio/lady-shutterbug.jpg"
-import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
-import cl1 from "./images/clients/apple.png"
-import cl2 from "./images/clients/atom.png"
-import cl3 from "./images/clients/blackberry.png"
-import cl4 from "./images/clients/dropbox.png"
-import cl5 from "./images/clients/envato.png"
-import cl6 from "./images/clients/firefox.png"
-import cl7 from "./images/clients/joomla.png"
-import cl8 from "./images/clients/magento.png"
-import VIDEO_PATH from "../pages/yo.mov";
-import VIDEO_PATH2 from "../pages/6.mp4";
-import VIDEO_PATH3 from "../pages/key.mov";
-import VIDEO_PATH4 from "../pages/4.mp4";
-
-import { SidebarData } from './SidebarData';
-import Work from "./Services";
-import Back from "./Back";
+import "./wraps.css"
 import Team from "./Team";
-import Test from "./Test";
+import New2 from "./New2"
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
+import { Main2 } from "./Main2";
 
 const New = () => {
-    const playerRef = useRef(null);
+
+    
     useEffect(() => {
         AOS.init();
       }, [])
   return (
-   
-<>
-
-
-
-<section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"><Back /></div>
-<div class="shadow-overlay"></div>
-<div class="home-content">
-
-<div class="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-Pioneering Green Technology in the Digital Marketing Space
-</h1>
-
-<h3 data-aos="fade-up">Lets create LightWave</h3>
-
-<div class="home-content__buttons">
-   
-   
   
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
-</div>
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-          
-        </ul>  
-
-      
-</section>
+<>
+<New2 />
 <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
@@ -112,7 +35,7 @@ Pioneering Green Technology in the Digital Marketing Space
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p >
-                At Lightwave, we are not just another digital marketing agency. We are a digital marketing powerhouse for the brands of tomorrow, driven by a deep understanding of the power of strategic decision-making and authentic human connections. 
+                Our unique blend of User-Generated Content, Paid Social, SEM, and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
        
@@ -123,14 +46,15 @@ Pioneering Green Technology in the Digital Marketing Space
         <div class="about__line"></div>
 
     </section> 
+  
     <section id='services' class="s-services">
 
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
         <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
-        Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes, including heightened brand awareness, enhanced conversions, and increased revenue. With the CAF SYSTEM, we help businesses unlock their full potential and attain their goals
+        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
+        Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
     </div>
@@ -145,7 +69,7 @@ Pioneering Green Technology in the Digital Marketing Space
         </div>
         <div class="service-text">
             <h3 class="h2">Creatives that convert</h3>
-            <p>Tap into the Power of Highly Authentic User-Generated Content to Build Trust, Increase Engagement, and Drive Customer Loyalty
+            <p style={{fontSize: "18px"}}>Tap into the Power of Highly Authentic User-Generated Content to Build Trust, Increase Engagement, and Drive Customer Loyalty
             </p>
         </div>
     </div>
@@ -156,7 +80,7 @@ Pioneering Green Technology in the Digital Marketing Space
         </div>
         <div class="service-text">
             <h3 class="h2">Audience that acts</h3>
-            <p>Understand Your Target Audience Fully. Our Paid Social Specialists Drive Action with Data-Driven Strategies
+            <p style={{fontSize: "18px"}}>Understand Your Target Audience Fully. Our Paid Social Specialists Drive Action with Data-Driven Strategies
             </p>
         </div>
     </div>
@@ -167,7 +91,7 @@ Pioneering Green Technology in the Digital Marketing Space
         </div>  
         <div class="service-text">
             <h3 class="h2">Full funnel approach</h3>
-            <p>SEM and website optimisation that attract, engage, and convert potential customers at every stage of the sales funnel
+            <p style={{fontSize: "18px"}}>SEM and website optimisation that attract, engage, and convert potential customers at every stage of the sales funnel
             </p>
         </div>
     </div>
@@ -175,10 +99,12 @@ Pioneering Green Technology in the Digital Marketing Space
   
 
 
-
+        
 </div> 
 
+
 </section> 
+
 <section id='works' class="s-works">
 
 <div class="intro-wrap">
@@ -189,36 +115,30 @@ Pioneering Green Technology in the Digital Marketing Space
             <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
     </div> 
-
+   
+    
 </div> 
+
 
 <div class="row works-content">
 <Slidde />
 </div> 
 
-<div class="col-full">
-            
-<h5 class="display-2 display-2--light" style={{color: "black", textAlign: "center", marginBottom: "0"}}>Frequently asked question</h5>
-
-</div>
-<Ban />
-</section> 
+</section>
 <section id="clients" class="s-clients">
 <h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
 
+<Ban />
 
-</section> 
+</section>
 <section id="contact" class="s-contact">
-
-<div class="overlay"></div>
-<div class="contact__line"></div>
 
 <div class="row section-header" data-aos="fade-up">
     <div class="col-full">
-        <h3 class="subhead">Contact Us</h3>
-        <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+        <h3 class="subhead" style={{color: "#fff"}}>Contact Us</h3>
+        <h1 class="display-2 display-2--light">Reach out for a new project or book a call</h1>
     </div>
 </div>
 
@@ -226,97 +146,79 @@ Pioneering Green Technology in the Digital Marketing Space
     
     <div class="contact-primary">
 
-        <h3 class="h6">Send Us A Message</h3>
+        <h3 class="h6">Book an appointment</h3>
 
-        <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+        <form >
             <fieldset>
 
-            <div class="form-field">
-                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width" />
-            </div>
-            <div class="form-field">
-                <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-            </div>
-            <div class="form-field">
-                <button class="full-width btn--primary">Submit</button>
-                <div class="submit-loader">
-                    <div class="text-loader">Sending...</div>
-                    <div class="s-loader">
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-                </div>
-            </div>
-
+          
+       <div style={{ height: "800px" }}>
+       <iframe
+         src="https://calendly.com/lightwavecreativeagencycall/30min"
+         width="100%"
+         height="100%"
+         frameborder="0"
+       ></iframe>
+     </div>
             </fieldset>
         </form>
-
-       
-        <div class="message-warning">
-            Something went wrong. Please try again.
-        </div> 
-    
       
-        <div class="message-success">
-            Your message was sent, thank you!<br />
-        </div>
-
+       
+      
     </div> 
 
     <div class="contact-secondary">
         <div class="contact-info">
 
+         
+            <div class="cinfo">
+                <h5>THIS ONBOARDING CALL IS PERFECT FOR:</h5>
+                <p>
+                
+
+                Sustainable businesses looking for an agency they can trust and is 100% results-driven.
+                
+                Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.
+                
+                Sustainable businesses looking to create lightwaves and rise above competition. 
+                </p>
+            </div>
+
             <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
 
             <div class="cinfo">
                 <h5>Where to Find Us</h5>
-                <p>
-                    1600 Amphitheatre Parkway<br />
-                    Mountain View, CA<br />
-                    94043 US
-                </p>
-            </div>
-
-            <div class="cinfo">
+                <div class="cinfo">
                 <h5>Email Us At</h5>
                 <p>
-                    contact@glintsite.com<br />
-                    info@glintsite.com
+                    contact@lightwavecreative@gmail.com<br />
+                    info@lightwavecreative.com
                 </p>
             </div>
 
             <div class="cinfo">
                 <h5>Call Us At</h5>
                 <p>
-                    Phone: (+63) 555 1212<br />
-                    Mobile: (+63) 555 0100<br />
-                    Fax: (+63) 555 0101
+                    Phone: (+44 7)867 266523<br />
+                    Mobile: (+44 7) 311 334436<br />
+                  
                 </p>
             </div>
 
+            </div>
+        
+
             <ul class="contact-social">
-                <li>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                </li>
+            <li>
+            <a href="https://www.linkedin.com/company/lightwave-creative-agency"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com/lightwavecreative.io"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+      </li>
+              
             </ul> 
 
         </div> 
@@ -324,23 +226,23 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </div> 
 
-</section> 
+</section>
+
 <footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
     <div class="col-six tab-full left footer-desc">
+    <div class="footer-logo"></div>
+    Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
 
-        <div class="footer-logo"></div>
-        Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+</div>
 
-    </div>
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
-        <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-
+        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
@@ -370,42 +272,7 @@ Pioneering Green Technology in the Digital Marketing Space
 
 </footer>
 
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> 
 
 
 </>
