@@ -48,29 +48,26 @@ const Slidde = () => {
     >
       <SwiperSlide>
         
-     <video controls><source src={VIDEO_PATH4}  type="video/mp4"/></video>
+     <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4" /></video>
       
     
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH3}  /></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH5}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH5}  /></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH2}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH2}  /></video>
       </SwiperSlide>
       <SwiperSlide>
    
-      <video controls><source src={VIDEO_PATH1}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH1} /></video>
       </SwiperSlide>
       <SwiperSlide>
-     
-    
-    
-      <video controls><source src={VIDEO_PATH6}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH6}  /></video>
       </SwiperSlide>
   
       
