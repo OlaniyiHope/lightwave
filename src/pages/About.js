@@ -65,16 +65,16 @@ const About = () => {
         </div>
         <div class="service-text">
            
-            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px" }}>
+            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
             <GoPrimitiveDot />To Become a carbon-neutral company by 2024. 
             </p>
-            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px"}}>
             <GoPrimitiveDot />Scale thousands of sustainable SMEs to multiple 6-7 figures in revenue. 
             </p>
-            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
-            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
         
@@ -141,19 +141,19 @@ const About = () => {
     </div>
     <div class="service-text">
        
-        <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px" }}>
+        <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
         <GoPrimitiveDot />We are results-driven.
         </p>
-        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
         <GoPrimitiveDot />We understand your goals and We maintain a positive customer reputation.
         </p>
-        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
         <GoPrimitiveDot />We are focused on value, not cash
         </p>
-        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
         <GoPrimitiveDot />We value our relationships with our clients. 
         </p>
-        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "0px"}}>
         <GoPrimitiveDot />We take a holistic look at your business.
         </p>
     
