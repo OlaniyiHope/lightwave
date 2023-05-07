@@ -11,8 +11,6 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import VIDEO_PATH4 from "../pages/4.mp4";
-import VIDEO_PATH3 from "../pages/mat.mp4";
 import VIDEO_PATH2 from "../pages/let.mp4";
 import VIDEO_PATH1 from "../pages/six.mp4";
 import VIDEO_PATH5 from "../pages/news.mp4";
@@ -54,20 +52,20 @@ const Slidde = () => {
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls><source src={VIDEO_PATH3}  /></video>
+      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4"  /></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH5}  /></video>
+      <video controls><source src='https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4' /></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH2}  /></video>
+      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491919/six_jgvkaz.mp4" /></video>
       </SwiperSlide>
       <SwiperSlide>
    
-      <video controls><source src={VIDEO_PATH1} /></video>
+      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" /></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src={VIDEO_PATH6}  /></video>
+      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4"  /></video>
       </SwiperSlide>
   
       
