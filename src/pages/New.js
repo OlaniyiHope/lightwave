@@ -36,7 +36,7 @@ const New = () => {
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p >
-                Our unique blend of User-Generated Content, Paid Social, SEM, and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
+                Our unique blend of User-Generated Content, Paid Social, SEM, Sustainable website/Software and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
        
@@ -54,7 +54,7 @@ const New = () => {
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
         <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, Sustainable website/Software development and optimising the entire customer journey for maximum impact.
+        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM,  and optimising the entire customer journey for maximum impact.
         Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
