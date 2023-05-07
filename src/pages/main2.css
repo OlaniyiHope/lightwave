@@ -228,25 +228,27 @@ p {
   background-size: contain;
   
 }
-/* video{
+video{
  max-width: 100%;
  object-fit: contain;
   display: inline-block;
 width: 100%;
-} */
+}
 
 @media screen and (max-width: 480px) {
   .wid{
     width: 100%;
     background-size: contain;
     margin-top: 100px;
+   
   }
-  /* video{
+ 
+  video{
    
     max-width: 100%;
    padding-top: 100px;
 
-   } */
+   }
    .s-header {
 
     background-color: black;
@@ -255,12 +257,12 @@ width: 100%;
 
 }
 @media screen and (max-width: 750px) {
-  /* video{
+  video{
    
     max-width: 100%;
    padding-top: 130px;
 
-   } */
+   }
    .wid{
     width: 100%;
     background-size: contain;
@@ -273,12 +275,12 @@ width: 100%;
 }
 }
 @media screen and (max-width: 980px) {
-  /* video{
+  video{
    
     max-width: 100%;
    padding-top: 100px;
 
-   } */
+   }
      .s-header {
 
     background-color: black;
