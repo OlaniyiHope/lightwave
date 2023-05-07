@@ -4,10 +4,12 @@ import "./VideoCarousel.css"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { FaArrowCircleLeft } from "react-icons/fa";
-import { FaArrowCircleRight } from "react-icons/fa";
 import 'swiper/css/navigation';
+
+
+
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+
 import VIDEO_PATH4 from "../pages/4.mp4";
 import VIDEO_PATH3 from "../pages/mat.mp4";
 import VIDEO_PATH2 from "../pages/let.mp4";
@@ -22,7 +24,7 @@ const Slidde = () => {
 
     <div className="container">
 
-    <Swiper 
+    <Swiper
       effect={'coverflow'}
       grabCursor={true}
       centeredSlides={true}
@@ -51,10 +53,10 @@ const Slidde = () => {
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls ><source src={VIDEO_PATH3}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH3}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
-      <video controls ><source src={VIDEO_PATH5}  type="video/mp4"/></video>
+      <video controls><source src={VIDEO_PATH5}  type="video/mp4"/></video>
       </SwiperSlide>
       <SwiperSlide>
       <video controls><source src={VIDEO_PATH2}  type="video/mp4"/></video>
@@ -74,11 +76,11 @@ const Slidde = () => {
    
 
       <div className="slider-controler">
-        <div className="swiper-button-prev slider-arrow" style={{color: "#000"}}>
-          <FaArrowCircleLeft width="100px" height="100px"/>
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
         </div>
-        <div className="swiper-button-next slider-arrow" style={{color: "#000"}}>
-        <FaArrowCircleRight width="100px" height="100px"/>
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
         </div>
         <div className="swiper-pagination"></div>
       </div>
