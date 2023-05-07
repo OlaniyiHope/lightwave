@@ -34,8 +34,8 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2" style={{fontSize: "40px"}}>Marketing goals</h1>
-        <p style={{fontSize: "23px"}}>whatever your marketing goals is, please write... We are proud to partner with businesses that share our vision for a better, brighter future
+        <h1 class="display-2" style={{fontSize: "30px"}}>Marketing goals</h1>
+        <p style={{fontSize: "18px"}}>whatever your marketing goals is, please write... We are proud to partner with businesses that share our vision for a better, brighter future
             </p>
             
     </div>
@@ -43,8 +43,8 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2" style={{fontSize: "40px"}}>What makes us different</h1>
-        <p style={{fontSize: "23px"}}>Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
+        <h1 class="display-2" style={{fontSize: "30px"}}>What makes us different</h1>
+        <p style={{fontSize: "18px"}}>Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
             </p>
             
     </div>
@@ -52,7 +52,7 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2">Our Mission and Vision </h1>
+        <h1 class="display-2" style={{fontSize: "30px"}}>Our Mission and Vision </h1>
     </div>
 </div> 
 
@@ -65,16 +65,16 @@ const About = () => {
         </div>
         <div class="service-text">
            
-            <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px" }}>
+            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px" }}>
             <GoPrimitiveDot />To Become a carbon-neutral company by 2024. 
             </p>
-            <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Scale thousands of sustainable SMEs to multiple 6-7 figures in revenue. 
             </p>
-            <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
-            <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+            <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
             <GoPrimitiveDot />Support and aid the growth and actions of climate-related charities.
             </p>
         
@@ -109,7 +109,7 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2">Why brands trust us</h1>
+        <h1 class="display-2" style={{fontSize: "30px"}}>Why brands trust us</h1>
     </div>
 </div> 
 
@@ -141,19 +141,19 @@ const About = () => {
     </div>
     <div class="service-text">
        
-        <p style={{fontSize: '23px', textAlign: "justify", letterSpacing: "-1px" }}>
+        <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "-1px" }}>
         <GoPrimitiveDot />We are results-driven.
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We understand your goals and We maintain a positive customer reputation.
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We are focused on value, not cash
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We value our relationships with our clients. 
         </p>
-        <p style={{fontSize: '23px',  textAlign: "justify", letterSpacing: "-1px"}}>
+        <p style={{fontSize: '18px',  textAlign: "justify", letterSpacing: "-1px"}}>
         <GoPrimitiveDot />We take a holistic look at your business.
         </p>
     
