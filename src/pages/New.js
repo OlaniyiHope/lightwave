@@ -54,7 +54,7 @@ const New = () => {
     <div class="col-full">
         <h3 class="subhead">What We Do</h3>
         <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, and optimising the entire customer journey for maximum impact.
+        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM, Sustainable website/Software development and optimising the entire customer journey for maximum impact.
         Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
