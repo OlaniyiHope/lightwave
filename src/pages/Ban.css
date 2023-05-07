@@ -2,6 +2,7 @@
     position: absolute;
     width: 80%;
     margin: auto;
+    margin-top: 100px;
       box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 }
 .accord{
@@ -23,6 +24,9 @@
         font-size: 15px;  
         padding-left: 5px;
     }
+    .accord{
+         margin-bottom: 120px;
+    }
 }
 
 .wrap{
@@ -31,7 +35,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 180px;
+    margin-bottom: 100px;
     margin: auto;
     text-align: justify;
     padding-left: 10px;
@@ -58,4 +63,10 @@
     border-bottom: 1px solid #fff;
     
    
+}
+@media screen and (max-Width: 750px) {
+   
+    .accord{
+         margin-bottom: 100px;
+    }
 }

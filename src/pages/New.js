@@ -14,7 +14,7 @@ import Ban from "./Ban";
 import { Main2 } from "./Main2";
 
 const New = () => {
-
+   
     
     useEffect(() => {
         AOS.init();
@@ -126,14 +126,13 @@ const New = () => {
 </div> 
 
 </section>
-<section id="clients" class="s-clients">
-<h3 class="subhead " style={{textAlign: 'center'}}>Testimonial</h3>
+
+<h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
 
 <Ban />
 
-</section>
 <section id="contact" class="s-contact">
 
 <div class="row section-header" data-aos="fade-up">

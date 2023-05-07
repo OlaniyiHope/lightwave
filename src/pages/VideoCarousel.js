@@ -5,7 +5,8 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
@@ -77,12 +78,12 @@ const Slidde = () => {
 
       <div className="slider-controler">
         <div className="swiper-button-prev slider-arrow">
-          <ion-icon name="arrow-back-outline"></ion-icon>
+        <FaArrowCircleLeft width="100px" color='black' height="100px"/>
         </div>
         <div className="swiper-button-next slider-arrow">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
+        <FaArrowCircleRight width="100px" color='black' height="100px"/>
         </div>
-        <div className="swiper-pagination"></div>
+   
       </div>
     </Swiper>
   </div>

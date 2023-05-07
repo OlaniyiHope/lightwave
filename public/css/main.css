@@ -2907,7 +2907,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/wave2.avif.avif");
+   
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -2917,7 +2917,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .overlay {
-    background-image: url("../images/wave2.avif.avif");
+   
     position: absolute;
     top: 0;
     left: 0;
