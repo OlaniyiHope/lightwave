@@ -6,11 +6,13 @@ const Vids = () => {
  
 
   return (
-    <video>
+   <video>
    <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683345050/show_jzlao1.mp4" />
 
-  
- </video>
+   </video>
+
+
+
   );
 };
 

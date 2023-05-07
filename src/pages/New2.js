@@ -1,5 +1,3 @@
-
-
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 
@@ -24,6 +22,8 @@ const renderVideo = ({
       <video
          src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
 
+        controls
+        controlsList="nodownload"
       ></video>
     )}
   </>
