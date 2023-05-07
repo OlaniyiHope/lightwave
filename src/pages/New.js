@@ -36,7 +36,7 @@ const New = () => {
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p >
-                Our unique blend of User-Generated Content, Paid Social, SEM, Sustainable website/Software and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
+                Our unique blend of User-Generated Content, Paid Social, SEM, Sustainable website/Software development and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
        
