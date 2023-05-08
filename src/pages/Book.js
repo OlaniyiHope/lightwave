@@ -133,7 +133,6 @@ Book A Free Strategy Call With Our Team
             <div class="cinfo">
                 <h5>Call Us At</h5>
                 <p>
-                    Phone: (+44 7)867 266523<br />
                     Mobile: (+44 7) 311 334436<br />
                   
                 </p>
