@@ -64,9 +64,7 @@ const Slidde = () => {
    
       <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" /></video>
       </SwiperSlide>
-      <SwiperSlide>
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4"  /></video>
-      </SwiperSlide>
+     
   
       
    

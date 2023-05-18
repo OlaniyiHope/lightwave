@@ -32,8 +32,10 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>Marketing goals</h1>
-        <p style={{fontSize: "18px"}}>whatever your marketing goals is, please write... We are proud to partner with businesses that share our vision for a better, brighter future
+        <h1 class="display-2" style={{fontSize: "30px"}}>Our Ethos</h1>
+        <p style={{fontSize: "18px"}}>Sustainability + digital innovation are both key drivers of growth for the brands of the future, we noticed 
+        how hard it is to grow your sustainable brand with so many companies claiming to 
+        have eco-friendly credentials. This is why Lightwave creative agency was born
             </p>
             
     </div>
@@ -41,8 +43,9 @@ const About = () => {
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
     <div class="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>What makes us different</h1>
-        <p style={{fontSize: "18px"}}>Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
+        <h1 class="display-2" style={{fontSize: "30px"}}>Our Focus</h1>
+        <p style={{fontSize: "18px"}}>At Lightwave Creative Agency, we focus on combining creativity and concise customer research to make 
+        sure we bring in customers who desire and love your brand through the most innovative and engaging digital marketing strategies.
             </p>
             
     </div>
@@ -165,22 +168,24 @@ const About = () => {
 </div> 
 
 </section> 
-<footer  style={{backgroundColor: "#000"}}>
+<footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
     <div class="col-six tab-full left footer-desc">
+    <div class="footer-logo"></div>
+    Lightwave is a digital marketing powerhouse on a mission to help supercharge sustainable brands and break through the noise. We 
+    offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
+    development. We are proud to be at hte forefront of driving positive change throught our creative 
+    solutions, and we're excited to partner with businesses that share our vision for 
+    a better, brighter future
+</div>
 
-        <div class="footer-logo"></div>
-        Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
-
-    </div>
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
         <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
-
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
@@ -198,7 +203,7 @@ const About = () => {
     <div class="col-twelve">
         <div class="copyright">
             <span>© Copyright LightWave</span> 
-           
+            
         </div>
 
         <div class="go-top">

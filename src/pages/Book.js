@@ -162,17 +162,19 @@ Book A Free Strategy Call With Our Team
 </section>
 
 
-
-<footer  style={{backgroundColor: "#000"}}>
+<footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
     <div class="col-six tab-full left footer-desc">
-
     <div class="footer-logo"></div>
-    Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
-
+    Lightwave is a digital marketing powerhouse on a mission to help supercharge sustainable brands and break through the noise. We 
+    offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
+    development. We are proud to be at hte forefront of driving positive change throught our creative 
+    solutions, and we're excited to partner with businesses that share our vision for 
+    a better, brighter future
 </div>
+
 
     <div class="col-six tab-full right footer-subscribe">
 
@@ -194,8 +196,8 @@ Book A Free Strategy Call With Our Team
 
     <div class="col-twelve">
         <div class="copyright">
-            <span>© Copyright Lightwave</span> 
-          
+            <span>© Copyright LightWave</span> 
+            
         </div>
 
         <div class="go-top">

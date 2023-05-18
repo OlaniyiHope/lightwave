@@ -72,7 +72,7 @@ const Features = () => {
 					<BsPhoneVibrate size="5rem" color="#fff" />
 					</FeatureImageWrapper>
 					<FeatureName>Paid Social</FeatureName>
-					<FeatureText><GoPrimitiveDot  />Setup Manage And Scale Your TikTok/ Meta Ad Campaigns<br></br>
+					<FeatureText>Setup Manage And Scale Your TikTok/ Meta Ad Campaigns<br></br>
 					<GoPrimitiveDot  />Strategic audience targeting<br></br>
 					<GoPrimitiveDot  />Data-driven analysis<br></br>
 					<GoPrimitiveDot  />Constantly testing new angles<br></br>
@@ -93,7 +93,7 @@ const Features = () => {
 					<RiRocketLine size="5rem" color="#fff"  />
 					</FeatureImageWrapper>
 					<FeatureName>SEM + Landing Page</FeatureName>
-					<FeatureText><GoPrimitiveDot  />A holistic approach focusing on every step of the funnel.<br></br>
+					<FeatureText>A holistic approach focusing on every step of the funnel.<br></br>
 					<GoPrimitiveDot  />Optimize your landing pages<br></br>
 					<GoPrimitiveDot  /> Optimize your CTAs.<br></br>
 					<GoPrimitiveDot  />Capture leads.<br></br>
@@ -115,7 +115,7 @@ const Features = () => {
 					<SiGooglemarketingplatform size="5rem" color="#fff"  />
 					</FeatureImageWrapper>
 					<FeatureName>Content Strategy </FeatureName>
-					<FeatureText><GoPrimitiveDot  />We develop a tailored UGC strategy that aligns with your company unique goals and values.<br></br>
+					<FeatureText>We develop a tailored UGC strategy that aligns with your company unique goals and values.<br></br>
 					<GoPrimitiveDot  />Develop a content taxonomy<br></br>
 					<GoPrimitiveDot  /> Establish a process and workflow for content production .<br></br>
 					<GoPrimitiveDot  />Plan and identify your brand voice.<br></br>
@@ -134,9 +134,15 @@ const Features = () => {
 				<FeatureImageWrapper>
 				<FaMobileAlt size="5rem" color="#fff" />
 				</FeatureImageWrapper>
-				<FeatureName>Sustainable Mobile Design</FeatureName>
+				<FeatureName>Sustainable Mobile App</FeatureName>
 				
-					
+				<FeatureText>App development driven by sustainability<br></br>
+				<GoPrimitiveDot  />We use energy-efficient coding, streamline server requests, and implement energy-saving design elements to reduce your app's carbon footprint<br></br>
+				<GoPrimitiveDot  /> We  ensure that your app runs on sustainable infrastructure<br></br>
+
+				
+				
+				</FeatureText>
 				</FeatureColumn>
 				
 					<FeatureColumn
@@ -149,11 +155,14 @@ const Features = () => {
 				<BsGlobe size="5rem" color="#fff" />
 				</FeatureImageWrapper>
 				<FeatureName>Sustainable Website Design</FeatureName>
-				<FeatureText>
+					
+				<FeatureText>We create stunning digital experiences that are also energy-efficient and low-impact on the environment.<br></br>
+				<GoPrimitiveDot  />We optimize code and use energy-saving design elements to minimize your website's carbon footprint.<br></br>
+				<GoPrimitiveDot  />  We prioritize renewable energy sources for web hosting and constantly explore innovative solutions to further reduce environmental impact.<br></br>
+
 				
 				
 				</FeatureText>
-				
 					
 				</FeatureColumn>
 				

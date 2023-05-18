@@ -28,7 +28,8 @@ const New = () => {
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">Who we are</h3>
+            <h2 class=" display-1--light" style={{color: "black"}}>WHO WE ARE</h2>
+
                 <h1 class=" display-1--light">Empowering Sustainable Brands through Digital Marketing</h1>
             </div>
         </div> 
@@ -61,7 +62,7 @@ const New = () => {
     </div>
 </div> 
 
-<div class="row services-list block-1-2 block-tab-full">
+<div class="row services-list block-1-3 block-tab-full">
 
     <div class="col-block service-item" data-aos="fade-up">
         <div class="service-icon">
@@ -234,8 +235,11 @@ const New = () => {
 
     <div class="col-six tab-full left footer-desc">
     <div class="footer-logo"></div>
-    Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
-
+    Lightwave is a digital marketing powerhouse on a mission to help supercharge sustainable brands and break through the noise. We 
+    offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
+    development. We are proud to be at hte forefront of driving positive change throught our creative 
+    solutions, and we're excited to partner with businesses that share our vision for 
+    a better, brighter future
 </div>
 
 

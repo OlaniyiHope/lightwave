@@ -94,7 +94,7 @@ See why top brands use Lightwave
   </div>
 </div>
 <div className="a-right">
-  <h1 className="a-title">carbon neutral web design</h1>
+  <h1 className="a-title">Our Services</h1>
  
   <p className="a-desc">
   It is a long established fact that a reader will be distracted by the
@@ -130,15 +130,17 @@ As part of our commitment to sustainability, we also prioritize the use of renew
 
 
 </section> 
-<footer  style={{backgroundColor: "#000"}}>
+<footer style={{backgroundColor: "#000"}}>
 
 <div class="row footer-main">
 
     <div class="col-six tab-full left footer-desc">
-
     <div class="footer-logo"></div>
-    Lightwave Creative Agency is a team of innovative marketers who specialize in creating authentic and engaging content that tells the unique story of each brand we work with. Whatever your marketing goals, Lightwave is here to help you achieve them
-
+    Lightwave is a digital marketing powerhouse on a mission to help supercharge sustainable brands and break through the noise. We 
+    offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
+    development. We are proud to be at hte forefront of driving positive change throught our creative 
+    solutions, and we're excited to partner with businesses that share our vision for 
+    a better, brighter future
 </div>
 
 
@@ -163,7 +165,7 @@ As part of our commitment to sustainability, we also prioritize the use of renew
     <div class="col-twelve">
         <div class="copyright">
             <span>© Copyright LightWave</span> 
-           
+            
         </div>
 
         <div class="go-top">
