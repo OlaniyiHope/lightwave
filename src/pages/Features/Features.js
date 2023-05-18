@@ -32,7 +32,7 @@ const Features = () => {
 	};
 
 	return (
-		<Section smPadding="50px 10px" position="relative" inverse id="about">
+		<Section position="relative" inverse >
 			<Container>
 				<FeatureTextWrapper>
 					<FeatureTitle>What We Offer</FeatureTitle>
@@ -50,7 +50,7 @@ const Features = () => {
 						<AiFillSetting size="5rem" color="#fff"  />
 					</FeatureImageWrapper>
 					<FeatureName>Performance UGC</FeatureName>
-					<FeatureText><GoPrimitiveDot  />Providing User Generated Content (UGC) that converts  at scale.<br></br>
+					<FeatureText>Providing User Generated Content (UGC) that converts  at scale.<br></br>
 					<GoPrimitiveDot  />In-house team of 30 + content creators and worldwide network.<br></br>
 					<GoPrimitiveDot  />High-quality + engaging content. Match you with the perfect content creators for your brand<br></br>
 					<GoPrimitiveDot  />Guaranteed satisfaction of the UGC content we create.<br></br>

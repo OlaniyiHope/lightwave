@@ -97,11 +97,7 @@ See why top brands use Lightwave
   <h1 className="a-title">Our Services</h1>
  
   <p className="a-desc">
-  It is a long established fact that a reader will be distracted by the
-  readable content.
-  Our eco-friendly website design goes beyond aesthetics; it focuses on creating a digital experience that's not only visually stunning but also energy-efficient and low-impact on the environment. By optimizing code, reducing server requests, and implementing energy-saving design elements, we ensure that your website runs smoothly while minimising its carbon footprint.
-
-As part of our commitment to sustainability, we also prioritize the use of renewable energy sources for web hosting, and we continuously explore innovative solutions to further reduce the environmental impact of your website
+  At Lightwave, we believe that every brand has a unique story to tell, and we are here to help you share that story with the world. We specialize in a wide range of services, including social media management, paid advertising, content creation, web design, and user-generated content campaigns, all aimed at helping your business grow while minimizing its impact on the environment. Let us help you share your story with the world, while making a positive impact on the planet. 
   </p>
 
 </div>
