@@ -1218,9 +1218,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
-.subhead + .display-2 {
-    margin-top: .6rem;
-}
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
@@ -2819,19 +2816,8 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
-.clients-testimonials .testimonials .slick-prev {
-    left: -130px;
-    background-image: url("../images/left-arrow.png");
-}
 
-.clients-testimonials .testimonials .slick-next {
-    right: -130px;
-    background-image: url("../images/right-arrow.png");
-}
 
-.clients-testimonials .testimonials .slick-dots {
-    margin-top: -0.6px;
-}
 
 
 /* ------------------------------------------------------------------- 

@@ -3,7 +3,7 @@ import icons from "./Icons/1.png"
 import icons2 from "./Icons/2.png"
 import icons3 from "./Icons/3.png"
 import { React, useEffect, useRef } from 'react';
-
+import Faq from "./Faq"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./wraps.css"
@@ -42,9 +42,9 @@ const New = () => {
             </div>
        
         </div> 
-       
-       
 
+
+        
         <div class="about__line"></div>
 
     </section> 
@@ -127,12 +127,12 @@ const New = () => {
 </div> 
 
 </section>
-
+<h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Frequently Asked questions</h3>
+<Faq />
 <h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Testimonial</h3>
 <Team />
 {/*<Test />*/}
 
-<Ban />
 
 <section id="contact" class="s-contact">
 
