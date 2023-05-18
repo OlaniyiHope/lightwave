@@ -11,27 +11,27 @@ function Faq () {
     {
       question: '	Is Lightwave sustainable?',
       answer: 'Lightwave is more than just a company - it is a movement. We are passionate about creating a circular economy and making sustainability the norm.',
-      open: true
+      open: false
     },
     {
       question: '	How Many People Will I Be Working With?',
       answer: 'At Lightwave, we believe in providing our clients with the best possible experience. That is why, once you onboard with us, you will be assigned a full, dedicated team to work with you every step of the way.',
-      open: true
+      open: false
     },
     {
       question: '	What Is The Minimum Contract Term?',
       answer: 'Our minimum contract term in Lightwave is 6 months.',
-      open: true
+      open: false
     },
     {
       question: '	Our Guarantee?',
       answer: 'We offer an incredibly high minimum return on Ad spend over our contract time, or we we work for free if not achieved.',
-      open: true
+      open: false
     },
     {
       question: '	What is your company primary mission? ',
       answer: 'Our key goal is to amplify sustainable brands, helping them shine in the crowded digital landscape.',
-      open: true
+      open: false
     },
     {
       question: 'What services do you offer? ',
