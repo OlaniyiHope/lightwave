@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 
 
-import imagess from "./images/sus5.avif.png"
+import imagess from "./images/sus5.png"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
