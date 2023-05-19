@@ -21,7 +21,7 @@ import { Banner2 } from './Banner2';
 import { Skills } from './Skills';
 import { Banner } from './Banner';
 import Features from './Features/Features';
-
+import imaggess from "./images/sus5.png"
 const Services = () => {
     useEffect(() => {
         AOS.init();
@@ -31,51 +31,54 @@ const Services = () => {
    <>
 
    <div>
-   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./sus5.png" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="home-content">
+   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
 
-<div class="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-See why top brands use Lightwave 
-</h1>
-
-
-
-<div class="home-content__buttons">
+   <div class="home-content">
+   
+   <div class="row home-content__main">
    
    
-  
-    <a href="/book" class="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
-</div>
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-
-        </ul>  
-
+   <h1 data-aos="zoom-in">
+See why top brands use Lightwave
+   </h1>
+   
+   
+   
+   <div class="home-content__buttons">
       
-</section>
+      
+     
+       <a href="/book" class="smoothscroll btn btn--stroke">
+       Book a call
+       </a>
+   </div>
+   
+   </div>
+   <div class="home-content__scroll">
+                   <a href="#about" class="scroll-link smoothscroll">
+                       <span>Scroll Down</span>
+                   </a>
+               </div>
+               <div class="home-content__line"></div>
+               </div>
+   
+               <ul class="home-social">
+               <li>
+                   <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+               </li>
+               <li>
+                   <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+               </li>
+               <li>
+                   <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+               </li>
+   
+           </ul>  
+   
+   
+   
+   </section> 
+   
    
 <div className="a">
 <div className="a-left">
