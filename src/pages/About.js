@@ -1,6 +1,6 @@
 
 import { React, useEffect } from 'react';
-import imagess from "./wave.jpg"
+import images from "./wave.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import low from "./frame.jpg"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
@@ -26,7 +26,7 @@ const About = () => {
    
 <div>
 
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imagess} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={images} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
 <div class="overlay"></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
