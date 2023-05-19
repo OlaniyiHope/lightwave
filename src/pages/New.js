@@ -12,6 +12,7 @@ import New2 from "./New2"
 import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
+import Photo from "./Photo";
 
 const New = () => {
    
@@ -123,7 +124,7 @@ const New = () => {
 
 
 <div class="row works-content">
-<Slidde />
+<Photo />
 </div> 
 
 </section>
