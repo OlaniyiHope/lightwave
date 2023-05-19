@@ -21,12 +21,12 @@ const Testimonial = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./images/wheel.jpg" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
+<section id="home" className="s-home target-section" data-parallax="scroll" data-image-src="./images/wheel.jpg" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+<div className="overlay"></div>
 
-<div class="home-content">
+<div className="home-content">
 
-<div class="row home-content__main">
+<div className="row home-content__main">
 
 
 <h1 data-aos="zoom-in">
