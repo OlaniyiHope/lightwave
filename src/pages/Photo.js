@@ -1,9 +1,9 @@
 import "./VideoCarousel.css";
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import Vid1 from "./videos/vid1.mp4";
-import Vid2 from "./videos/vid2.mp4";
-import Vid3 from "./videos/vid3.mp4";
+import Vid1 from "../pages/let.mp4";
+import Vid2 from "../pages/six.mp4";
+import Vid3 from "../pages/news.mp4";
 import ReactPlayer from "react-player";
 import "bootstrap/dist/css/bootstrap.css";
 
