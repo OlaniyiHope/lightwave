@@ -18,7 +18,7 @@ import VIDEO_PATH6 from "../pages/buy.mp4";
 
 const VideoCarousel = () => {
 
-
+ 
   return (
 
     <div className="container">
