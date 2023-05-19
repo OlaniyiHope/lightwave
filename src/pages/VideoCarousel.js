@@ -16,7 +16,7 @@ import VIDEO_PATH1 from "../pages/six.mp4";
 import VIDEO_PATH5 from "../pages/news.mp4";
 import VIDEO_PATH6 from "../pages/buy.mp4";
 
-const Slidde = () => {
+const VideoCarousel = () => {
 
 
   return (
@@ -83,4 +83,4 @@ const Slidde = () => {
   );
 };
 
-export default Slidde;
+export default VideoCarousel;
