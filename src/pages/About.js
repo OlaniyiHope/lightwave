@@ -25,11 +25,11 @@ const About = () => {
    
 <div>
 
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
+<section id="home" className="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
 
-<div class="home-content">
+<div className="home-content">
 
-<div class="row home-content__main">
+<div className="row home-content__main">
 
 
 <h1 data-aos="zoom-in">
@@ -38,30 +38,30 @@ About Us
 
 
 
-<div class="home-content__buttons">
+<div className="home-content__buttons">
    
    
   
-    <a href="/book" class="smoothscroll btn btn--stroke">
+    <a href="/book" className="smoothscroll btn btn--stroke">
     Book a call
     </a>
 </div>
 
 </div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
+<div className="home-content__scroll">
+                <a href="#about" className="scroll-link smoothscroll">
                     <span>Scroll Down</span>
                 </a>
             </div>
-            <div class="home-content__line"></div>
+            <div className="home-content__line"></div>
             </div>
 
-            <ul class="home-social">
+            <ul className="home-social">
             <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                <a href="#0"><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                <a href="#0"><i className="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
                 <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
@@ -73,11 +73,11 @@ About Us
 
 </section> 
 
-<section id='services' class="s-services">
-<div class="row section-header has-bottom-sep" data-aos="fade-up">
-    <div class="col-full">
+<section id='services' className="s-services">
+<div className="row section-header has-bottom-sep" data-aos="fade-up">
+    <div className="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>Our Ethos</h1>
+        <h1 className="display-2" style={{fontSize: "30px"}}>Our Ethos</h1>
         <p style={{fontSize: "18px"}}>Sustainability + digital innovation are both key drivers of growth for the brands of the future, we noticed 
         how hard it is to grow your sustainable brand with so many companies claiming to 
         have eco-friendly credentials. This is why Lightwave creative agency was born
@@ -85,31 +85,31 @@ About Us
             
     </div>
 </div> 
-<div class="row section-header has-bottom-sep" data-aos="fade-up">
-    <div class="col-full">
+<div className="row section-header has-bottom-sep" data-aos="fade-up">
+    <div className="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>Our Focus</h1>
+        <h1 className="display-2" style={{fontSize: "30px"}}>Our Focus</h1>
         <p style={{fontSize: "18px"}}>At Lightwave Creative Agency, we focus on combining creativity and concise customer research to make 
         sure we bring in customers who desire and love your brand through the most innovative and engaging digital marketing strategies.
             </p>
             
     </div>
 </div> 
-<div class="row section-header has-bottom-sep" data-aos="fade-up">
-    <div class="col-full">
+<div className="row section-header has-bottom-sep" data-aos="fade-up">
+    <div className="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>Our Mission and Vision </h1>
+        <h1 className="display-2" style={{fontSize: "30px"}}>Our Mission and Vision </h1>
     </div>
 </div> 
 
-<div class="row services-list block-1-2 block-tab-full">
+<div className="row services-list block-1-2 block-tab-full">
 
-    <div class="col-block service-item" data-aos="fade-up">
-        <div class="service-icon">
+    <div className="col-block service-item" data-aos="fade-up">
+        <div className="service-icon">
    
         <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
         </div>
-        <div class="service-text">
+        <div className="service-text">
            
             <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
             <GoPrimitiveDot />To Become a carbon-neutral company by 2024. 
@@ -130,12 +130,12 @@ About Us
 
   
 
-    <div class="col-block service-item" data-aos="fade-up">
+    <div className="col-block service-item" data-aos="fade-up">
  
-    <div class="item-folio">
+    <div className="item-folio">
             
-        <div class="item-folio__thumb">
-            <a href={shu} class="thumb-link" title="Shutterbug" data-size="950x600">
+        <div className="item-folio__thumb">
+            <a href={shu} className="thumb-link" title="Shutterbug" data-size="950x600">
                 <img src={shu}
                      srcset={shu}  alt="" />
             </a>
@@ -152,24 +152,24 @@ About Us
   
 </div> 
 
-<div class="row section-header has-bottom-sep" data-aos="fade-up">
-    <div class="col-full">
+<div className="row section-header has-bottom-sep" data-aos="fade-up">
+    <div className="col-full">
        
-        <h1 class="display-2" style={{fontSize: "30px"}}>Why brands trust us</h1>
+        <h1 className="display-2" style={{fontSize: "30px"}}>Why brands trust us</h1>
     </div>
 </div> 
 
-<div class="row services-list block-1-2 block-tab-full">
+<div className="row services-list block-1-2 block-tab-full">
 
  
   
 
-    <div class="col-block service-item" data-aos="fade-up">
+    <div className="col-block service-item" data-aos="fade-up">
  
-    <div class="item-folio">
+    <div className="item-folio">
             
-        <div class="item-folio__thumb">
-            <a href={shu5} class="thumb-link" title="Shutterbug" data-size="950x600">
+        <div className="item-folio__thumb">
+            <a href={shu5} className="thumb-link" title="Shutterbug" data-size="950x600">
                 <img src={shu5}
                      srcset={shu5}  alt="" />
             </a>
@@ -180,12 +180,12 @@ About Us
     </div>
 
     </div>
-    <div class="col-block service-item" data-aos="fade-up">
-    <div class="service-icon">
+    <div className="col-block service-item" data-aos="fade-up">
+    <div className="service-icon">
 
     <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
     </div>
-    <div class="service-text">
+    <div className="service-text">
        
         <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
         <GoPrimitiveDot />We are results-driven.
@@ -215,10 +215,10 @@ About Us
 </section> 
 <footer style={{backgroundColor: "#000"}}>
 
-<div class="row footer-main">
+<div className="row footer-main">
 
-    <div class="col-six tab-full left footer-desc">
-    <div class="footer-logo"></div>
+    <div className="col-six tab-full left footer-desc">
+    <div className="footer-logo"></div>
     Lightwave is a digital marketing powerhouse on a mission to help supercharge sustainable brands and break through the noise. We 
     offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
     development. We are proud to be at hte forefront of driving positive change throught our creative 
@@ -227,15 +227,15 @@ About Us
 </div>
 
 
-    <div class="col-six tab-full right footer-subscribe">
+    <div className="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
         <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
-        <div class="subscribe-form">
-            <form id="mc-form" class="group" novalidate="true">
-                <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
+        <div className="subscribe-form">
+            <form id="mc-form" className="group" novalidate="true">
+                <input type="email" value="" name="EMAIL" className="email" id="mc-email" placeholder="Email Address" required="" />
                 <input type="submit" name="subscribe" value="Subscribe" />
-                <label for="mc-email" class="subscribe-message"></label>
+                <label for="mc-email" className="subscribe-message"></label>
             </form>
         </div>
 
@@ -243,16 +243,16 @@ About Us
 
 </div> 
 
-<div class="row footer-bottom">
+<div className="row footer-bottom">
 
-    <div class="col-twelve">
-        <div class="copyright">
+    <div className="col-twelve">
+        <div className="copyright">
             <span>© Copyright LightWave</span> 
             
         </div>
 
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        <div className="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
         </div>
     </div>
 
