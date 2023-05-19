@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
-
+import imaggess from "./wave.jpg"
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -25,9 +25,8 @@ const About = () => {
    
 <div>
 
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./wave.jpg" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
-<div class="shadow-overlay"></div>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
+
 <div class="home-content">
 
 <div class="row home-content__main">
@@ -70,8 +69,9 @@ About Us
 
         </ul>  
 
-      
-</section>
+
+
+</section> 
 
 <section id='services' class="s-services">
 <div class="row section-header has-bottom-sep" data-aos="fade-up">
