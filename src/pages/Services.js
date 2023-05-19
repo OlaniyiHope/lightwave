@@ -80,8 +80,8 @@ See why top brands use Lightwave
    </section> 
    
    
-<div classNameName="a">
-<div classNameName="a-left">
+<div className="a">
+<div className="a-left">
  
   <div className="a-card">
     <img
