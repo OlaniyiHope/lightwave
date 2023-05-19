@@ -6,7 +6,7 @@ function Faq () {
     {
       question: '	What is our company primary mission? ',
       answer: 'Our key goal is to amplify sustainable brands, helping them shine in the crowded digital landscape.',
-      open: false
+      open: true
     },
     {
       question: '	Is Lightwave sustainable?',
