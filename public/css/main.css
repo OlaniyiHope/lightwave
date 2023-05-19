@@ -1330,9 +1330,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
-    .s-clients {
-    
-    }
+  
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
@@ -1467,7 +1465,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
@@ -1740,9 +1737,7 @@ opacity: 4;
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
-.yep{
 
-}
 .s-home .overlay {
     position: absolute;
     top: 0;
@@ -2687,9 +2682,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-works {
-      
-    }
+ 
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
     }
