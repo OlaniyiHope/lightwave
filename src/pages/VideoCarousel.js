@@ -46,23 +46,22 @@ const VideoCarousel = () => {
     >
       <SwiperSlide>
         
-     <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4" /></video>
-      
-    
+   
+    <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4"/>
       </SwiperSlide>
       <SwiperSlide>
      
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4"  /></video>
+      <video  src="https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4"  />
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src='https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4' /></video>
+      <video src='https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4' />
       </SwiperSlide>
       <SwiperSlide>
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491919/six_jgvkaz.mp4" /></video>
+      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491919/six_jgvkaz.mp4" />
       </SwiperSlide>
       <SwiperSlide>
    
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" /></video>
+      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
       </SwiperSlide>
      
   
