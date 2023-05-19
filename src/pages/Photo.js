@@ -12,19 +12,19 @@ const Photo = () => {
     {
       id: 1,
       title: "Video 1",
-      src: Vid1,
+      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4",
       credit: "Video by cottonbro from Pexels",
     },
     {
       id: 2,
       title: "Video 2",
-      src: Vid2,
+      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4",
       credit: "Video by cottonbro from Pexels",
     },
     {
       id: 3,
       title: "Video 3",
-      src: Vid3,
+      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4",
       credit: "Video by cottonbro from Pexels",
     },
   ];
