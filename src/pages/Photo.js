@@ -4,8 +4,7 @@ import { Carousel } from "react-bootstrap";
 import Vid1 from "../pages/let.mp4";
 import Vid2 from "../pages/six.mp4";
 import Vid3 from "../pages/news.mp4";
-import ReactPlayer from "react-player";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 const Photo = () => {
   const videoProperties = [
@@ -35,7 +34,7 @@ const Photo = () => {
         {videoProperties.map((videoObj) => {
           return (
             <Carousel.Item key={videoObj.id}>
-              <ReactPlayer
+              <div
                 url={videoObj.src}
                 pip={true}
                 controls={true}
