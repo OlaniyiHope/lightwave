@@ -83,6 +83,7 @@ body {
     color: #757575;
     margin: 0;
     padding: 0;
+   
 }
 
 
@@ -387,23 +388,7 @@ dd {
 /* ------------------------------------------------------------------- 
  * ## responsive video container
  * ------------------------------------------------------------------- */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
 
-.video-container iframe,
-.video-container object,
-.video-container embed,
-.video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -463,6 +448,23 @@ th:last-child, td:last-child {
 button, .btn {
     margin-bottom: 1.2rem;
 }
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 fieldset {
     margin-bottom: 1.5rem;
@@ -521,28 +523,8 @@ form,
  * # preloader
  *
  * ------------------------------------------------------------------- */
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #050505;
-    z-index: 800;
-    height: 100%;
-    width: 100%;
-    display: table;
-}
 
-.no-js #preloader, .oldie #preloader {
-    display: none;
-}
 
-#loader {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 
 .line-scale-pulse-out > div {
     background-color: #159adb;
@@ -1236,9 +1218,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
-.subhead + .display-2 {
-    margin-top: .6rem;
-}
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
@@ -1351,9 +1330,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
-    .s-clients {
-        padding-bottom: 17.4rem;
-    }
+  
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
@@ -1461,7 +1438,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 120px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1488,7 +1465,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
@@ -1743,8 +1719,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-home {
     width: 100%;
     height: 100%;
-    min-height: 786px;
-    background-color: transparent;
+   
+
     position: relative;
     display: table;
 }
@@ -1755,7 +1731,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .4;
+opacity: 4;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
@@ -1768,8 +1744,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .6;
-    background-color: #000000;
+opacity: 6;
+
 }
 
 .no-js .s-home {
@@ -2144,6 +2120,7 @@ html.no-csstransitions .home-content__main {
     .home-content__line {
         height: 7.2rem;
     }
+  
 }
 
 @media only screen and (max-width: 500px) {
@@ -2198,7 +2175,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
+    padding-top: 0px;
     padding-bottom: 9rem;
     background-color: #159adb;
     color: #010507;
@@ -2493,8 +2470,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
     background: #FFFFFF;
-    padding: 0 0 15rem 0;
-    min-height: 800px;
+   
+    
     position: relative;
 }
 
@@ -2705,9 +2682,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-works {
-        padding-bottom: 12rem;
-    }
+ 
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
     }
@@ -2732,7 +2707,7 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
+   
     color: #757575;
     position: relative;
 }
@@ -2748,17 +2723,6 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.clients__slide {
-    display: block;
-    opacity: .55;
-    padding: 1.5rem 2.8rem;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.clients__slide:hover, .clients__slide:focus {
-    opacity: 1;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -2845,19 +2809,8 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
-.clients-testimonials .testimonials .slick-prev {
-    left: -130px;
-    background-image: url("../images/left-arrow.png");
-}
 
-.clients-testimonials .testimonials .slick-next {
-    right: -130px;
-    background-image: url("../images/right-arrow.png");
-}
 
-.clients-testimonials .testimonials .slick-dots {
-    margin-top: -0.6px;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -2933,23 +2886,24 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+   
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    
     position: relative;
 }
 
 .s-contact .overlay {
+   
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
+  
 }
 
 .s-contact .form-field {
@@ -2974,7 +2928,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #159adb;
+    background: #fff;
 }
 
 .s-contact .form-field label::after {
@@ -2985,14 +2939,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #159adb;
+    border-right: 5px solid #fff;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #159adb;
+    background-color: #fff;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3019,7 +2973,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #159adb;
+    color: #fff;
 }
 
 .contact-content input[type="email"],
@@ -3046,7 +3000,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #159adb;
+    border-bottom: 1px solid #fff;
 }
 
 .contact-content button,
@@ -3056,31 +3010,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #fff;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #fff;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #fff;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #fff;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #fff !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3137,7 +3091,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #159adb;
+    color: #fff;
 }
 
 .contact-social li:last-child {
@@ -3160,7 +3114,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #159adb;
+    color: #fff;
 }
 
 .message-warning i, .message-success i {
@@ -3331,7 +3285,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 5rem 0 3rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3381,10 +3335,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 150px;
+    height: 150px;
+    background: url("../images/light.png") no-repeat center;
+    background-size: 150px 150px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
