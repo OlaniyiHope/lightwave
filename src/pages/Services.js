@@ -1,7 +1,4 @@
 import { React, useEffect } from 'react';
-
-
-import images from "./images/sus5.png"
 import wood from "./images/portfolio/gallery/g-woodcraft.jpg"
 import wood1 from "./images/portfolio/woodcraft.jpg"
 import bee from "./images/portfolio/gallery/g-beetle.jpg"
@@ -34,7 +31,7 @@ const Services = () => {
    <>
 
    <div>
-   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={images} data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
+   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./sus5.png" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
 <div class="overlay"></div>
 <div class="shadow-overlay"></div>
 <div class="home-content">
