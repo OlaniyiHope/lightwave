@@ -31,11 +31,11 @@ const Services = () => {
    <>
 
    <div>
-   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
+   <section id="home" className="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
 
-   <div class="home-content">
+   <div className="home-content">
    
-   <div class="row home-content__main">
+   <div className="row home-content__main">
    
    
    <h1 data-aos="zoom-in">
@@ -44,33 +44,33 @@ See why top brands use Lightwave
    
    
    
-   <div class="home-content__buttons">
+   <div className="home-content__buttons">
       
       
      
-       <a href="/book" class="smoothscroll btn btn--stroke">
+       <a href="/book" className="smoothscroll btn btn--stroke">
        Book a call
        </a>
    </div>
    
    </div>
-   <div class="home-content__scroll">
-                   <a href="#about" class="scroll-link smoothscroll">
+   <div className="home-content__scroll">
+                   <a href="#about" className="scroll-link smoothscroll">
                        <span>Scroll Down</span>
                    </a>
                </div>
-               <div class="home-content__line"></div>
+               <div className="home-content__line"></div>
                </div>
    
-               <ul class="home-social">
+               <ul className="home-social">
                <li>
-                   <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                   <a href="#0"><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
                </li>
                <li>
-                   <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                   <a href="#0"><i className="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
                </li>
                <li>
-                   <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                   <a href="#0"><i className="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
                </li>
    
            </ul>  
@@ -80,8 +80,8 @@ See why top brands use Lightwave
    </section> 
    
    
-<div className="a">
-<div className="a-left">
+<div classNameName="a">
+<div classNameName="a-left">
  
   <div className="a-card">
     <img
@@ -106,15 +106,15 @@ See why top brands use Lightwave
 <Benefits />
 {/*<Banner2 />*/}
 
-<section id='works' class="s-works" style={{marginTop: '30px'}}>
+<section id='works' className="s-works" style={{marginTop: '30px'}}>
 
-<div class="intro-wrap">
+<div className="intro-wrap">
         
-    <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-        <div class="col-full">
+    <div className="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+        <div className="col-full">
             
-            <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
-            <h3 class="subhead ">Made in Collaboration by our Creative Partner</h3>
+            <h1 className="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
+            <h3 className="subhead ">Made in Collaboration by our Creative Partner</h3>
         </div>
       
     </div> 
