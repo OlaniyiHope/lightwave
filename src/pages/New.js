@@ -13,6 +13,7 @@ import New2 from "./New2"
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
 import Viding from "./Viding";
+import VideoCarousel from "./VideoCarousel";
 
 const New = () => {
    
@@ -125,7 +126,7 @@ const New = () => {
 
 <div class="row works-content">
 
-<Viding />
+<VideoCarousel />
 </div> 
 
 </section>
