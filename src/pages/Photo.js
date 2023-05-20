@@ -5,6 +5,7 @@ import Vid1 from "../pages/let.mp4";
 import Vid2 from "../pages/six.mp4";
 import Vid3 from "../pages/news.mp4";
 import ReactPlayer from "react-player";
+import VideoCarousel from "./VideoCarousel";
 
 
 const Photo = () => {
@@ -49,6 +50,7 @@ const Photo = () => {
           );
         })}
       </Carousel>
+      <VideoCarousel />
     </div>
   );
 };
