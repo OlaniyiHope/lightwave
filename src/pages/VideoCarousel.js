@@ -54,7 +54,7 @@ const VideoCarousel = () => {
     <img src={VIDEO_PATH5} alt="slide_image" />
   </SwiperSlide>
     <SwiperSlide>
-    <img src={VIDEO_PATH6} alt="slide_image" />
+    <img   src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"/>
   </SwiperSlide>
    
    
