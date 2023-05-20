@@ -11,10 +11,10 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import VIDEO_PATH2 from "../pages/let.mp4";
-import VIDEO_PATH1 from "../pages/six.mp4";
-import VIDEO_PATH5 from "../pages/news.mp4";
-import VIDEO_PATH6 from "../pages/buy.mp4";
+import VIDEO_PATH2 from "./images/contact-bg.jpg";
+import VIDEO_PATH1 from "./images/ggg.jpg";
+import VIDEO_PATH5 from "./images/sus5.png";
+import VIDEO_PATH6 from "./images/sus3.jpg";
 
 const VideoCarousel = () => {
 
@@ -44,28 +44,19 @@ const VideoCarousel = () => {
       modules={[EffectCoverflow, Pagination, Navigation]}
       className="swiper_container"
     >
-      <SwiperSlide>
-        
+    <SwiperSlide>
+    <img src={VIDEO_PATH2} alt="slide_image" />
+  </SwiperSlide>
+    <SwiperSlide>
+    <img src={VIDEO_PATH1} alt="slide_image" />
+  </SwiperSlide>
+    <SwiperSlide>
+    <img src={VIDEO_PATH5} alt="slide_image" />
+  </SwiperSlide>
+    <SwiperSlide>
+    <img src={VIDEO_PATH6} alt="slide_image" />
+  </SwiperSlide>
    
-    <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4"/>
-      </SwiperSlide>
-      <SwiperSlide>
-     
-      <video  src="https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4"  />
-      </SwiperSlide>
-      <SwiperSlide>
-      <video src='https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4' />
-      </SwiperSlide>
-      <SwiperSlide>
-      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491919/six_jgvkaz.mp4" />
-      </SwiperSlide>
-      <SwiperSlide>
-   
-      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
-      </SwiperSlide>
-     
-  
-      
    
 
       <div className="slider-controler">
