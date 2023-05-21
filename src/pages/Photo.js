@@ -8,6 +8,7 @@ import ReactPlayer from "react-player";
 import VideoCarousel from "./VideoCarousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from "react-alice-carousel";
+import VideoSliderCarousel from "./VideoSliderCarousel";
 
 const Photo = () => {
     const [mainIndex, setMainIndex] = useState(0);
@@ -24,9 +25,7 @@ const Photo = () => {
       }
     };
   const items = [
-    
-
-        <video  controls >
+           <video  controls >
         <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
       
       </video>,
@@ -43,6 +42,7 @@ const Photo = () => {
   ];
 
   return (
+    <>
     <div className="App">
          <AliceCarousel
         activeIndex={mainIndex}
@@ -59,6 +59,8 @@ const Photo = () => {
     </div>
     
     </div>
+    <VideoSliderCarousel />
+    </>
   );
 };
 

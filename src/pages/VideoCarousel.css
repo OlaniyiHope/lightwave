@@ -185,3 +185,14 @@ width: 80%;
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+
+
+
+.slick-slider {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.slick-slide {
+  text-align: center;
+}
