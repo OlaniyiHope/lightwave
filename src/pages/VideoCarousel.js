@@ -11,10 +11,10 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import VIDEO_PATH2 from "../pages/let.mp4";
-import VIDEO_PATH1 from "../pages/six.mp4";
-import VIDEO_PATH5 from "../pages/news.mp4";
-import VIDEO_PATH6 from "../pages/buy.mp4";
+import VIDEO_PATH1 from "./images/contact-bg.jpg";
+import VIDEO_PATH2 from "./images/hero-bg.jpg";
+import VIDEO_PATH3 from "../pages/sustain.jpeg";
+import VIDEO_PATH4 from "../pages/amp.jpeg";
 
 const Slidde = () => {
 
@@ -44,25 +44,25 @@ const Slidde = () => {
       modules={[EffectCoverflow, Pagination, Navigation]}
       className="swiper_container"
     >
-      <SwiperSlide>
+    <SwiperSlide>
         
-     <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4" /></video>
-      
-    
-      </SwiperSlide>
-      <SwiperSlide>
+    <img src={VIDEO_PATH1} />
      
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4"  /></video>
-      </SwiperSlide>
-      <SwiperSlide>
-      <video controls><source src='https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4' /></video>
-      </SwiperSlide>
-      <SwiperSlide>
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491919/six_jgvkaz.mp4" /></video>
-      </SwiperSlide>
+   
+     </SwiperSlide>
+     <SwiperSlide>
+    
+     <img src={VIDEO_PATH2}  />
+     </SwiperSlide>
+     <SwiperSlide>
+     <img src={VIDEO_PATH3} />
+     </SwiperSlide>
+     <SwiperSlide>
+     <img src={VIDEO_PATH4} />
+     </SwiperSlide>
       <SwiperSlide>
    
-      <video controls><source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" /></video>
+      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
       </SwiperSlide>
      
   
