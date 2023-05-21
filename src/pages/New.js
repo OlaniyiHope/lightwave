@@ -22,7 +22,7 @@ const New = () => {
   return (
   
 <>
-
+<New2 />
 
 <section id='about' class="s-about">
 
