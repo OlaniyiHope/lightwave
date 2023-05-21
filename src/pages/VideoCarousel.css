@@ -60,7 +60,7 @@ body {
 }
 
 .container {
-  max-width: 124rem;
+width: 80%;
   padding: 4rem 1rem;
   margin: 0 auto;
 }
@@ -74,6 +74,8 @@ body {
 .swiper_container {
   height: 52rem;
   padding: 2rem 0;
+  margin: auto;
+
   position: relative;
 }
 
@@ -83,7 +85,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 2000px) {
   .swiper_container {
     height: 47rem;
   }
@@ -91,13 +93,13 @@ body {
     width: 28rem !important;
     height: 36rem !important;
   }
-  .swiper-slide img {
+  .swiper-slide video {
     width: 28rem !important;
     height: 36rem !important;
   }
 }
 
-.swiper-slide img {
+.swiper-slide video {
   width: 37rem;
   height: 42rem;
   border-radius: 2rem;
@@ -173,6 +175,7 @@ body {
   position: relative;
   width: 15rem !important;
   bottom: 1rem;
+  margin: auto;
 }
 
 .swiper-pagination .swiper-pagination-bullet {

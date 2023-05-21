@@ -10,7 +10,6 @@ import Book from './pages/Book';
 import Services from './pages/Services';
 import { Banner } from './pages/Banner';
 import New2 from "./pages/New2"
-import Photo from './pages/Photo';
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
       <Route exact path="/services" element={<Services />}/>
       <Route exact path="/blog" element={<Testimonial />}/>
       <Route exact path="/book" element={<Book />}/>
-      <Route exact path="/photo" element={<Photo />}/>
     
         </Routes>
       </Router>

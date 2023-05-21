@@ -9,11 +9,9 @@ import 'aos/dist/aos.css';
 import "./wraps.css"
 import Team from "./Team";
 import New2 from "./New2"
-
+import Slidde from "./VideoCarousel";
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
-import Viding from "./Viding";
-import VideoCarousel from "./VideoCarousel";
 
 const New = () => {
    
@@ -125,8 +123,7 @@ const New = () => {
 
 
 <div class="row works-content">
-
-<VideoCarousel />
+<Slidde />
 </div> 
 
 </section>
