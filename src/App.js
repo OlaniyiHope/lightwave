@@ -12,6 +12,7 @@ import { Banner } from './pages/Banner';
 import New2 from "./pages/New2"
 import Feather from './pages/Feather';
 import Myslide from './pages/Myslide';
+import Photo from './pages/Photo';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route exact path="/book" element={<Book />}/>
       <Route exact path="/feather" element={<Feather />}/>
       <Route exact path="/myslide" element={<Myslide />}/>
+      <Route exact path="/photo" element={<Photo />}/>
     
         </Routes>
       </Router>
