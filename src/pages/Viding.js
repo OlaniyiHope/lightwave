@@ -1,74 +1,38 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useState } from 'react';
+ const videos = [
+	{
+        "url":"https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+	},
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+	{
+        "url":"https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+	},
+	{
+        "url":"https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+	},
+	{
+        "url":"https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+	},
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper';
-import "./viding.css"
-import slide_image_1 from '../pages/six.mp4';
-import slide_image_2 from '../pages/let.mp4';
-import slide_image_5 from '../pages/news.mp4';
-import slide_image_6 from '../pages/six.mp4';
-import slide_image_7 from '../pages/let.mp4';
+];
+const Viding = ({ videos }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? videos.length - 1 : prevIndex - 1));
+  };
 
-function Viding() {
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === videos.length - 1 ? 0 : prevIndex + 1));
+  };
+
   return (
-    <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          clickable: true,
-        }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
-      >
-        <SwiperSlide>
-          <video src={slide_image_1} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src={slide_image_2} alt="slide_image" />
-        </SwiperSlide>
-      
-        <SwiperSlide>
-          <video src={slide_image_5} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src={slide_image_6} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <video src={slide_image_7} alt="slide_image" />
-        </SwiperSlide>
-
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </Swiper>
+    <div>
+      <button onClick={handlePrev}>Prev</button>
+      <video src={videos[currentIndex]} controls />
+      <button onClick={handleNext}>Next</button>
     </div>
   );
-}
+};
 
 export default Viding;

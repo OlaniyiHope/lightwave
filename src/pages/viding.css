@@ -91,18 +91,9 @@ body {
     width: 28rem !important;
     height: 36rem !important;
   }
-  .swiper-slide video {
-    width: 28rem !important;
-    height: 36rem !important;
-  }
+ 
 }
 
-.swiper-slide video {
-  width: 37rem;
-  height: 42rem;
-  border-radius: 2rem;
-  object-fit: cover;
-}
 
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
