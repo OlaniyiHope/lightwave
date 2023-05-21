@@ -1,56 +1,63 @@
-import "./VideoCarousel.css";
-import React from "react";
+import "./wraps.css";
+import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import Vid1 from "../pages/let.mp4";
 import Vid2 from "../pages/six.mp4";
 import Vid3 from "../pages/news.mp4";
 import ReactPlayer from "react-player";
 import VideoCarousel from "./VideoCarousel";
-
+import "react-alice-carousel/lib/alice-carousel.css";
+import AliceCarousel from "react-alice-carousel";
 
 const Photo = () => {
-  const videoProperties = [
-    {
-      id: 1,
-      title: "Video 1",
-      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683488753/4_bgqz8l.mp4",
-      credit: "Video by cottonbro from Pexels",
-    },
-    {
-      id: 2,
-      title: "Video 2",
-      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683491766/mat_lyihem.mp4",
-      credit: "Video by cottonbro from Pexels",
-    },
-    {
-      id: 3,
-      title: "Video 3",
-      src: "https://res.cloudinary.com/dftygokow/video/upload/v1683491825/let_sadcnr.mp4",
-      credit: "Video by cottonbro from Pexels",
-    },
+    const [mainIndex, setMainIndex] = useState(0);
+
+    const slideNext = () => {
+      if (mainIndex < items.length - 1) {
+        setMainIndex(mainIndex + 1);
+      }
+    };
+  
+    const slidePrev = () => {
+      if (mainIndex > 0) {
+        setMainIndex(mainIndex - 1);
+      }
+    };
+  const items = [
+    
+
+        <video  controls >
+        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
+      
+      </video>,
+        <video controls >
+        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
+      
+      </video>,
+        <video controls >
+        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
+      
+      </video>
+    
+    
   ];
 
   return (
     <div className="App">
-      <Carousel>
-        {videoProperties.map((videoObj) => {
-          return (
-            <Carousel.Item key={videoObj.id}>
-              <ReactPlayer
-                url={videoObj.src}
-                pip={true}
-                controls={true}
-                playing={true}
-              />
-              <Carousel.Caption>
-                <h3>{videoObj.title}</h3>
-                <p>{videoObj.credit}</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          );
-        })}
-      </Carousel>
-      <VideoCarousel />
+         <AliceCarousel
+        activeIndex={mainIndex}
+        disableDotsControls
+        disableButtonsControls
+        items={items}
+      />
+     
+      <div className="btn-prev" onClick={slidePrev}>
+      &lang;
+    </div>
+    <div className="btn-next" onClick={slideNext}>
+      &rang;
+    </div>
+    
     </div>
   );
 };
