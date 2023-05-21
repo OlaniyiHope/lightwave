@@ -10,6 +10,8 @@ import Book from './pages/Book';
 import Services from './pages/Services';
 import { Banner } from './pages/Banner';
 import New2 from "./pages/New2"
+import Feather from './pages/Feather';
+import Myslide from './pages/Myslide';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <Route exact path="/services" element={<Services />}/>
       <Route exact path="/blog" element={<Testimonial />}/>
       <Route exact path="/book" element={<Book />}/>
+      <Route exact path="/feather" element={<Feather />}/>
+      <Route exact path="/myslide" element={<Myslide />}/>
     
         </Routes>
       </Router>
