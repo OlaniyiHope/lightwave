@@ -383,7 +383,12 @@ dt {
 dd {
     margin: 0 0 0 2rem;
 }
-
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
 
 /* ------------------------------------------------------------------- 
  * ## responsive video container
