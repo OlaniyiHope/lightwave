@@ -24,7 +24,7 @@ const About = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/wave.jpg" >
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="https://res.cloudinary.com/dftygokow/image/upload/v1684765162/wave_aemqtm.jpg" >
 
      
        
