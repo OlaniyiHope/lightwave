@@ -21,13 +21,13 @@ const VideoSliderCarousel = () => {
 
   return (
     <div>
-      <h2>Video Slider Carousel</h2>
+    
       <Slider {...settings}>
         {videos.map((videoUrl, index) => (
           <div key={index}>
             <iframe
               title={`video-${index}`}
-              width="560"
+              width="1560"
               height="315"
               src={videoUrl}
               frameBorder="0"

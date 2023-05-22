@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
-import imaggess from "./wave.jpg"
+
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -24,54 +24,14 @@ const About = () => {
   return (
    
 <div>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/wave.jpg" >
 
-<section id="home" className="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
-
-<div className="home-content">
-
-<div className="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-About Us
-</h1>
-
-
-
-<div className="home-content__buttons">
-   
-   
-  
-    <a href="/book" className="smoothscroll btn btn--stroke">
-    Book a call
-    </a>
-</div>
-
-</div>
-<div className="home-content__scroll">
-                <a href="#about" className="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div className="home-content__line"></div>
-            </div>
-
-            <ul className="home-social">
-            <li>
-                <a href="#0"><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i className="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-
-        </ul>  
-
-
+     
+       
 
 </section> 
+
+
 
 <section id='services' className="s-services">
 <div className="row section-header has-bottom-sep" data-aos="fade-up">
@@ -107,7 +67,7 @@ About Us
     <div className="col-block service-item" data-aos="fade-up">
         <div className="service-icon">
    
-        <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
+        <FontAwesomeIcon icon="fa-sharp fa-regular " />
         </div>
         <div className="service-text">
            
@@ -183,7 +143,7 @@ About Us
     <div className="col-block service-item" data-aos="fade-up">
     <div className="service-icon">
 
-    <FontAwesomeIcon icon="fa-sharp fa-regular fa-gear" />
+    <FontAwesomeIcon icon="fa-sharp fa-regular " />
     </div>
     <div className="service-text">
        
