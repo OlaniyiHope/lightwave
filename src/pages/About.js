@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
-
+import Good from "./images/light.png"
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -24,7 +24,7 @@ const About = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="https://res.cloudinary.com/dftygokow/image/upload/v1684765162/wave_aemqtm.jpg" >
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={Good} >
 
      
        
