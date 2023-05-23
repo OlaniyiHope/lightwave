@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import Features from './Features/Features';
-import Good from "./images/light.png"
+import Good from "./images/wave.jpg"
 const About = () => {
   useEffect(() => {
     AOS.init();
