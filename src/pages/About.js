@@ -33,36 +33,36 @@ const About = () => {
 
 
 
-<section id='services' className="s-services">
-<div className="row section-header has-bottom-sep" data-aos="fade-up">
-    <div className="col-full">
+<section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
+<div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+    <div className="col-full"style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{fontSize: "30px"}}>Our Ethos</h1>
-        <p style={{fontSize: "18px"}}>Sustainability + digital innovation are both key drivers of growth for the brands of the future, we noticed 
+        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Ethos</h1>
+        <p style={{margin: "auto", textAlign: "center", fontSize: "18px"}}>Sustainability + digital innovation are both key drivers of growth for the brands of the future, we noticed 
         how hard it is to grow your sustainable brand with so many companies claiming to 
         have eco-friendly credentials. This is why Lightwave creative agency was born
             </p>
             
     </div>
 </div> 
-<div className="row section-header has-bottom-sep" data-aos="fade-up">
-    <div className="col-full">
+<div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+    <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{fontSize: "30px"}}>Our Focus</h1>
-        <p style={{fontSize: "18px"}}>At Lightwave Creative Agency, we focus on combining creativity and concise customer research to make 
+        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Focus</h1>
+        <p style={{margin: "auto", textAlign: "center", fontSize: "18px"}}>At Lightwave Creative Agency, we focus on combining creativity and concise customer research to make 
         sure we bring in customers who desire and love your brand through the most innovative and engaging digital marketing strategies.
             </p>
             
     </div>
 </div> 
-<div className="row section-header has-bottom-sep" data-aos="fade-up">
-    <div className="col-full">
+<div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+    <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{fontSize: "30px"}}>Our Mission and Vision </h1>
+        <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Mission and Vision </h1>
     </div>
 </div> 
 
-<div className="row services-list block-1-2 block-tab-full">
+<div className="row services-list block-1-2 block-tab-full" >
 
     <div className="col-block service-item" data-aos="fade-up">
         <div className="service-icon">
@@ -112,14 +112,14 @@ const About = () => {
   
 </div> 
 
-<div className="row section-header has-bottom-sep" data-aos="fade-up">
+<div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
     <div className="col-full">
        
         <h1 className="display-2" style={{fontSize: "30px"}}>Why brands trust us</h1>
     </div>
 </div> 
 
-<div className="row services-list block-1-2 block-tab-full">
+<div className="row services-list block-1-2 block-tab-full" style={{margin: "auto", textAlign: "center", color: "black"}}>
 
  
   
