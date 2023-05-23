@@ -65,8 +65,8 @@ const Slidde = () => {
     width="100%"
     height="100%"
     src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4"
-    allowtransparency="true"
-    allowfullscreen
+allowtransparency="true"
+
   ></iframe>
     
       </SwiperSlide>

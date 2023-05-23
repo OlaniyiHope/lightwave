@@ -20,10 +20,7 @@ const items = [
   </div>,
 
   <div className="item">
-    <video width="100%" controls  className="media">
-      <source  src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
-    
-    </video>
+   
   </div>
 ];
 

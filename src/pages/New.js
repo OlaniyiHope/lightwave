@@ -10,6 +10,7 @@ import "./wraps.css"
 import Team from "./Team";
 import New2 from "./New2"
 import Slidde from "./VideoCarousel";
+import VideoSlide from "../components/VideoSlide"
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
 
@@ -24,19 +25,19 @@ const New = () => {
 <>
 <New2 />
 
-<section id='about' class="s-about">
+<section id='about' class="s-about" style={{margin: "auto", textAlign: "center"}}>
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-            <h2 class=" display-1--light" style={{color: "black"}}>WHO WE ARE</h2>
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
+            <div class="col-full"  style={{margin: "auto", textAlign: "center", color: "#fff;"}}>
+            <h2 class=" display-1--light"style={{margin: "auto", textAlign: "center", color: "black"}}>WHO WE ARE</h2>
 
-                <h1 class=" display-1--light">Empowering Sustainable Brands through Digital Marketing</h1>
+                <h1 class=" display-1--light" style={{margin: "auto", textAlign: "center"}}>Empowering Sustainable Brands through Digital Marketing</h1>
             </div>
         </div> 
 
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-                <p >
+        <div class="row about-desc" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
+            <div class="col-full" style={{margin: "auto", textAlign: "center", color: "black"}} >
+                <p style={{margin: "auto", textAlign: "center", color: "black"}}>
                 Our unique blend of User-Generated Content, Paid Social, SEM, Sustainable website/Software development and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
@@ -49,25 +50,25 @@ const New = () => {
 
     </section> 
   
-    <section id='services' class="s-services">
+    <section id='services' class="s-services" style={{margin: "auto", textAlign: "center", color: "black"}}>
 
-<div class="row section-header has-bottom-sep" data-aos="fade-up">
-    <div class="col-full">
-        <h3 class="subhead">What We Do</h3>
-        <h1 class="display-2">OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM,  and optimising the entire customer journey for maximum impact.
+<div class="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
+    <div class="col-full" style={{margin: "auto", textAlign: "center", color: "black"}}>
+        <h3 class="subhead" style={{margin: "auto", textAlign: "center", color: "black"}}>What We Do</h3>
+        <h1 class="display-2" style={{margin: "auto", textAlign: "center", color: "black"}}>OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
+        <p style={{margin: "auto", textAlign: "center", color: "black", fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM,  and optimising the entire customer journey for maximum impact.
         Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
     </div>
 </div> 
 
-<div class="row services-list block-1-3 block-tab-full">
+<div class="row services-list block-1-3 block-tab-full" style={{margin: "auto", textAlign: "center"}}>
 
-    <div class="col-block service-item" data-aos="fade-up">
+    <div class="col-block service-item" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
         <div class="service-icon">
    
-       <img src={icons} style={{width: '100px', height: "100px"}}/>
+       <img src={icons} style={{width: '100px', height: "100px"}} />
         </div>
         <div class="service-text">
             <h3 class="h2">Creatives that convert</h3>
@@ -107,23 +108,23 @@ const New = () => {
 
 </section> 
 
-<section id='works' class="s-works">
+<section id='works' class="s-works" style={{margin: "auto", textAlign: "center"}}>
 
 <div class="intro-wrap">
         
-    <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-        <div class="col-full">
+    <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+        <div class="col-full" style={{margin: "auto", textAlign: "center"}}>
             
             <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
     </div> 
-   
+    <VideoSlide />
     
 </div> 
 
 
 <div class="row works-content">
-<Slidde />
+
 </div> 
 
 </section>

@@ -25,18 +25,6 @@ const Photo = () => {
     };
   const items = [
     
-       <video  controls >
-        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
-      
-      </video>,
-        <video controls >
-        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
-      
-      </video>,
-        <video controls >
-        <source src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
-      
-      </video>
     
     
   ];
