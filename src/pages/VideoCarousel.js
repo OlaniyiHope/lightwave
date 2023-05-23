@@ -61,8 +61,11 @@ const Slidde = () => {
      <img src={VIDEO_PATH4} />
      </SwiperSlide>
       <SwiperSlide>
-   
-      <video src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4" />
+      <iframe
+    src="https://res.cloudinary.com/dftygokow/video/upload/v1683491996/buy_kjvvhz.mp4"
+  
+  ></iframe>
+    
       </SwiperSlide>
      
   
