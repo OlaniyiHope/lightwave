@@ -115,7 +115,7 @@ const New = () => {
     <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
         <div class="col-full" style={{margin: "auto", textAlign: "center"}}>
             
-            <h1 class="display-2 display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
+            <h1 class="display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
         </div>
     </div> 
     <VideoSlide />
@@ -123,9 +123,6 @@ const New = () => {
 </div> 
 
 
-<div class="row works-content">
-
-</div> 
 
 </section>
 <h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Frequently Asked questions</h3>

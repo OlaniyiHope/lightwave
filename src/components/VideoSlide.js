@@ -5,7 +5,14 @@ import Vid1 from "./videos/mat.mp4";
 import Vid2 from "./videos/news.mp4";
 import Vid3 from "./videos/six.mp4";
 import ReactPlayer from "react-player";
+import "./style.scss"
 
+// <link
+// rel="stylesheet"
+// href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+// integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+// crossorigin="anonymous"
+// />
 
 const VideoSlide = () => {
   const videoProperties = [

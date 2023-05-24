@@ -60,7 +60,7 @@
  *
  * ------------------------------------------------------------------- */
 html {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 @media only screen and (max-width: 400px) {
@@ -460,16 +460,6 @@ button, .btn {
     overflow: hidden;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed,
-.video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 fieldset {
     margin-bottom: 1.5rem;
@@ -1213,7 +1203,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 5.2rem;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -1249,7 +1238,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 7.2rem;
     }
     .display-2 {
-        font-size: 4.4rem;
+
     }
 }
 
@@ -1258,7 +1247,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 6.5rem;
     }
     .display-2 {
-        font-size: 4rem;
+ 
     }
 }
 
@@ -1267,7 +1256,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 5rem;
     }
     .display-2 {
-        font-size: 3.3rem;
+        
     }
     .subhead {
         font-size: 1.5rem;
@@ -2044,7 +2033,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
-        font-size: 5.5rem;
+      
     }
     .home-content__main {
         max-width: 800px;
@@ -2098,7 +2087,7 @@ html.no-csstransitions .home-content__main {
         right: 7.5rem;
     }
     .home-content__line {
-        right: 5.5rem;
+      
     }
 }
 
@@ -2493,7 +2482,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
+    padding: 1rem 0 2.2rem;
     background: #111111;
 }
 
@@ -2701,7 +2690,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 600px) {
  
     .s-works .intro-wrap {
-        padding: 12rem 0 25.2rem;
+        
     }
     .works-content {
         margin-top: -25.2rem;
@@ -3302,20 +3291,20 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 5rem 0 3rem;
-    font-family: "montserrat-light", sans-serif;
-    font-size: 15px;
-    line-height: 2;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    padding: 5rem 0 3rem !important;
+    font-family: "montserrat-light", sans-serif !important;
+    font-size: 15px !important;
+    line-height: 2 !important;
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.3) !important;
 }
 
 footer h4 {
     color: #FFFFFF;
-    font-size: 1.6rem;
-    line-height: 1.313;
-    margin-top: 0;
-    margin-bottom: 3.6rem;
+    font-size: 1.6rem !important;
+    line-height: 1.313 !important;
+    margin-top: 0 !important;
+    margin-bottom: 3.6rem !important;
 }
 
 footer a {
@@ -3327,7 +3316,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 footer .row {
-    max-width: 980px;
+    max-width: 980px !important;
 }
 
 
@@ -3335,57 +3324,57 @@ footer .row {
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
-    text-align: left;
+    text-align: left !important;
 }
 
 .footer-main .left {
-    padding-right: 40px;
+    padding-right: 40px !important;
 }
 
 .footer-main .right {
-    padding-left: 40px;
+    padding-left: 40px !important;
 }
 
 .footer-logo {
-    display: block;
-    margin: -.6rem 0 3.6rem 0;
-    padding: 0;
-    outline: 0;
-    border: none;
-    width: 150px;
-    height: 150px;
-    background: url("../images/light.png") no-repeat center;
-    background-size: 150px 150px;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    display: block !important;
+    margin: -.6rem 0 3.6rem 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    border: none !important;
+    width: 150px !important;
+    height: 150px !important;
+    background: url("../images/light.png") no-repeat center !important;
+    background-size: 150px 150px !important;
+    font: 0/0 a !important;
+    text-shadow: none !important;
+    color: transparent !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
 }
 
 .footer-subscribe .subscribe-form {
-    margin: 0;
-    padding: 0;
-    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
 }
 
 .footer-subscribe #mc-form {
-    width: 100%;
+    width: 100% !important;
 }
 
 .footer-subscribe #mc-form input[type="email"] {
-    width: 100%;
-    height: 5.4rem;
-    padding: 1.2rem 160px 1.2rem 60px;
-    background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
-    background-size: 24px 16px, auto;
-    border: none;
-    margin-bottom: 1.8rem;
-    color: rgba(255, 255, 255, 0.5);
+    width: 100% !important;
+    height: 5.4rem !important;
+    padding: 1.2rem 160px 1.2rem  !important;
+    background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1) !important;
+    background-size: 24px 16px, auto !important;
+    border: none !important;
+    margin-bottom: 1.8rem !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .footer-subscribe #mc-form input[type="email"]:focus {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
 .footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
@@ -3411,13 +3400,13 @@ footer .row {
 }
 
 .footer-subscribe #mc-form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
     color: #FFFFFF;
     background: #159adb;
     border-color: #159adb;
-    padding: 0 20px;
+    padding: 0 20px !important;
 }
 
 .footer-subscribe #mc-form label {
@@ -3428,7 +3417,7 @@ footer .row {
 }
 
 .footer-subscribe #mc-form label i {
-    padding-right: 6px;
+    padding-right: 6px !important;
 }
 
 
@@ -3436,24 +3425,24 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
-    text-align: center;
-    font-size: 14px;
+    margin-top: 5.4rem !important;
+    text-align: center !important;
+    font-size: 14px !important;
 }
 
 .footer-bottom .copyright span {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 .footer-bottom .copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.05);
+    content: "|" !important;
+    display: inline-block !important;
+    padding: 0 1rem 0 1.2rem !important;
+    color: rgba(255, 255, 255, 0.05) !important;
 }
 
 .footer-bottom .copyright span:last-child::after {
-    display: none;
+    display: none !important;
 }
 
 
@@ -3500,70 +3489,70 @@ footer .row {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
     .footer-main .left {
-        padding-right: 20px;
+        padding-right: 20px !important;
     }
     .footer-main .right {
-        padding-left: 20px;
+        padding-left: 20px !important;
     }
 }
 
 @media only screen and (max-width: 800px) {
     footer .row {
-        max-width: 600px;
+        max-width: 600px !important;
     }
     .footer-main .left {
         padding-right: 15px;
-        margin-bottom: 4.2rem;
+        margin-bottom: 4.2rem !important;
     }
     .footer-main .right {
-        padding-left: 15px;
+        padding-left: 15px !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .footer-main .left {
-        padding-right: 10px;
+        padding-right: 10px !important;
     }
     .footer-main .right {
-        padding-left: 10px;
+        padding-left: 10px !important;
     }
     .footer-logo {
-        margin: -.6rem auto 3.6rem;
+        margin: -.6rem auto 3.6rem !important;
     }
     .footer-bottom {
-        padding-bottom: .6rem;
+        padding-bottom: .6rem !important;
     }
     .footer-bottom .copyright span {
-        display: block;
+        display: block !important;
     }
     .footer-bottom .copyright span::after {
-        display: none;
+        display: none !important;
     }
     .go-top {
-        right: 0;
-        bottom: 0;
+        right: 0 !important;
+        bottom: 0 !important;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .footer-subscribe #mc-form input[type="email"] {
-        padding: 1.2rem 20px 1.2rem;
-        background: rgba(0, 0, 0, 0.1);
-        text-align: center;
+        padding: 1.2rem 20px 1.2rem !important;
+        background: rgba(0, 0, 0, 0.1) !important;
+        text-align: center !important;
     }
     .footer-subscribe #mc-form input[type=submit] {
-        position: static;
-        width: 100%;
-        margin-bottom: 1.8rem;
+        position: static !important;
+        width: 100% !important;
+        margin-bottom: 1.8rem !important;
     }
     .footer-subscribe #mc-form label {
-        text-align: center;
+        text-align: center !important;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .footer-main .left {
-        padding-right: 0;
+        padding-right: 0 !important;
     }
     .footer-main .right {
         padding-left: 0;
