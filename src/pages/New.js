@@ -25,19 +25,19 @@ const New = () => {
 <>
 <New2 />
 
-<section id='about' class="s-about" style={{margin: "auto", textAlign: "center"}}>
+<section id='about' class="s-about" >
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
-            <div class="col-full"  style={{margin: "auto", textAlign: "center", color: "#fff;"}}>
-            <h2 class=" display-1--light"style={{margin: "auto", textAlign: "center", color: "black"}}>WHO WE ARE</h2>
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" >
+            <div class="col-full"  >
+            <h2 class=" display-1--light" >WHO WE ARE</h2>
 
-                <h1 class=" display-1--light" style={{margin: "auto", textAlign: "center"}}>Empowering Sustainable Brands through Digital Marketing</h1>
+                <h1 class=" display-1--light" >Empowering Sustainable Brands through Digital Marketing</h1>
             </div>
         </div> 
 
-        <div class="row about-desc" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
-            <div class="col-full" style={{margin: "auto", textAlign: "center", color: "black"}} >
-                <p style={{margin: "auto", textAlign: "center", color: "black"}}>
+        <div class="row about-desc" data-aos="fade-up" >
+            <div class="col-full"  >
+                <p >
                 Our unique blend of User-Generated Content, Paid Social, SEM, Sustainable website/Software development and cutting-edge technology positions us as pioneers in the sustainable e-commerce industry. We’re proud to be at the forefront of driving positive change through our creative solutions, and we’re excited to partner with businesses that share our visions for a better, brighter future.
                 </p>
             </div>
@@ -50,13 +50,13 @@ const New = () => {
 
     </section> 
   
-    <section id='services' class="s-services" style={{margin: "auto", textAlign: "center", color: "black"}}>
+    <section id='services' class="s-services" >
 
-<div class="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center", color: "black"}}>
-    <div class="col-full" style={{margin: "auto", textAlign: "center", color: "black"}}>
-        <h3 class="subhead" style={{margin: "auto", textAlign: "center", color: "black"}}>What We Do</h3>
-        <h1 class="display-2" style={{margin: "auto", textAlign: "center", color: "black"}}>OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
-        <p style={{margin: "auto", textAlign: "center", color: "black", fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM,  and optimising the entire customer journey for maximum impact.
+<div class="row section-header has-bottom-sep" data-aos="fade-up" >
+    <div class="col-full" >
+        <h3 class="subhead" >What We Do</h3>
+        <h1 class="display-2" style={{ color: "black", fontSize: "30px"}}>OUR UNIQUE SYSTEM THAT GUARANTEES HIGH ROI</h1>
+        <p style={{fontSize: "18px"}}>Our CAF system supercharges your sales pipeline by generating high-converting User Generated Content (UGC), driving engagement and traffic through paid social and SEM,  and optimising the entire customer journey for maximum impact.
         Our data-driven insights and full-funnel approach guarantee that every marketing pound spent produces measurable outcomes
             </p>
             
