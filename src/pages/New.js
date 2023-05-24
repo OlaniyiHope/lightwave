@@ -13,7 +13,7 @@ import Slidde from "./VideoCarousel";
 import VideoSlide from "../components/VideoSlide"
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
-
+import { GoPrimitiveDot } from 'react-icons/go';
 const New = () => {
    
     
@@ -108,23 +108,24 @@ const New = () => {
 
 </section> 
 
-<section id='works' class="s-works" style={{margin: "auto", textAlign: "center"}}>
+<section id='works' className="s-works" style={{marginTop: '30px'}}>
 
-<div class="intro-wrap">
+<div className="intro-wrap">
         
-    <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
-        <div class="col-full" style={{margin: "auto", textAlign: "center"}}>
+    <div className="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+        <div className="col-full">
             
-            <h1 class="display-2--light">A Showcase of some of our Highest Converting Creatives</h1>
+            <h1 className="display-2 display-2--light" style={{fontSize: "32px"}}>A Showcase of some of our Highest Converting Creatives</h1>
+            <h3 className="subhead " style={{color: "#fff;", fontSize: "17px"}}>Made in Collaboration by our Creative Partner</h3>
         </div>
+      
     </div> 
-    <VideoSlide />
-    
+  <VideoSlide />
 </div> 
 
 
 
-</section>
+</section> 
 <h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Frequently Asked questions</h3>
 <Faq />
 <h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Testimonial</h3>
@@ -175,11 +176,11 @@ const New = () => {
                 <p>
                 
 
-                Sustainable businesses looking for an agency they can trust and is 100% results-driven.
+                <GoPrimitiveDot  /> Sustainable businesses looking for an agency they can trust and is 100% results-driven.<br></br>
                 
-                Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.
+                <GoPrimitiveDot  />  Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.<br></br>
                 
-                Sustainable businesses looking to create lightwaves and rise above competition. 
+                <GoPrimitiveDot  />   Sustainable businesses looking to create lightwaves and rise above competition. 
                 </p>
             </div>
 
@@ -191,7 +192,7 @@ const New = () => {
                 <h5>Email Us At</h5>
                 <p>
                     contact@lightwavecreative@gmail.com<br />
-                    info@lightwavecreative.com
+                    info@lightwavecreative.io
                 </p>
             </div>
 
@@ -237,14 +238,14 @@ const New = () => {
     offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
     development. We are proud to be at hte forefront of driving positive change throught our creative 
     solutions, and we're excited to partner with businesses that share our vision for 
-    a better, brighter future
+    a better, brighter future.
 </div>
 
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
-        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
+        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth.</p>
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />

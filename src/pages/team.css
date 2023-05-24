@@ -18,13 +18,12 @@
 .myCarousel {
   background: #159adb;
 
-  width: 55%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-
-  padding-bottom: 10%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 50px;
   border: 1px solid #ddd;
   height: 186px;
 }
@@ -81,8 +80,6 @@
   }
   .myCarousel {
     background: #159adb;
-    margin-top: -9%;
- 
     width: 88%;
     margin-left: auto;
     margin-right: auto;

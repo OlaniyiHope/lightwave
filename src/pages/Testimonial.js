@@ -81,14 +81,14 @@ BLOG (Coming Soon)
     offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
     development. We are proud to be at hte forefront of driving positive change throught our creative 
     solutions, and we're excited to partner with businesses that share our vision for 
-    a better, brighter future
+    a better, brighter future.
 </div>
 
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
-        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
+        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth.</p>
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />

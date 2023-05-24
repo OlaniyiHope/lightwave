@@ -8,7 +8,7 @@ import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
-
+import { GoPrimitiveDot } from 'react-icons/go';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
@@ -107,11 +107,11 @@ Book A Free Strategy Call With Our Team
                 <p>
                 
 
-                Sustainable businesses looking for an agency they can trust and is 100% results-driven.
+                <GoPrimitiveDot  /> Sustainable businesses looking for an agency they can trust and is 100% results-driven.<br></br>
                 
-                Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.
+                <GoPrimitiveDot  />  Sustainable businesses that want to understand how they can 3x  revenue potential with UGC and Paid Social.<br></br>
                 
-                Sustainable businesses looking to create lightwaves and rise above competition. 
+                <GoPrimitiveDot  />   Sustainable businesses looking to create lightwaves and rise above competition. 
                 </p>
             </div>
 
@@ -123,7 +123,7 @@ Book A Free Strategy Call With Our Team
                 <h5>Email Us At</h5>
                 <p>
                     contact@lightwavecreative@gmail.com<br />
-                    info@lightwavecreative.com
+                    info@lightwavecreative.io
                 </p>
             </div>
 
@@ -169,14 +169,14 @@ Book A Free Strategy Call With Our Team
     offer user-generated constent, paid social, SEM, sustanable website development and sustainable mobile 
     development. We are proud to be at hte forefront of driving positive change throught our creative 
     solutions, and we're excited to partner with businesses that share our vision for 
-    a better, brighter future
+    a better, brighter future.
 </div>
 
 
     <div class="col-six tab-full right footer-subscribe">
 
         <h4>Get Notified</h4>
-        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth</p>
+        <p>If you want us to help your business grow, you can subscribe to our platform and we will give you tips for enhanced business growth.</p>
         <div class="subscribe-form">
             <form id="mc-form" class="group" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
