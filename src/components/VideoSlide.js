@@ -5,7 +5,7 @@ import Vid1 from "./videos/mat.mp4";
 import Vid2 from "./videos/news.mp4";
 import Vid3 from "./videos/six.mp4";
 import ReactPlayer from "react-player";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 const VideoSlide = () => {
   const videoProperties = [
