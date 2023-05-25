@@ -29,7 +29,7 @@ const New = () => {
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up" >
             <div class="col-full"  >
-            <h2 class=" display-1--light" >WHO WE ARE</h2>
+            <h2 class=" display-1--light" style={{marginTop: "20px"}} >WHO WE ARE</h2>
 
                 <h1 class=" display-1--light" >Empowering Sustainable Brands through Digital Marketing</h1>
             </div>
@@ -126,7 +126,7 @@ const New = () => {
 
 
 </section> 
-<h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Frequently Asked questions</h3>
+<h3 class="subhead " style={{textAlign: 'center', marginTop: "20px"}}>Frequently Asked questions</h3>
 <Faq />
 <h3 class="subhead " style={{textAlign: 'center', marginBottom: "10px"}}>Testimonial</h3>
 <Team />
