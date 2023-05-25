@@ -19,7 +19,7 @@ const BannerSlide = () => {
     {
       id: 1,
       title: "Video 1",
-      src: Vid1,
+      src: "https://res.cloudinary.com/dftygokow/video/upload/v1684982338/lightvid_w2seiw.mp4",
       credit: "Video by cottonbro from Pexels",
     },
   ];
