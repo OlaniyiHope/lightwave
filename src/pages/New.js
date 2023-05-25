@@ -14,6 +14,7 @@ import VideoSlide from "../components/VideoSlide"
 import Ban from "./Ban";
 import { Main2 } from "./Main2";
 import { GoPrimitiveDot } from 'react-icons/go';
+import BannerSlide from "../component/BannerSlide";
 const New = () => {
    
     
