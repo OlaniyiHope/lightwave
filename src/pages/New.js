@@ -24,7 +24,7 @@ const New = () => {
   return (
   
 <>
-<New2 />
+<New2 class="newer"/>
 
 <section id='about' class="s-about" >
 

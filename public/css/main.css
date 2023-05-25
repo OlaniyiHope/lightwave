@@ -1403,7 +1403,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header {
     width: 100%;
     height: 96px;
-    background-color: black;
+   
     position: absolute;
     top: 0;
     z-index: 500;
@@ -1690,6 +1690,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 @media only screen and (max-width: 600px) {
     .s-header {
         height: 90px;
+      
     }
     .header-logo {
         left: 30px;

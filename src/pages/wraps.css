@@ -147,3 +147,9 @@ title{
 .question button .d-arrow.rotate{
     transform: rotate(180deg);
 }
+
+@media only screen and (max-width: 400px) {
+  .newer{
+margin-top: 200px;
+  }
+}
