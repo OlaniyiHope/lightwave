@@ -13,14 +13,14 @@ const renderVideo = ({
       <div ref={vidButtonRef} className="video video__play-button">
         <video
           ref={vidRef}
-          src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+          src="https://res.cloudinary.com/dftygokow/video/upload/v1684982338/lightvid_w2seiw.mp4"
 
           onClick={handleToggleVideo}
         ></video>
       </div>
     ) : (
       <video
-         src="https://res.cloudinary.com/dftygokow/video/upload/v1682846161/56_bacts3.mp4"
+         src="https://res.cloudinary.com/dftygokow/video/upload/v1684982338/lightvid_w2seiw.mp4"
 
         controls
         controlsList="nodownload"

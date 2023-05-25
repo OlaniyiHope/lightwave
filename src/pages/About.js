@@ -141,7 +141,7 @@ const About = () => {
    
         <FontAwesomeIcon icon="fa-sharp fa-regular " />
         </div>
-        <div className="service-text">
+        <div className="service-text" style={{marginTop: "40px"}}>
        
         <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
         <GoPrimitiveDot />We are results-driven.
