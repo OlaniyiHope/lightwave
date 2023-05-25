@@ -113,39 +113,35 @@ const About = () => {
 </div> 
 
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
-    <div className="col-full">
+    <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{fontSize: "30px"}}>Why brands trust us</h1>
+        <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Why brands trust us </h1>
     </div>
 </div> 
 
-<div className="row services-list block-1-2 block-tab-full" style={{margin: "auto", textAlign: "center", color: "black"}}>
-
+<div className="row services-list block-1-2 block-tab-full" >
+<div className="col-block service-item" data-aos="fade-up">
  
-  
+<div className="item-folio">
+        
+    <div className="item-folio__thumb">
+        <a href={shu} className="thumb-link" title="Shutterbug" data-size="950x600">
+            <img src={shu}
+                 srcset={shu}  alt="" />
+        </a>
+    </div>
 
+
+
+</div>
+
+</div>
     <div className="col-block service-item" data-aos="fade-up">
- 
-    <div className="item-folio">
-            
-        <div className="item-folio__thumb">
-            <a href={shu5} className="thumb-link" title="Shutterbug" data-size="950x600">
-                <img src={shu5}
-                     srcset={shu5}  alt="" />
-            </a>
+        <div className="service-icon">
+   
+        <FontAwesomeIcon icon="fa-sharp fa-regular " />
         </div>
-
-       
-
-    </div>
-
-    </div>
-    <div className="col-block service-item" data-aos="fade-up">
-    <div className="service-icon">
-
-    <FontAwesomeIcon icon="fa-sharp fa-regular " />
-    </div>
-    <div className="service-text">
+        <div className="service-text">
        
         <p style={{fontSize: '18px', textAlign: "justify", letterSpacing: "0px" }}>
         <GoPrimitiveDot />We are results-driven.
@@ -165,12 +161,19 @@ const About = () => {
     
     </div>
     
-</div>
+
+        
+    </div>
+
+  
+
+  
 
  
 
   
 </div> 
+
 
 </section> 
 <footer style={{backgroundColor: "#000"}}>
