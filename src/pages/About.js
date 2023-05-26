@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import "./base.css"
+import "./photo.css"
 import Features from './Features/Features';
 import Good from "./images/wave.jpg"
 import Photo from './Photo';
