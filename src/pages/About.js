@@ -24,9 +24,10 @@ const About = () => {
   }, [])
 
   return (
-   
+   <>
+   <Photo />
 <div>
-<Photo />
+
 
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
@@ -220,6 +221,7 @@ const About = () => {
 </footer>
 
 </div>
+</>
   );
 };
 
