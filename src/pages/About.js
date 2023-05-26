@@ -26,10 +26,30 @@ const About = () => {
   return (
    
 <div>
-
+ 
+<section>
 
 <img src={Good} alt="Homepage" />
        
+<ul class="home-social">
+<li>
+    <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+</li>
+<li>
+    <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+</li>
+<li>
+    <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+</li>
+<li>
+    <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+</li>
+<li>
+    <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+</li>
+</ul>     
+</section>
+
 
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
