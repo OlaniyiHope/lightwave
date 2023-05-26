@@ -1,0 +1,220 @@
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
+.nipsss {
+  
+   
+    background-image: url(images/wheell.jpg);
+   
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
+  
+  
+  /* Basic */
+  .nipsss { 
+    font: 18px/23px "Cantarell", sans-serif;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #efecec;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #ffffff;
+  }
+  
+  p {
+    margin: 0 0 15px 0;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  blockquote {
+    display: block;
+    max-width: 480px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);  
+    color: #e1e1e1;
+    font-family: "Kotta One", serif;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  blockquote cite {
+    display: block;
+    font: 18px/23px "Cantarell", sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #cccccc;
+    text-transform: uppercase;
+  }
+  
+  /* Layout */
+  
+  
+  .containeds {
+    display: table;
+    padding-top: 80px;
+    width: 100%;
+  }
+  
+  .contends {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  /* Special */
+  .sub-titled {
+    margin: 50px auto;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+  }
+  
+  .buttoned {
+    display: inline-block;
+    padding: 10px 14px;
+    color: #cafaea;
+    margin-top: 20px;
+    border: 1px solid #cafaea;
+    border-radius: 3px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #more-contends {
+    display: none;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 340px) {
+    .contends h4{
+        color: white;
+        font-size: 20px;
+        width: 95%;
+        
+        font-weight: 700;
+        text-transform: uppercase;
+   
+     }
+    .containeds {
+      position: relative;
+      display: block;
+      float: left;
+      vertical-align: baseline;
+      margin: 0 auto;
+      padding: 80px 0 0 0;
+    }
+    
+    #more-contends {
+      float: left;
+      margin-right: 10px;
+      
+    }
+    
+    .nip h1 {
+      font-size: 18px;
+      color: white;
+      width: 60%;
+    text-align: justify;
+      line-height: 23px;
+    } 
+    
+    .contends, blockquote {  
+      display: inline;
+      margin: 0 auto;
+      padding-top: 80px;
+      vertical-align: baseline;
+    }
+  
+    blockquote {
+      width: 150px;
+      margin: 15px auto;
+      font-size: 16px;
+      line-height: 21px;
+      background-color: transparent;
+    }
+  
+    blockquote cite {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  
+    .sub-titled {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .buttoned, p {
+      max-width: 150px;
+      margin: 0 auto;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+     .nip, .containeds {
+      height: auto;
+    }
+  }
+  .nips, .containeds {
+    height: 600px;
+  }
+  .contends h4{
+     color: white;
+     font-size: 32px;
+     width: 60%;
+     margin: auto;
+     text-align: center;
+     font-weight: 700;
+     text-transform: uppercase;
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .contends h4{
+        color: white;
+        font-size: 24px;
+        width: 95%;
+        font-weight: 700;
+        text-transform: uppercase;
+   
+     }
+    }
+  @media only screen and (max-width: 300px) {
+    .contends h4{
+        color: white;
+        font-size: 22px;
+        width: 95%;
+        font-weight: 700;
+        text-transform: uppercase;
+   
+     }
+    }
+  @media only screen and (max-width: 750px) {
+    .contends h4{
+        color: white;
+        font-size: 28px;
+        width: 95%;
+        font-weight: 700;
+        text-transform: uppercase;
+   
+     }
+    }

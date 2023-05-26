@@ -8,7 +8,7 @@ import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
-
+import "./mainblog.css"
 import 'aos/dist/aos.css';
 import Team from './Team';
 
@@ -21,52 +21,20 @@ const Testimonial = () => {
   return (
    
 <div>
-<section id="home" className="s-home target-section" data-parallax="scroll" data-image-src="./images/wheel.jpg" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div className="overlay"></div>
+<div className='nipsss'>
 
-<div className="home-content">
+<header class="containeds">
+  <section class="contends">
+    <h4>Blog -Coming Soon</h4>
 
-<div className="row home-content__main">
-
-
-<h1 data-aos="zoom-in">
-BLOG (Coming Soon)
-</h1>
-
-
-
-<div class="home-content__buttons">
+    <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
    
-   
-  
- 
+    
+    
+    
+  </section>
+</header>
 </div>
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-         
-        </ul>  
-
-      
-</section>
-
 
 
 
