@@ -26,13 +26,10 @@ const About = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src={Good} >
 
-     
+
+<img src={Good} alt="Homepage" />
        
-
-</section> 
-
 
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
