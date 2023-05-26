@@ -26,21 +26,19 @@ const About = () => {
   return (
    
 <div>
+
+<div className="body">
+  
+<header class="contain">
+  <section class="tent">
+    <h4 style={{color: "white"}}>LightWave Amplifies your brand's voice through sustainable digital marketing </h4>
+    
+    <p><a class="button" id="load-more-content" href="/book">Book a call</a></p>
+  
+    
  
-
-<div className='nip'>
-
-  <header class="contained">
-    <section class="contend">
-      <h4>LightWave Amplifies your brand's voice and create a sustainable brand for you</h4>
-
-      <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
-     
-      
-      
-      
-    </section>
-  </header>
+  </section>
+</header>
 </div>
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
