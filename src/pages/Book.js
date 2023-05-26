@@ -11,7 +11,7 @@ import AOS from 'aos';
 import { GoPrimitiveDot } from 'react-icons/go';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-
+import "./mainbook.css"
 
 const Book = () => {
     useEffect(() => {
@@ -21,44 +21,20 @@ const Book = () => {
   return (
    
 <div>
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./images/contact-bg.jpg" data-natural-width='3000' data-natural-height='2000' data-position-y='center'>
-<div class="overlay"></div>
-<div class="shadow-overlay"></div>
-<div class="home-content">
+<div className='nip'>
 
-<div class="row home-content__main">
+  <header class="contained">
+    <section class="contend">
+      <h4>Book a free strategy call with our team</h4>
 
-
-<h1 data-aos="zoom-in">
-Book A Free Strategy Call With Our Team
-</h1>
-
-
-
-</div>
-<div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-            <div class="home-content__line"></div>
-            </div>
-
-            <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-           
-        </ul>  
-
+      <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
+     
       
-</section>
+      
+      
+    </section>
+  </header>
+</div>
 
 
 <section id="contact" class="s-contact">
