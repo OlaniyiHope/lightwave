@@ -23,6 +23,7 @@ import { Banner } from './Banner';
 import Features from './Features/Features';
 import imaggess from "./images/sus5.png"
 import VideoSlide from '../components/VideoSlide';
+import "./mainservice.css"
 const Services = () => {
     useEffect(() => {
         AOS.init();
@@ -30,57 +31,24 @@ const Services = () => {
 
   return (
    <>
-
+ 
+ 
    <div>
-   <section id="home" className="s-home target-section" data-parallax="scroll" data-image-src={imaggess} >
+ 
+   <div className='nipss'>
 
-   <div className="home-content">
-   
-   <div className="row home-content__main">
-   
-   
-   <h1 data-aos="zoom-in">
-See why top brands use Lightwave
-   </h1>
-   
-   
-   
-   <div className="home-content__buttons">
+   <header class="containeds">
+     <section class="contends">
+       <h4>See why top brands use Lightwave</h4>
+ 
+       <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
       
-      
-     
-       <a href="/book" className="smoothscroll btn btn--stroke">
-       Book a call
-       </a>
-   </div>
-   
-   </div>
-   <div className="home-content__scroll">
-                   <a href="#about" className="scroll-link smoothscroll">
-                       <span>Scroll Down</span>
-                   </a>
-               </div>
-               <div className="home-content__line"></div>
-               </div>
-   
-               <ul className="home-social">
-               <li>
-                   <a href="#0"><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-               </li>
-               <li>
-                   <a href="#0"><i className="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-               </li>
-               <li>
-                   <a href="#0"><i className="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-               </li>
-   
-           </ul>  
-   
-   
-   
-   </section> 
-   
-   
+       
+       
+       
+     </section>
+   </header>
+ </div>
 <div className="a">
 <div className="a-left">
  
@@ -93,7 +61,7 @@ See why top brands use Lightwave
   </div>
 </div>
 <div className="a-right">
-  <h1 className="a-title">Our Services</h1>
+  <h1 className="a-title" style={{color: "black"}}>Our Services</h1>
  
   <p className="a-desc">
   At Lightwave, we believe that every brand has a unique story to tell, and we are here to help you share that story with the world. We specialize in a wide range of services, including social media management, paid advertising, content creation, web design, and user-generated content campaigns, all aimed at helping your business grow while minimizing its impact on the environment. Let us help you share your story with the world, while making a positive impact on the planet. 

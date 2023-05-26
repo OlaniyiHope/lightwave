@@ -21,10 +21,10 @@ const Book = () => {
   return (
    
 <div>
-<div className='nip'>
+<div className='nips'>
 
-  <header class="contained">
-    <section class="contend">
+  <header class="containeds">
+    <section class="contends">
       <h4>Book a free strategy call with our team</h4>
 
       <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
