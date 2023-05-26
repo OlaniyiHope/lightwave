@@ -27,19 +27,19 @@ const About = () => {
    
 <div>
 
-<div className="body">
-  
-<header class="contain">
-  <section class="tent">
-    <h4 style={{color: "white"}}>LightWave Amplifies your brand's voice through sustainable digital marketing </h4>
+ <div className="body">
+   <header class="contain">
+ <section class="tent">
+   <h1 style={{color: "white"}}>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
     
-    <p><a class="button" id="load-more-content" href="/book">Book a call</a></p>
-  
+   <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
+     <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
+     <p>To see scrolling behavior</p>
     
  
-  </section>
+ </section>
 </header>
-</div>
+ </div>
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>

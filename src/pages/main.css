@@ -39,14 +39,12 @@ html, .body, .contain {
 }
 
 /* Reset */
-/* html, .body, h1, p, a, div, section {
+html, .body, h1, p, a, div, section {
   margin: 0;
   padding: 0;
   font-size: 100%;
   font: inherit;
- 
-} */
-
+}
 
 /* Basic */
 .body { 
@@ -54,13 +52,13 @@ html, .body, .contain {
   color: #ffffff;
 }
 
-.tent h1 {
+h1 {
   color: #efecec;
   text-transform: uppercase;
   font-size: 40px;
- 
+  line-height: 50px;
   font-weight: 400;
-
+  margin-top: 20px;
 }
 
 a {
@@ -127,7 +125,6 @@ blockquote cite {
   display: table;
   padding-top: 80px;
   width: 100%;
-  height: 600px;
 }
 
 .tent {
@@ -143,15 +140,6 @@ blockquote cite {
   line-height: 23px;
   text-transform: uppercase;
 }
-.tent h4{
-  margin: auto;
-  font-size: 32px;
-  width: 70%;
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 
 .button {
   display: inline-block;
@@ -164,52 +152,12 @@ blockquote cite {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 20px;
-  border-width: 1px;
-    padding: 10px 14px;
-    text-decoration: none;
-
 }
 
 #more-tent {
   display: none;
 }
-@media only screen and (max-width: 750px) {
-  
-  .tent h4{
-    color: white;
-    font-size: 28px;
-    width: 95%;
-    font-weight: 700;
-    text-transform: uppercase;
-  
-  }
-  
-}
-@media only screen and (max-width: 600px) {
-  
-  .tent h4{
-    color: white;
-    font-size: 24px;
-    width: 95%;
-    font-weight: 700;
-    text-transform: uppercase;
-  
-  }
-  
-}
-@media only screen and (max-width: 300px) {
-  
-  .tent h4{
-    color: white;
-    font-size: 22px;
-    width: 95%;
-    font-weight: 700;
-    text-transform: uppercase;
-  
-  }
-  
-}
+
 /* Media Queries */
 @media only screen and (max-width: 340px) {
   
@@ -228,16 +176,10 @@ blockquote cite {
     
   }
   
- 
-  .tent h4{
-    color: white;
-    font-size: 20px;
-    width: 95%;
-    
-    font-weight: 700;
-    text-transform: uppercase;
-  
-  }
+  .body h1 {
+    font-size: 18px;
+    line-height: 23px;
+  } 
   
   .tent, blockquote {  
     display: inline;

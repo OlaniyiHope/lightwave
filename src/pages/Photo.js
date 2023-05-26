@@ -14,8 +14,7 @@ const Photo = () => {
  
   return (
     <div>
-  
-
+   
     </div>
   );
 };
