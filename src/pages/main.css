@@ -3,7 +3,7 @@
 */
 .body {
   /* Location of the image */
-  background-image: url(/src/pages/wavee.jpg);
+  background-image: url(images/books.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,7 +14,7 @@
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   .body {
-    background-image: url(/src/pages/wavee.jpg);
+    background-image: url(images/books.png);
   }
     }
 
