@@ -8,43 +8,26 @@ import ReactPlayer from "react-player";
 import VideoCarousel from "./VideoCarousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from "react-alice-carousel";
+import "./photo.css"
 
 const Photo = () => {
-    const [mainIndex, setMainIndex] = useState(0);
-
-    const slideNext = () => {
-      if (mainIndex < items.length - 1) {
-        setMainIndex(mainIndex + 1);
-      }
-    };
-  
-    const slidePrev = () => {
-      if (mainIndex > 0) {
-        setMainIndex(mainIndex - 1);
-      }
-    };
-  const items = [
-    
-    
-    
-  ];
-
+ 
   return (
-    <div className="App">
-         <AliceCarousel
-        activeIndex={mainIndex}
-        disableDotsControls
-        disableButtonsControls
-        items={items}
-      />
+    <div>
+    <div className="body">
+  
+    <header class="contain">
+      <section class="tent">
+        <h1>Responsive Full Background Image</h1>
+        <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
+        <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
+        <p>To see scrolling behavior</p>
+        
      
-      <div className="btn-prev" onClick={slidePrev}>
-      &lang;
-    </div>
-    <div className="btn-next" onClick={slideNext}>
-      &rang;
-    </div>
-    
+      </section>
+    </header>
+  </div>
+
     </div>
   );
 };
