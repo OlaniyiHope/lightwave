@@ -1,4 +1,4 @@
-.carousel {
+/* .carousel {
   width: 100%;
  
   margin: auto;
@@ -8,8 +8,8 @@
 }
 .love{
 
-}
-.carousel-control-prev {
+} */
+/* .carousel-control-prev {
   height: 300px;
 }
 .carousel-control-next {
@@ -21,16 +21,16 @@
 }
 .carousel:hover .carousel-control-prev-icon {
   visibility: visible;
-}
+} */
 
-.carousel .carousel-control-next-icon {
+/* .carousel .carousel-control-next-icon {
   visibility: hidden;
 }
 .carousel:hover .carousel-control-next-icon {
   visibility: visible;
-}
+} */
 
-@media (max-width:576px) {
+/* @media (max-width:576px) {
   .carousel {
  
    
@@ -60,4 +60,4 @@
   .love{
     width: 100%;
   }
-}
+} */
