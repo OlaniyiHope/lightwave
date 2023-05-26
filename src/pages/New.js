@@ -30,9 +30,9 @@ const New = () => {
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up" >
             <div class="col-full"  >
-            <h2 class=" display-1--light" style={{marginTop: "20px"}} >WHO WE ARE</h2>
+            <h2 class=" display-1--light" style={{marginTop: "20px", color: "black"}} >WHO WE ARE</h2>
 
-                <h1 class=" display-1--light" >Empowering Sustainable Brands through Digital Marketing</h1>
+                <h1 class=" display-1--light" style={{fontSize: "25px"}}>Empowering Sustainable Brands through Digital Marketing</h1>
             </div>
         </div> 
 
