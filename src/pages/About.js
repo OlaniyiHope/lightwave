@@ -27,30 +27,21 @@ const About = () => {
    
 <div>
  
-<section>
 
-<img src={Good} alt="Homepage" />
-       
-<ul class="home-social">
-<li>
-    <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-</li>
-<li>
-    <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-</li>
-<li>
-    <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-</li>
-<li>
-    <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-</li>
-<li>
-    <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-</li>
-</ul>     
-</section>
+<div className='nip'>
 
+  <header class="contained">
+    <section class="contend">
+      <h4>LightWave Amplifies your brand's voice and create a sustainable brand for you</h4>
 
+      <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
+     
+      
+      
+      
+    </section>
+  </header>
+</div>
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>

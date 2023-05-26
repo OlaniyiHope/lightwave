@@ -1735,15 +1735,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
-.s-home .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .6;
-    background-color: #000000;
-}
+
+
 
 .no-js .s-home {
     background: #000000;
@@ -1762,6 +1755,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     overflow: hidden;
 }
+
 
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
@@ -1783,12 +1777,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
-.home-content__main {
+.bottom-left__main {
     padding-top: 24rem;
     position: relative;
 }
 
-.home-content__buttons {
+.bottom-left__buttons {
     padding-top: 6rem;
     text-align: left;
 }
@@ -2109,7 +2103,7 @@ html.no-csstransitions .home-content__main {
         border: none;
     }
     .home-social span {
-        display: none;
+ 
     }
     .home-content__scroll {
         bottom: 5.4rem;
@@ -2142,13 +2136,38 @@ html.no-csstransitions .home-content__main {
         margin: 1.5rem 0 0 0;
     }
     .home-social {
-        display: none;
+        right: 1rem;
+        margin-bottom: 0;
+    }
+    .home-social li {
+        padding: .2rem 0;
+    }
+    .home-social i {
+        font-size: 10px;
+        border: none;
+    }
+    .home-social span {
+ 
     }
 }
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+    }
+    .home-social {
+        right: 1rem;
+        margin-bottom: 0;
+    }
+    .home-social li {
+        padding: .2rem 0;
+    }
+    .home-social i {
+        font-size: 10px;
+        border: none;
+    }
+    .home-social span {
+ 
     }
 }
 
@@ -2163,6 +2182,7 @@ html.no-csstransitions .home-content__main {
         padding-top: 16.2rem;
         width: auto;
     }
+
 }
 @media only screen and (max-width: 300px) {
     .s-home {
@@ -2174,6 +2194,20 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         padding-top: 16.2rem;
         width: auto;
+    }
+    .home-social {
+        right: 1rem;
+        margin-bottom: 0;
+    }
+    .home-social li {
+        padding: .2rem 0;
+    }
+    .home-social i {
+        font-size: 10px;
+        border: none;
+    }
+    .home-social span {
+ 
     }
 }
 
