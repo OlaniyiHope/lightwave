@@ -28,8 +28,7 @@
 .page-banner-wrap2 .page-heading2 h1 {
 
   line-height: 150%;
-  margin: auto;
-  text-align: center;
+ 
 }
 @media (max-width: 991px) {
   .page-banner-wrap2 .page-heading2 h1 {
@@ -71,8 +70,8 @@
   background: transparent;
   padding: 0;
   margin-top: 20px;
-  margin: auto;
-  text-align: center;
+ 
+  
 }
 .page-banner-wrap2 .breadcrumb li {
   color: #fff;
@@ -134,6 +133,6 @@
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-   margin: auto;
+  
   }
   
