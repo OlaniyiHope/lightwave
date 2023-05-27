@@ -28,8 +28,7 @@
 .page-banner-wrap3 .page-heading3 h1 {
 font-size: 40px;
   line-height: 150%;
-  margin: auto;
-  text-align: center;
+
 }
 @media (max-width: 991px) {
   .page-banner-wrap3 .page-heading3 h1 {
@@ -71,8 +70,8 @@ font-size: 40px;
   background: transparent;
   padding: 0;
   margin-top: 20px;
-  margin: auto;
-  text-align: center;
+
+
 }
 .page-banner-wrap3 .breadcrumb li {
   color: #fff;
@@ -132,8 +131,8 @@ font-size: 40px;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    text-align: center;
+    
     text-transform: uppercase;
-   margin: auto;
+
   }
   
