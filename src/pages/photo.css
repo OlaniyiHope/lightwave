@@ -3,23 +3,23 @@
 */
 .body {
     /* Location of the image */
-    background-image: url(images/books.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color:#464646;
+    background-image: url(images/books.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-color:#464646 !important;
   }
   
   /* For mobile devices */
   @media only screen and (max-width: 767px) {
     .body {
-      background-image: url(images/books.png);
-      background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color:#464646;
+      background-image: url(images/books.png) !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed !important;
+      background-size: cover !important;
+      background-color:#464646 !important;
     }
       }
 
@@ -167,12 +167,12 @@ html, .body, .contain {
   @media only screen and (max-width: 340px) {
     .body {
       /* Location of the image */
-      background-image: url(images/books.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-color:#464646;
+      background-image: url(images/books.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-color:#464646 !important;
     }
     
 
@@ -237,11 +237,11 @@ html, .body, .contain {
   @media only screen and (max-width: 600px) {
     .body {
       /* Location of the image */
-      background-image: url(images/books.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-color:#464646;
+      background-image: url(images/books.png) !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed !important;
+      background-size: cover !important;
+      background-color:#464646 !important;
     }
   }
