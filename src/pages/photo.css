@@ -1,6 +1,119 @@
-/* Responsive Full Background Image Using CSS
+@media (max-width: 991px) {
+  .page-banner-wrap {
+    padding-top: 110px;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .page-banner-wrap {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+}/* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
+
+
+.page-banner-wrap::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  top: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+.page-banner-wrap .page-heading h1 {
+  font-size: 80px;
+  line-height: 110%;
+}
+@media (max-width: 991px) {
+  .page-banner-wrap .page-heading h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .page-banner-wrap .page-heading h1 {
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.page-banner-wrap {
+  background-color: #001659;
+  padding-top: 140px;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.page-banner-wrap {
+  position: relative;
+}
+.page-banner-wrap .breadcrumb-wrap {
+  overflow: hidden;
+}
+.page-banner-wrap .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.page-banner-wrap .breadcrumb li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.page-banner-wrap .breadcrumb li a {
+  color: #FF5E14;
+  font-weight: 500;
+}
+.page-banner-wrap .breadcrumb li a:hover {
+  color: #fff;
+}
+.page-banner-wrap .breadcrumb li + li::before {
+  color: #fff;
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-cover {
+  background-image: url('images/books.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+
+
+
 .body {
     /* Location of the image */
     background-image: url('images/books.png') !important;

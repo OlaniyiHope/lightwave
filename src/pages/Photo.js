@@ -11,6 +11,7 @@ import shu from "./images/ggg.jpg"
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from "react-alice-carousel";
 import "./photo.css"
+import "./boot.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Photo = () => {
@@ -31,6 +32,39 @@ const Photo = () => {
       </section>
     </header>
   </div>
+
+
+
+
+  <div class="page-banner-wrap bg-cover">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-12">
+              <div class="page-heading text-white">
+                  <h1>Service 2</h1>
+              </div>
+              <div class="breadcrumb-wrap">
+                  <nav>
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Service 2</li>
+                      </ol>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
   <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
   <div className="row section-header has-bottom-sep" style={{margin: "auto", textAlign: "center"}}>
       <div className="col-full"style={{margin: "auto", textAlign: "center"}}>
