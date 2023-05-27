@@ -24,7 +24,7 @@ const New = () => {
   return (
   
 <>
-<VideoSlide />
+<New2 />
 
 <section id='about' class="s-about" >
 
