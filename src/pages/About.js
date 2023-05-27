@@ -33,7 +33,7 @@ const About = () => {
         <div class="col-12 col-lg-12">
             <div class="page-heading text-white">
                 <h1 style={{color: "white", }}>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
-                <h1><a className="button breadcrumb-item" href="">Book a call</a></h1>
+                <h1><a className="button breadcrumb-item" href="/book">Book a call</a></h1>
             </div>
          
         </div>

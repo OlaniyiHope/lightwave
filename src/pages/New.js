@@ -24,7 +24,7 @@ const New = () => {
   return (
   
 <>
-<BannerSlide />
+<VideoSlide />
 
 <section id='about' class="s-about" >
 

@@ -42,7 +42,7 @@ const Services = () => {
            <div class="col-12 col-lg-12">
                <div class="page-heading2 text-white">
                    <h1 style={{color: "white", "textAlign": "center", margin: "auto", }}>See why top brands use Lightwave - Our Services</h1>
-                   <h1><a className="button2 breadcrumb-item2" href="">Book a call</a></h1>
+                   <h1><a className="button2 breadcrumb-item2" href="/book">Book a call</a></h1>
                </div>
             
            </div>

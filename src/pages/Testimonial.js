@@ -28,7 +28,7 @@ const Testimonial = () => {
         <div class="col-12 col-lg-12">
             <div class="page-heading4 text-white">
                 <h1 style={{color: "white"}}>Coming soon</h1>
-                <h1><a className="button4 breadcrumb-item4" href="">Book a call</a></h1>
+                <h1><a className="button4 breadcrumb-item4" href="/book">Book a call</a></h1>
             </div>
          
         </div>
