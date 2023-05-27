@@ -29,7 +29,7 @@ const Photo = () => {
       <section class="tent">
         <h1>Responsive Full Background Image</h1>
         <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
-        <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
+        <p><a class="button" >Load some content</a></p>
         <p>To see scrolling behavior</p>
         
      
