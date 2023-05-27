@@ -4,7 +4,7 @@
 .body {
     /* Location of the image */
     background-image: url('images/books.png') !important;
-    background-position: center center !important;
+   
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
     background-size: cover !important;
@@ -15,7 +15,7 @@
   @media only screen and (max-width: 767px) {
     .body {
       background-image: url('images/books.png') !important;
-      background-position: center center !important;
+   
       background-repeat: no-repeat !important;
       background-attachment: fixed !important;
       background-size: cover !important;
@@ -168,7 +168,8 @@ html, .body, .contain {
     .body {
       /* Location of the image */
       background-image: url('images/books.png') !important;
-    background-position: center center !important;
+      
+ 
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
     background-size: cover !important;
@@ -178,7 +179,7 @@ html, .body, .contain {
 
     
     .contain {
-      position: relative;
+      position: fixed;
       display: block;
       float: left;
       vertical-align: baseline;
@@ -238,7 +239,7 @@ html, .body, .contain {
     .body {
       /* Location of the image */
       background-image: url('images/books.png') !important;
-      background-position: center center !important;
+     
       background-repeat: no-repeat !important;
       background-attachment: fixed !important;
       background-size: cover !important;
