@@ -15,6 +15,11 @@
   @media only screen and (max-width: 767px) {
     .body {
       background-image: url(images/books.png);
+      background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
     }
       }
 
@@ -160,6 +165,17 @@ html, .body, .contain {
   
   /* Media Queries */
   @media only screen and (max-width: 340px) {
+    .body {
+      /* Location of the image */
+      background-image: url(images/books.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color:#464646;
+    }
+    
+
     
     .contain {
       position: relative;
@@ -215,5 +231,17 @@ html, .body, .contain {
   
     html, .body, .contain {
       height: auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .body {
+      /* Location of the image */
+      background-image: url(images/books.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color:#464646;
     }
   }

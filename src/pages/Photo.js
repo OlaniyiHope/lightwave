@@ -23,7 +23,7 @@ const Photo = () => {
   
   return (
     <div>
-    <div className="body">
+    <div className="body" >
   
     <header class="contain">
       <section class="tent">
