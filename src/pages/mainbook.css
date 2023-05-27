@@ -1,272 +1,139 @@
-/* Responsive Full Background Image Using CSS
+@media (max-width: 991px) {
+  .page-banner-wrap3 {
+    padding-top: 110px;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .page-banner-wrap3 {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+}/* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
-.nips {
-  
-   
-  background-image: url(images/books.png);
- 
-  background-color: #000000;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-
-}
 
 
-
-/* Basic */
-.nips { 
-  font: 18px/23px "Cantarell", sans-serif;
-  color: #ffffff;
-}
-
-h1 {
-  color: #efecec;
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
-  margin-top: 20px;
-}
-
-a {
-  color: #ffffff;
-}
-
-p {
-  margin: 0 0 15px 0;
-}
-
-strong {
-  font-weight: 700;
-}
-
-blockquote {
-  display: block;
-  max-width: 480px;
-  margin: 15px auto;
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.3);  
-  color: #e1e1e1;
-  font-family: "Kotta One", serif;
-  font-size: 22px;
-  line-height: 28px;
-}
-
-blockquote cite {
-  display: block;
-  font: 18px/23px "Cantarell", sans-serif;
-  font-size: 16px;
-  margin-top: 16px;
-  color: #cccccc;
-  text-transform: uppercase;
-}
-
-/* Layout */
-
-
-.containeds {
-  display: table;
-  padding-top: 80px;
+.page-banner-wrap3::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  top: 0;
+  background: #000;
   width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
 }
-
-.contends {
-  display: table-cell;
-  vertical-align: middle;
+.page-banner-wrap3 .page-heading3 h1 {
+font-size: 40px;
+  line-height: 150%;
+  margin: auto;
   text-align: center;
 }
-
-/* Special */
-.sub-titled {
-  margin: 50px auto;
-  font-size: 18px;
-  line-height: 23px;
-  text-transform: uppercase;
+@media (max-width: 991px) {
+  .page-banner-wrap3 .page-heading3 h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .page-banner-wrap3 .page-heading3 h1 {
+    font-size: 20px;
+  }
 }
 
-.buttoned {
-  display: inline-block;
-  padding: 10px 14px;
-  color: #cafaea;
+
+
+
+
+
+
+
+
+
+
+.page-banner-wrap3 {
+  background-color: #001659;
+  padding-top: 140px;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.page-banner-wrap3 {
+  position: relative;
+}
+.page-banner-wrap3 .breadcrumb-wrap2 {
+  overflow: hidden;
+}
+.page-banner-wrap3 .breadcrumb {
+  background: transparent;
+  padding: 0;
   margin-top: 20px;
-  border: 1px solid #cafaea;
-  border-radius: 3px;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
+  margin: auto;
   text-align: center;
+}
+.page-banner-wrap3 .breadcrumb li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
   text-transform: uppercase;
 }
-
-#more-contends {
-  display: none;
+.page-banner-wrap3 .breadcrumb li a {
+  color: #FF5E14;
+  font-weight: 500;
+}
+.page-banner-wrap3 .breadcrumb li a:hover {
+  color: #fff;
+}
+.page-banner-wrap3 .breadcrumb li + li::before {
+  color: #fff;
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 14px;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 340px) {
-  .contends h4{
-      color: white;
-      font-size: 20px;
-      width: 95%;
-      
-      font-weight: 700;
-      text-transform: uppercase;
+
+
+.bg-cover3 {
+  background-image: url('images/books.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+
+
+
+
+  
  
-   }
-  .containeds {
-    position: relative;
-    display: block;
-    float: left;
-    vertical-align: baseline;
-    margin: 0 auto;
-    padding: 80px 0 0 0;
-  }
-  
-  #more-contends {
-    float: left;
-    margin-right: 10px;
-    
-  }
-  
-  .nip h1 {
-    font-size: 18px;
-    color: white;
-    width: 60%;
-  text-align: justify;
-    line-height: 23px;
-  } 
-  
-  .contends, blockquote {  
-    display: inline;
-    margin: 0 auto;
-    padding-top: 80px;
-    vertical-align: baseline;
-  }
 
-  blockquote {
-    width: 150px;
-    margin: 15px auto;
-    font-size: 16px;
-    line-height: 21px;
-    background-color: transparent;
-  }
 
-  blockquote cite {
-    font-size: 14px;
-    line-height: 19px;
-  }
 
-  .sub-titled {
-    font-size: 14px;
-    line-height: 21px;
-  }
 
-  .buttoned, p {
-    max-width: 150px;
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 20px;
-  }
 
-   .nip, .containeds {
-    height: auto;
-  }
-  .nips {
+
+
+
   
-   
-    background-image: url(images/books.png);
-   
-    background-color: #000000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
   
-  }
-  
-}
-.nips, .containeds {
-  height: 600px;
-}
-.contends h4{
-   color: white;
-   font-size: 32px;
-   width: 60%;
+  h1 .button3 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 8px;
+    font-size: 20px;
+    color: #cafaea;
+    border: 1px solid #cafaea;
+    border-radius: 3px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
    margin: auto;
-   text-align: center;
-   font-weight: 700;
-   text-transform: uppercase;
-
-}
-@media only screen and (max-width: 600px) {
-  .contends h4{
-      color: white;
-      font-size: 24px;
-      width: 95%;
-      font-weight: 700;
-      text-transform: uppercase;
- 
-   }
-   .nips {
-  
-   
-    background-image: url(images/books.png);
-   
-    background-color: #000000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
   }
   
-  }
-@media only screen and (max-width: 300px) {
-  .contends h4{
-      color: white;
-      font-size: 22px;
-      width: 95%;
-      font-weight: 700;
-      text-transform: uppercase;
- 
-   }
-   .nips {
-  
-   
-    background-image: url(images/books.png);
-   
-    background-color: #000000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
-  }
-  
-  }
-@media only screen and (max-width: 750px) {
-  .contends h4{
-      color: white;
-      font-size: 28px;
-      width: 95%;
-      font-weight: 700;
-      text-transform: uppercase;
- 
-   }
-   .nips {
-  
-   
-    background-image: url(images/books.png);
-   
-    background-color: #000000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
-  }
-  
-  }

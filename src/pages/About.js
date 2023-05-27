@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Features/Feature';
 import "./main.css"
+import "./boot.css"
 import "./base.css"
 import Features from './Features/Features';
 import Good from "./images/wave.jpg"
@@ -26,20 +27,20 @@ const About = () => {
   return (
    
 <div>
+<div class="page-banner-wrap bg-cover">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="page-heading text-white">
+                <h1 style={{color: "white", }}>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
+                <h1><a className="button breadcrumb-item" href="">Book a call</a></h1>
+            </div>
+         
+        </div>
+    </div>
+</div>
+</div>
 
- <div className="body">
-   <header class="contain">
- <section class="tent">
-   <h1 style={{color: "white"}}>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
-    
-   <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
-     <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
-     <p>To see scrolling behavior</p>
-    
- 
- </section>
-</header>
- </div>
 
 <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>

@@ -8,6 +8,7 @@ import shu from "./images/portfolio/gallery/g-shutterbug.jpg"
 import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
+import "./boot.css"
 import { GoPrimitiveDot } from 'react-icons/go';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
@@ -21,20 +22,20 @@ const Book = () => {
   return (
    
 <div>
-<div className='nips'>
-
-  <header class="containeds">
-    <section class="contends">
-      <h4>Book a free strategy call with our team</h4>
-
-      <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
-     
-      
-      
-      
-    </section>
-  </header>
+<div class="page-banner-wrap3 bg-cover3">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="page-heading3 text-white">
+                <h1 style={{color: "white"}}>Book a free strategy call with our team - Book Now</h1>
+                <h1><a className="button3 breadcrumb-item3" href="/book">Book a call</a></h1>
+            </div>
+         
+        </div>
+    </div>
 </div>
+</div>
+
 
 
 <section id="contact" class="s-contact">

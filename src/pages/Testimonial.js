@@ -9,6 +9,7 @@ import shu1 from "./images/portfolio/lady-shutterbug.jpg"
 import shu2 from "./images/portfolio/lady-shutterbug@2x.jpg"
 import AOS from 'aos';
 import "./mainblog.css"
+import "./boot.css"
 import 'aos/dist/aos.css';
 import Team from './Team';
 
@@ -21,19 +22,18 @@ const Testimonial = () => {
   return (
    
 <div>
-<div className='nipsss'>
-
-<header class="containeds">
-  <section class="contends">
-    <h4>Blog -Coming Soon</h4>
-
-    <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
-   
-    
-    
-    
-  </section>
-</header>
+<div class="page-banner-wrap4 bg-cover4">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="page-heading4 text-white">
+                <h1 style={{color: "white"}}>Coming soon</h1>
+                <h1><a className="button4 breadcrumb-item4" href="">Book a call</a></h1>
+            </div>
+         
+        </div>
+    </div>
+</div>
 </div>
 
 

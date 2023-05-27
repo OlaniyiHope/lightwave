@@ -11,6 +11,7 @@ import VideoCarousel from "./VideoCarousel"
 import 'aos/dist/aos.css';
 import "./Services.css"
 import yo from "./carbon.jpeg"
+import "./boot.css"
 import { PostBlog } from './PostBlog';
 import BlogPic1 from "./seo.png";
 import BlogPic2 from "./earth.jpg";
@@ -35,20 +36,20 @@ const Services = () => {
  
    <div>
  
-   <div className='nipss'>
-
-   <header class="containeds">
-     <section class="contends">
-       <h4>See why top brands use Lightwave</h4>
+   <div class="page-banner-wrap2 bg-cover2">
+   <div class="container">
+       <div class="row">
+           <div class="col-12 col-lg-12">
+               <div class="page-heading2 text-white">
+                   <h1 style={{color: "white", "textAlign": "center", margin: "auto", }}>See why top brands use Lightwave - Our Services</h1>
+                   <h1><a className="button2 breadcrumb-item2" href="">Book a call</a></h1>
+               </div>
+            
+           </div>
+       </div>
+   </div>
+   </div>
  
-       <p><a class="buttoned" id="load-more-contend" href="#top">Book a call</a></p>
-      
-       
-       
-       
-     </section>
-   </header>
- </div>
 <div className="a">
 <div className="a-left">
  

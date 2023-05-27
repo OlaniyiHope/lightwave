@@ -19,20 +19,7 @@ const Photo = () => {
    
   return (
     <div>
-    <div className="body">
-  
-    <header class="contain">
-      <section class="tent">
-        <h1>Responsive Full Background Image</h1>
-        <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
-        <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
-        <p>To see scrolling behavior</p>
-        
-     
-      </section>
-    </header>
-  </div>
-
+ 
 
 
 
@@ -41,16 +28,10 @@ const Photo = () => {
       <div class="row">
           <div class="col-12 col-lg-12">
               <div class="page-heading text-white">
-                  <h1>Service 2</h1>
+                  <h1>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
+                  <h1><a className="button breadcrumb-item" href="">Book a call</a></h1>
               </div>
-              <div class="breadcrumb-wrap">
-                  <nav>
-                      <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Service 2</li>
-                      </ol>
-                  </nav>
-              </div>
+           
           </div>
       </div>
   </div>
