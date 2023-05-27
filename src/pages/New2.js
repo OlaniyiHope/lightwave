@@ -57,9 +57,5 @@ const New2 = props => {
   );
 };
 
-New2.propTypes = {
-  noControls: PropTypes.bool,
-  videoUrl: PropTypes.string,
-};
 
 export default New2;

@@ -19,7 +19,7 @@ const Team = () => {
         <div>
      
           <div className="myCarousel">
-            <h3>The content you never knew you wanted but knew you always needed." </h3>
+            <h3>"The content you never knew you wanted but knew you always needed." </h3>
             <h4><i>Energy Byte</i></h4>
          
           </div>
@@ -28,7 +28,7 @@ const Team = () => {
         <div>
          
           <div className="myCarousel">
-            <h3>What they produced was way above what we asked for."</h3>
+            <h3>"What they produced was way above what we asked for."</h3>
             <h4><i>Its Milk co</i></h4>
        
           </div>

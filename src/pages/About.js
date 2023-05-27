@@ -134,9 +134,9 @@ const About = () => {
 <div className="item-folio">
         
     <div className="item-folio__thumb">
-        <a href={shu} className="thumb-link" title="Shutterbug" data-size="950x600">
-            <img src={shu}
-                 srcset={shu}  alt="" />
+        <a href={shu5} className="thumb-link" title="Shutterbug" data-size="950x600">
+            <img src={shu5}
+                 srcset={shu5}  alt="" />
         </a>
     </div>
 
