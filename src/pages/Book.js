@@ -27,7 +27,7 @@ const Book = () => {
     <div class="row">
         <div class="col-12 col-lg-12">
             <div class="page-heading3 text-white">
-                <h1 style={{color: "white"}}>Book a free strategy call with our team - Book Now</h1>
+                <h1 style={{color: "white"}}>Book a free strategy call with our team </h1>
                 <h1><a className="button3 breadcrumb-item3" href="/book">Book a call</a></h1>
             </div>
          
