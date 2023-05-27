@@ -7,7 +7,7 @@
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-color:#464646 !important;
   }
   
@@ -18,7 +18,7 @@
       background-position: center center !important;
       background-repeat: no-repeat !important;
       background-attachment: fixed !important;
-      background-size: cover !important;
+      background-size: contain !important;
       background-color:#464646 !important;
     }
       }
@@ -171,7 +171,7 @@ html, .body, .contain {
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-color:#464646 !important;
     }
     
@@ -241,7 +241,7 @@ html, .body, .contain {
       background-position: center center !important;
       background-repeat: no-repeat !important;
       background-attachment: fixed !important;
-      background-size: cover !important;
+      background-size: contain !important;
       background-color:#464646 !important;
     }
   }
