@@ -5,8 +5,6 @@ import Vid1 from "../pages/let.mp4";
 import Vid2 from "../pages/six.mp4";
 import Vid3 from "../pages/news.mp4";
 import { GoPrimitiveDot } from 'react-icons/go';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import ReactPlayer from "react-player";
 import VideoCarousel from "./VideoCarousel";
 import shu from "./images/ggg.jpg"
@@ -17,19 +15,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Photo = () => {
  
-    useEffect(() => {
-      AOS.init();
-    }, [])
-  
+   
   return (
     <div>
-    <div className="body" >
+    <div className="body">
   
     <header class="contain">
       <section class="tent">
         <h1>Responsive Full Background Image</h1>
         <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
-        <p><a class="button" >Load some content</a></p>
+        <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
         <p>To see scrolling behavior</p>
         
      
@@ -37,7 +32,7 @@ const Photo = () => {
     </header>
   </div>
   <section id='services' className="s-services" style={{margin: "auto", textAlign: "center"}}>
-  <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+  <div className="row section-header has-bottom-sep" style={{margin: "auto", textAlign: "center"}}>
       <div className="col-full"style={{margin: "auto", textAlign: "center"}}>
          
           <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Ethos</h1>
@@ -48,7 +43,7 @@ const Photo = () => {
               
       </div>
   </div> 
-  <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+  <div className="row section-header has-bottom-sep"  style={{margin: "auto", textAlign: "center"}}>
       <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
          
           <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Focus</h1>
@@ -58,7 +53,7 @@ const Photo = () => {
               
       </div>
   </div> 
-  <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+  <div className="row section-header has-bottom-sep" style={{margin: "auto", textAlign: "center"}}>
       <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
          
           <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Mission and Vision </h1>
@@ -67,7 +62,7 @@ const Photo = () => {
   
   <div className="row services-list block-1-2 block-tab-full" >
   
-      <div className="col-block service-item" data-aos="fade-up">
+      <div className="col-block service-item" >
           <div className="service-icon">
      
           <FontAwesomeIcon icon="fa-sharp fa-regular " />
@@ -93,7 +88,7 @@ const Photo = () => {
   
     
   
-      <div className="col-block service-item" data-aos="fade-up">
+      <div className="col-block service-item" >
    
       <div className="item-folio">
               
@@ -115,7 +110,7 @@ const Photo = () => {
     
   </div> 
   
-  <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
+  <div className="row section-header has-bottom-sep" style={{margin: "auto", textAlign: "center"}}>
       <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
          
           <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Why brands trust us </h1>
@@ -123,7 +118,7 @@ const Photo = () => {
   </div> 
   
   <div className="row services-list block-1-2 block-tab-full" >
-  <div className="col-block service-item" data-aos="fade-up">
+  <div className="col-block service-item" >
    
   <div className="item-folio">
           
@@ -139,7 +134,7 @@ const Photo = () => {
   </div>
   
   </div>
-      <div className="col-block service-item" data-aos="fade-up">
+      <div className="col-block service-item" >
           <div className="service-icon">
      
           <FontAwesomeIcon icon="fa-sharp fa-regular " />
