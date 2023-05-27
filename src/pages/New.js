@@ -192,7 +192,7 @@ const New = () => {
                 <div class="cinfo">
                 <h5>Email Us At</h5>
                 <p>
-                    contact@lightwavecreative@gmail.com<br />
+          
                     info@lightwavecreative.io
                 </p>
             </div>
