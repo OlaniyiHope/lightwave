@@ -1,53 +1,23 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
-.body {
-  /* Location of the image */
-  background-image: url(images/books.png);
+.nips {
+  
+   
+  background-image: url(/src/pages/wavee.jpg);
+ 
+  background-color: #000000;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color:#464646;
+
 }
 
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  .body {
-    background-image: url(images/books.png);
-  }
-    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Presentational style rules only
-* Not required
-*/
-
-html, .body, .contain {
-  height: 100%;
-}
-
-/* Reset */
-html, .body, h1, p, a, div, section {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  font: inherit;
-}
 
 /* Basic */
-.body { 
+.nips { 
   font: 18px/23px "Cantarell", sans-serif;
   color: #ffffff;
 }
@@ -96,55 +66,32 @@ blockquote cite {
 
 /* Layout */
 
-.navbar {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 40px;
-  z-index: 9999;
-  position: fixed;
-}
 
-  .inner {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-.navbar a {
-  display: inline-block;
-  border: 1px solid #fff;
-  font-size: 14px;
-  line-height: 24px;
-  border-radius: 3px;
-  padding: 2px 15px;
-  text-decoration: none;
-  margin-top: 5px;
-}
-
-.contain {
+.containeds {
   display: table;
   padding-top: 80px;
   width: 100%;
 }
 
-.tent {
+.contends {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
 /* Special */
-.sub-title {
+.sub-titled {
   margin: 50px auto;
   font-size: 18px;
   line-height: 23px;
   text-transform: uppercase;
 }
 
-.button {
+.buttoned {
   display: inline-block;
-  padding: 6px 10px;
+  padding: 10px 14px;
   color: #cafaea;
+  margin-top: 20px;
   border: 1px solid #cafaea;
   border-radius: 3px;
   font-weight: 700;
@@ -154,14 +101,22 @@ blockquote cite {
   text-transform: uppercase;
 }
 
-#more-tent {
+#more-contends {
   display: none;
 }
 
 /* Media Queries */
 @media only screen and (max-width: 340px) {
-  
-  .contain {
+  .contends h4{
+      color: white;
+      font-size: 20px;
+      width: 95%;
+      
+      font-weight: 700;
+      text-transform: uppercase;
+ 
+   }
+  .containeds {
     position: relative;
     display: block;
     float: left;
@@ -170,18 +125,21 @@ blockquote cite {
     padding: 80px 0 0 0;
   }
   
-  #more-tent {
+  #more-contends {
     float: left;
     margin-right: 10px;
     
   }
   
-  .body h1 {
+  .nip h1 {
     font-size: 18px;
+    color: white;
+    width: 60%;
+  text-align: justify;
     line-height: 23px;
   } 
   
-  .tent, blockquote {  
+  .contends, blockquote {  
     display: inline;
     margin: 0 auto;
     padding-top: 80px;
@@ -201,19 +159,114 @@ blockquote cite {
     line-height: 19px;
   }
 
-  .sub-title {
+  .sub-titled {
     font-size: 14px;
     line-height: 21px;
   }
 
-  .button, p {
+  .buttoned, p {
     max-width: 150px;
     margin: 0 auto;
     font-size: 15px;
     line-height: 20px;
   }
 
-  html, .body, .contain {
+   .nip, .containeds {
     height: auto;
   }
+  .nips {
+  
+   
+    background-image: url(/src/pages/wavee.jpg);
+   
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
 }
+.nips, .containeds {
+  height: 600px;
+}
+.contends h4{
+   color: white;
+   font-size: 32px;
+   width: 60%;
+   margin: auto;
+   text-align: center;
+   font-weight: 700;
+   text-transform: uppercase;
+
+}
+@media only screen and (max-width: 600px) {
+  .contends h4{
+      color: white;
+      font-size: 24px;
+      width: 95%;
+      font-weight: 700;
+      text-transform: uppercase;
+ 
+   }
+   .nips {
+  
+   
+    background-image: url(/src/pages/wavee.jpg);
+   
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
+  }
+@media only screen and (max-width: 300px) {
+  .contends h4{
+      color: white;
+      font-size: 22px;
+      width: 95%;
+      font-weight: 700;
+      text-transform: uppercase;
+ 
+   }
+   .nips {
+  
+   
+    background-image: url(/src/pages/wavee.jpg);
+   
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
+  }
+@media only screen and (max-width: 750px) {
+  .contends h4{
+      color: white;
+      font-size: 28px;
+      width: 95%;
+      font-weight: 700;
+      text-transform: uppercase;
+ 
+   }
+   .nips {
+  
+   
+    background-image: url(/src/pages/wavee.jpg);
+   
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+  
+  }
