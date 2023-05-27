@@ -167,7 +167,7 @@ html, .body, .contain {
   @media only screen and (max-width: 340px) {
     .body {
       /* Location of the image */
-      background-image: url(images/books.png) !important;
+      background-image: url('images/books.png') !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -237,7 +237,7 @@ html, .body, .contain {
   @media only screen and (max-width: 600px) {
     .body {
       /* Location of the image */
-      background-image: url(images/books.png) !important;
+      background-image: url('images/books.png') !important;
       background-position: center center !important;
       background-repeat: no-repeat !important;
       background-attachment: fixed !important;
