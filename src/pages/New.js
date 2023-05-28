@@ -196,7 +196,6 @@ const New = () => {
                     info@lightwavecreative.io
                 </p>
             </div>
-
             <div class="cinfo">
                 <h5>Call Us At</h5>
                 <p>
