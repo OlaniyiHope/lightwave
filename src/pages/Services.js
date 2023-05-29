@@ -84,7 +84,7 @@ const Services = () => {
         <div className="col-full">
             
             <h1 className="display-2 display-2--light" style={{fontSize: "30px"}}>A Showcase of some of our Highest Converting Creatives</h1>
-            <h3 className="subhead " style={{color: "#fff;", fontSize: "30px"}}>Made in Collaboration by our Creative Partner</h3>
+            <h3 className="subhead " style={{color: "#fff;", fontSize: "17px"}}>Made in Collaboration by our Creative Partner</h3>
         </div>
       
     </div> 

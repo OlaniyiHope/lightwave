@@ -32,7 +32,7 @@ const About = () => {
     <div class="row">
         <div class="col-12 col-lg-12">
             <div class="page-heading text-white">
-                <h1 style={{color: "white", }}>LightWave Amplifies your brand's voice through sustainable digital marketing </h1>
+                <h1 style={{color: "white", }}>Lightwave amplifies your brand's voice through sustainable digital marketing </h1>
                 <h1><a className="button breadcrumb-item" href="/book">Book a call</a></h1>
             </div>
          
@@ -46,7 +46,7 @@ const About = () => {
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
     <div className="col-full"style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Ethos</h1>
+        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px", marginBottom: "6px"}}>Our Ethos</h1>
         <p style={{margin: "auto", textAlign: "center", fontSize: "18px"}}>Sustainability + digital innovation are both key drivers of growth for the brands of the future, we noticed 
         how hard it is to grow your sustainable brand with so many companies claiming to 
         have eco-friendly credentials. This is why Lightwave creative agency was born
@@ -57,7 +57,7 @@ const About = () => {
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
     <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Focus</h1>
+        <h1 className="display-2" style={{margin: "auto", textAlign: "center", fontSize: "30px", marginTop: "6px"}}>Our Focus</h1>
         <p style={{margin: "auto", textAlign: "center", fontSize: "18px"}}>At Lightwave Creative Agency, we focus on combining creativity and concise customer research to make 
         sure we bring in customers who desire and love your brand through the most innovative and engaging digital marketing strategies.
             </p>
@@ -67,7 +67,7 @@ const About = () => {
 <div className="row section-header has-bottom-sep" data-aos="fade-up" style={{margin: "auto", textAlign: "center"}}>
     <div className="col-full" style={{margin: "auto", textAlign: "center"}}>
        
-        <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px"}}>Our Mission and Vision </h1>
+        <h1 className="display-2"style={{margin: "auto", textAlign: "center", fontSize: "30px", marginTop: "6px"}}>Our Mission and Vision </h1>
     </div>
 </div> 
 
