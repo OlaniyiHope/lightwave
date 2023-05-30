@@ -62,7 +62,7 @@ const Book = () => {
           
        <div style={{ height: "800px" }}>
        <iframe
-         src="https://calendly.com/lightwavecreativeagencycall/30min"
+       src="https://calendly.com/d/2ms-5tb-snc/20min"
          width="100%"
          height="100%"
          frameborder="0"
