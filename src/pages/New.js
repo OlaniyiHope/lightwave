@@ -207,18 +207,7 @@ const New = () => {
             </div>
         
 
-            <ul class="contact-social">
-            <li>
-            <a href="https://www.linkedin.com/company/lightwave-creative-agency"><i class="fa fa-linkedin"></i></a>
-        </li>
-        <li>
-            <a href="https://instagram.com/lightwavecreative.io"><i class="fa fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-facebook"></i></a>
-      </li>
-              
-            </ul> 
+        
 
         </div> 
     </div> 
